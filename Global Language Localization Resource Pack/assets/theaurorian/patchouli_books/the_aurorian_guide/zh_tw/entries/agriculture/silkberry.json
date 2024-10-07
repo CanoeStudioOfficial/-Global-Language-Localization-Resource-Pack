@@ -1,0 +1,25 @@
+{
+    "name": "桑葚",
+    "icon": "theaurorian:silkberry",
+    "category": "4agriculture",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:silkberry",
+            "text": "$(#008cff)桑葚$()在整個極光幽境中都有分布！它們可以被直接食用，也可以用於製作$(#008cff)桑葚醬$()。它們可以被種植在耕地上！"
+        },
+        {
+            "type": "crafting",
+            "name": "桑葚茶",
+            "recipe": "theaurorian:items/tea/teasilkberry",
+            "text": "$(#008cff)桑葚$()也可以用於製作桑葚茶，飲用桑葚茶後可以獲得一小段時間的回覆效果。"
+        },
+        {
+            "type": "crafting",
+            "name": "桑葚醬",
+            "recipe": "theaurorian:items/silkberryjam",
+            "text": "$(#008cff)桑葚醬$()自身並沒有什麼可圈可點的地方，但是將其與$(#008cff)薰衣草麵包$()搭配後，製作出的$(#008cff)桑葚醬三明治$()相當不錯！"
+        }
+    ]
+}

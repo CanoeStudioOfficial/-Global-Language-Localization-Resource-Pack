@@ -1,0 +1,19 @@
+{
+  "name": "線纜",
+  "icon": "minecraft:redstone",
+  "category": "1_machines",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "能量",
+      "item": "minecraft:redstone",
+      "text": "這個模組沒有加入產生$(item)能量$()的方式, 所以你需要用其他模組中的$(item)發電機$()來為$(item)機器$()供能。"
+    },
+    {
+      "type": "text",
+      "title": "能量單元",
+      "text": "$(item)Forge Energy (FE)$()和$(item)Redstone Flux (RF)$()都可以被機器接受。$(br2)下面是幾個能夠使用的模組，包括但不限於：$(br2)$(l:https://minecraft.curseforge.com/projects/thermalexpansion)Thermal Expansion$()（能源爐）$(br)$(l:https://minecraft.curseforge.com/projects/nuclearcraft-mod)NuclearCraft$()（反應堆）$(br)$(l:https://minecraft.curseforge.com/projects/advanced-generators)Advanced Generators$()"
+    }
+  ]
+}

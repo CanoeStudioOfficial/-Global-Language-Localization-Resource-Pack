@@ -1,0 +1,77 @@
+{
+    "name": "＊ 服裝屬性 ＊",
+    "icon": "techguns:t2_combat_chestplate",
+    "category": "armors",
+    "pages": [
+        {
+            "type": "text",
+            "text": "按住 [Shift] 鍵可顯示服裝的所有屬性。$(br) $(li) $(l:armor_stats#power_type)能量狀態$(/l) $(li) $(l:armor_stats#power_type)能量類型$(/l) $(li) $(l:armor_stats#durability_toughness)耐久度 $(li) $(l:armor_stats#durability_toughness)強度$(/l) $(li) $(l:armor_stats#armor)防護值$(/l) $(li) $(l:armor_stats#armor)穿透抗性$(/l)"
+        },
+        {
+            "type": "text",
+            "title": "附加功能",
+            "anchor": "bonus",
+            "text": "某些服裝可提供下列附加性能：$(br) $(li)$(l:armor_stats#move_mine_speed)移動加速$(/l)$(li)$(l:armor_stats#move_mine_speed)挖掘加速$(/l) $(li)$(l:armor_stats#fall_damage)跌落傷害減少$(/l) $(li)$(l:armor_stats#fall_damage)跌落高度減低$(/l) $(li)$(l:armor_stats#accuracy)射擊準確性$(/l) $(li)$(l:armor_stats#accuracy)額外生命$(/l) $(li)$(l:armor_stats#nightvision)夜視$(/l) $(li)$(l:armor_stats#nightvision)步行輔助$(/l) $(li)$(l:armor_stats#knockback)擊退抗性$(/l) $(li)$(l:armor_stats#oxygen)供氧裝置$(/l) $(li)$(l:armor_stats#cooling)冷卻系統$(/l)"
+        },
+        {
+            "type": "text",
+            "title": "能量狀態 & 類型",
+            "anchor": "power_type",
+            "text": "能量狀態會顯示服裝內目前剩餘的能量及最大可儲存的能量。能量類型則顯示服裝使用的$(l:armor_mechanics#powered_armors)能量類型$(/l)及可用來補充能量的物品。會自動使用玩家彈藥槽及身上物品欄中的能量物品來補充能量。"
+        },
+        {
+            "type": "text",
+            "title": "耐久度 & 強度",
+            "anchor": "durability_toughness",
+            "text": "物品耐久度及護甲強度都是一般 Minecraft 中原本的特性，作用也一樣，不過科技槍械模組中的服裝不會因為耐久度歸零而損毀，請參見本書之『$(l:armor_mechanics)服裝特性$(/l)』。"
+        },
+        {
+            "type": "text",
+            "title": "防護 & 穿透",
+            "anchor": "armor",
+            "text": "《防護值》顯示服裝對於各種傷害類型的保護力。$(br)《穿透抗性》尚未完成。"
+        },
+        {
+            "type": "text",
+            "title": "移動 & 挖掘加速",
+            "anchor": "move_mine_speed",
+            "text": "《移動加速》性能會以百分比來加快玩家的移動速度。$(br)《挖掘加速》可增加玩家挖掉方塊的速度。$(br)《水中挖掘加速》只有在水中才有作用。"
+        },
+        {
+            "type": "text",
+            "title": "跌落傷害 & 高度",
+            "anchor": "fall_damage",
+            "text": "《跌落傷害》可減少玩家從高處摔落所造成的傷害值。$(br2)《跌落高度》可減低玩家在落下時判定的掉落高度，進而讓玩家可以從更高的地方跳下而不會受到任何傷害。"
+        },
+        {
+            "type": "text",
+            "title": "準確性 & 生命值",
+            "anchor": "accuracy",
+            "text": "《射擊準確性》可減少槍枝的$(l:weapon_stats#spread)偏移值$(/l)。$(br2)《額外生命》會增加玩家的生命值(心)，畫面上顯示的$(br)1 顆心等於 2 點生命值，$(br)10 顆心就是 20 點生命值。"
+        },
+        {
+            "type": "text",
+            "title": "夜視 & 步行輔助",
+            "anchor": "nightvision",
+            "text": "《夜視》讓玩家可以用《$(9)$(k:techguns.key.toggleNightvision)$()》鍵來開關夜視功能。$(br2)《步行輔助》讓玩家可以用《$(9)$(k:techguns.key.toggleStepassist)$()》鍵來開關步行輔助功能，讓你能直接走上一格方塊高而不需跳躍。"
+        },
+        {
+            "type": "text",
+            "title": "擊退抗性",
+            "anchor": "knockback",
+            "text": "讓玩家有機率抵抗受到傷害所造成的擊退力量。若這個機率超過 100%，則玩家受到傷害時完全不會被擊退。"
+        },
+        {
+            "type": "text",
+            "title": "供氧裝置",
+            "anchor": "oxygen",
+            "text": "《供氧裝置》讓玩家在背上氧氣瓶後，可在水中呼吸。"
+        },
+        {
+            "type": "text",
+            "title": "冷卻系統",
+            "anchor": "cooling",
+            "text": "《冷卻系統》會在玩家著火時，自動使用護甲的能量來滅火，也會消耗能量來吸收岩漿傷害。"
+        }
+    ]
+}

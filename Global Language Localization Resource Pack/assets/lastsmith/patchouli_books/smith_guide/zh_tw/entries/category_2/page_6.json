@@ -1,0 +1,66 @@
+{
+   "name": "鍛刀用的材料",
+   "icon": "lastsmith:materials:3",
+   "category": "category_2",
+   "pages": [
+      {
+         "type": "text",
+         "text": "刀劍鍛造的材料通常有很多，主要以非金屬的木與竹和金屬的鐵與鋼。$(br2)這些都是非常廉價易得的材料，適合量產刀劍時候使用。$(br)其他的物品大多數都是用於刀裝具的製作，例如金錠。"
+      },
+      {
+         "type": "spotlight",
+         "item": "flammpfeil.slashblade:proudsoul:0",
+         "text": "不斷舞動刀刃，當斬下敵人之後會使得刀刃產生一種榮耀之氣。$(br2)當刀斷裂之時，榮耀之氣便會凝結成一束不滅的火焰附著在刀刃的斷片上，即為耀魂碎片。$(br2)利用耀魂碎片，可以塑造出不同的耀魂材料出來，例如耀魂鐵錠和耀魂寶珠。"
+      },
+      {
+         "type": "spotlight",
+         "item": "flammpfeil.slashblade:proudsoul:5",
+         "text": "有一種特別的耀魂結晶叫做耀偏方三八面魂（耀偏方三八面體），是最特殊的耀魂結晶形式。$(br2)要取得它，首先要使刀掛台和刀共同接受火焰的洗禮，然後用耀魂碎片附著火焰凝結成耀偏方三八面魂。$(br2)據稱，能使得刀認主並跟隨自己的主人……"
+      },
+      {
+         "type": "spotlight",
+         "item": "lastsmith:materials:3",
+         "text": "使用刀斬殺敵人的時候，會得到一些飄落的魂櫻花瓣。$(br2)自從人類與邪魔的戰爭開始之後，落櫻便代表著一方生命的終結。根據傳說，是「櫻」之刃持有者的自盡導致魂櫻大量產生……$(br2)收集魂櫻的櫻花瓣，可以利用魂櫻打造出附著靈氣的裝備。"
+      },
+      {
+         "type": "spotlight",
+         "item": "lastsmith:materials:3",
+         "text": "It is said that it was the suicide of the Sakura Blade's owner that caused the dropping of Spirit Sakura.$(br2)Collect The petals of Spirit Sakura, and use them to smith Blades infused with Spirit power."
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:ps_tiny2soul",
+         "recipe2": "flammpfeil.slashblade:ps_soul2tiny"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:ps_soul2ingot",
+         "recipe2": "flammpfeil.slashblade:ps_tiny2ingot"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:full_sakura",
+         "recipe2": "lastsmith:sakura_ingot"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:sakura_steel_block"
+      },
+      {
+         "type": "smelting",
+         "recipe": "flammpfeil.slashblade:proudsoul:1",
+         "recipe2": "lastsmith:sakura_steel_block"
+      },
+      {
+         "type": "relations",
+         "entries": [
+            "lastsmith:category_2/page_1",
+            "lastsmith:category_2/page_2",
+            "lastsmith:category_2/page_3",
+            "lastsmith:category_2/page_4",
+            "lastsmith:category_2/page_5"
+         ]
+      }
+   ],
+   "sortnum": 5
+}

@@ -1,0 +1,27 @@
+{
+    "name": "等級２.5》特攻部隊裝",
+    "icon": "techguns:t2_riot_chestplate",
+    "category": "armors",
+    "pages": [
+        {
+            "type": "text",
+            "text": "《特攻部隊裝》為$(l:armors/combat_armor)《戰鬥裝》$(/l)進行升級，還提供了輻射防護。"
+        },
+        {
+            "type": "entity",
+            "name": "特攻部隊裝",
+            "entity": "minecraft:armor_stand{ShowArms:1,NoBasePlate:1,ArmorItems:[{Count:1,id:'techguns:t2_riot_boots'}, {Count:1,id:'techguns:t2_riot_leggings'}, {Count:1,id:'techguns:t2_riot_chestplate'}, {Count:1,id:'techguns:t2_riot_helmet'}]}",
+            "text": ""
+        },
+        {
+            "type": "crafting",
+            "recipe": "techguns:t2_riot_helmet",
+            "recipe2": "techguns:t2_riot_chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "techguns:t2_riot_leggings",
+            "recipe2": "techguns:t2_riot_boots"
+        }
+    ]
+}

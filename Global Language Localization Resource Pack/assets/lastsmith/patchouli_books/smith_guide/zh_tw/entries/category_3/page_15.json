@@ -1,0 +1,18 @@
+{
+   "name": "結月刀「付喪-改」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yukari/model\",TextureName: \"named/yukari/texture\"}",
+   "category": "category_3",
+   "pages": [
+      {
+         "type": "text",
+         "text": "結月家家傳寶刀的真正姿態。$(br2)名刀閃耀著微弱的光輝，銘刻著「結月 緣」之名……"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:flammpfeil.slashblade.named.yukari"
+      }
+   ],
+   "advancement": "lastsmith:slashblade_white",
+   "flag": "mod:slashblade_addon",
+   "sortnum": 14
+}

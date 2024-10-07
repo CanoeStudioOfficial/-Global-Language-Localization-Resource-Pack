@@ -1,0 +1,15 @@
+{
+  "name": "靈魂縫隙",
+  "category": "rituals",
+  "icon": "bewitchment:spectral_dust",
+  "pages": [
+    {
+      "type": "text",
+      "text": "在分隔兩界的帷幕上暫時撕裂一個開口,讓具有靈體再次在行走於大地上。只在夜間有效"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:spiritual_rift"
+    }
+  ]
+}

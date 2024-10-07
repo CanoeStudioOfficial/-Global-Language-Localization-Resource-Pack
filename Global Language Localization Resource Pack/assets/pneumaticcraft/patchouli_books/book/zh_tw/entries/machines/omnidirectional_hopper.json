@@ -1,0 +1,28 @@
+{
+  "name": "全方位漏斗",
+  "icon": "pneumaticcraft:omnidirectional_hopper",
+  "category": "machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)全方位漏斗/$的行為與原版$(item)漏斗/$很相似。然而，這一漏斗（輸入端）可以朝向$(italic)任意/$方向，不僅上方。此外，全方位漏斗接受$(l:base_concepts/upgrades)升級/$，因而其速度可以被顯著提升。其具有更為貼切的碰撞箱，因此可以存取處在其後方的方塊。其不需要$(l:base_concepts/pressure)空氣/$即可運作，因而在早期即可用作運輸途徑。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:omnidirectional_hopper",
+      "text": "放置下全方位漏斗時，其$(9)輸入端/$朝向放置者，$(6)輸出端/$朝向所右擊的方塊。$(p)使用$(l:tools/pneumatic_wrench)氣動扳手/$（其餘扳手類工具也許同樣可行）$(thing)右擊/$漏斗以重新導向其輸入。以同樣的方式$(thing)潛行右擊/$漏斗以重新導向其輸出。"
+    },
+    {
+      "type": "text",
+      "title": "發射器升級",
+      "flag": "pneumaticcraft:omniHopperDispenser",
+      "text": "若$(item)全方位漏斗/$安裝了$(l:base_concepts/upgrades#dispenser)發射器升級/$，其將自動將物品在$(6)輸出端/$以物品形式投擲（若輸出端沒有容器）。$(p)這可用作改良的$(item)投擲器/$：頻率更高，更精準，$(#f00)紅石控制/$更好。"
+    },
+    {
+      "type": "crafting",
+      "text": "全方位漏斗的合成表",
+      "recipe": "pneumaticcraft:omnidirectional_hopper"
+    }
+  ]
+}

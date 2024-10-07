@@ -1,0 +1,15 @@
+improvedmobs.debug=除錯
+improvedmobs.general=一般
+improvedmobs.list=黑/白名單
+improvedmobs.ai=AI 設定
+improvedmobs.equipment=裝備設定
+improvedmobs.attributes=屬性設定
+improvedmobs.integration=整合
+improvedmobs.gui=介面
+improvedmobs.debug.tooltip=除錯
+improvedmobs.general.tooltip=使用預設值，每個難度特權在難度為 250 時達到最大值
+improvedmobs.ai.tooltip=關於生物自訂 AI 的設定
+improvedmobs.equipment.tooltip=關於生成帶有裝備的怪物的設定
+improvedmobs.attributes.tooltip=屬性修飾符的設定
+improvedmobs.integration.tooltip=模組整合設定
+improvedmobs.gui.tooltip=介面設定

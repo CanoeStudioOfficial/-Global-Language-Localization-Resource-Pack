@@ -1,0 +1,19 @@
+{
+    "name": "極光橄欖岩",
+    "icon": "theaurorian:aurorianperidotite",
+    "category": "5blocks",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:aurorianperidotite",
+            "text": "一種可以在地下找到的綠色石頭，一般被用於裝飾。"
+        },
+        {
+            "type": "crafting",
+            "name": "",
+            "recipe": "theaurorian:blocks/aurorianperidotitesmooth",
+            "recipe2": "theaurorian:blocks/aurorianperidotitesmoothstairs"
+        }
+    ]
+}

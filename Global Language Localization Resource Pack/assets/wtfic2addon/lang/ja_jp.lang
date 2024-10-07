@@ -1,0 +1,48 @@
+#Creative Tab
+itemGroup.wtfic2addon:tab=HyCraftHD's WTF Ic2 Addon
+
+#Tiles
+wtfic2addon.te.solar_panel_low=基本型 WTF 太陽光発電機 [MK1]
+
+wtfic2addon.te.solar_panel_intermediatelow=改良型 WTF 太陽光発電機 [MK2]
+wtfic2addon.te.solar_panel_intermediatemedium=超改良型 WTF 太陽光発電機 [MK3]
+wtfic2addon.te.solar_panel_intermediatehigh=極超改良型 WTF 太陽光発電機 [MK4]
+
+wtfic2addon.te.solar_panel_advancedlow=発展型 WTF 太陽光発電機 [MK5]
+wtfic2addon.te.solar_panel_advancedmedium=超発展型 WTF 太陽光発電機 [MK6]
+wtfic2addon.te.solar_panel_advancedhigh=極超発展型 WTF 太陽光発電機 [MK7]
+
+wtfic2addon.te.solar_panel_superior=究極型 WTF 太陽光発電機 [MK8]
+wtfic2addon.te.solar_panel_intermediatewtf=超究極型 WTF 太陽光発電機 [MK9]
+wtfic2addon.te.solar_panel_advancedwtf=極超究極型 WTF 太陽光発電機 [MK10]
+
+wtfic2addon.te.solar_panel_extremewtf=最終型 WTF 太陽光発電機 [MK11]
+
+
+wtfic2addon.te.mfsu_compressed=圧縮 MFSU [MK1]
+wtfic2addon.te.mfsu_doublecompressed=圧縮 MFSU [MK2]
+wtfic2addon.te.mfsu_triplecompressed=圧縮 MFSU [MK3]
+wtfic2addon.te.mfsu_quadruplecompressed=圧縮 MFSU [MK4]
+
+wtfic2addon.te.mfsu_extreme=超圧縮 MFSU [MK5]
+
+wtfic2addon.te.mfsu_convertable=変圧 MFSU
+
+#Item
+item.wtfic2addon:advanced_condensator_reflector.name=究極型コンデンサ反射器
+item.wtfic2addon:dense_iridium_reinforce_plate.name=高密度イリジウム補強プレート
+
+#Tooltips and Gui
+wtfic2addon:mfsu_convertable.use=すべての Tier を受け入れますが、Tier1 を出力します
+
+wtfic2addon:tooltip.solarpanel.generateDay=昼間発電量 : 
+wtfic2addon:tooltip.solarpanel.generateNight=夜間発電量 : 
+
+wtfic2addon:gui.energy=エネルギー
+wtfic2addon:gui.state=ステート
+
+wtfic2addon:gui.text.storage=蓄電 : %s EU / %s EU
+wtfic2addon:gui.text.storageLong=蓄電 : %s EU
+wtfic2addon:gui.text.capacity=容量 : %s EU
+wtfic2addon:gui.text.generate=発電 : %s EU/t
+wtfic2addon:gui.text.output=最大出力 : %s EU/t

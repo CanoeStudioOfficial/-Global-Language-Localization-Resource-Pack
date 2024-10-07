@@ -1,0 +1,2 @@
+uteamcore:command.onlyplayer=該指令僅玩家可用。
+uteamcore:command.ping=你的目前ping為 %s 。

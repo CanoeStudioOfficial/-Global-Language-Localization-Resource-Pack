@@ -1,0 +1,38 @@
+{
+  "name": "物流管道模組",
+  "icon": "pneumaticcraft:logistics_module",
+  "category": "tubes",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "該模組將容器連接到$(l:logistics/overview)物流系統/$中，相當於在壓力管道中控制物品運輸。$(p)模組所指向的容器或儲罐需要裝有$(l:logistics/frames)物流框架/$。$(p)物流管道模組並不接受$(l:tubes/advanced_pcb)高級印刷電路板/$升級。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/logistics_module.png"
+      ],
+      "border": "true",
+      "text": "兩個物流管道模組，將裝有$(l:logistics/frames#passive_provider)物流被動供應框架/$和$(l:logistics/frames#requester)物流請求框架/$的儲物箱連接"
+    },
+    {
+      "type": "text",
+      "text": "物流管道模組組成的物流網路由所連接的$(l:tubes/pressure_tubes)壓力管道/$構成的管網定義；需要注意的是，氣動機器$(italic)並不/$參與建構管網。$(p)使用$(item)染料/$右擊物流管道模組以將其染色；只有具有相同顏色的物流管道模組才可相互通信，實際上相當於每個物流網路上獨立的 16 個$(thing)頻道/$。"
+    },
+    {
+      "type": "text",
+      "text": "物流管道模組需要$(l:base_concepts/pressure)壓力/$才可工作；最低工作壓力為 3 bar。消耗的空氣是距離，傳輸物品與一個常量的乘積。這意味著傳輸一整組物品的空氣消耗更大，長程傳輸同樣如此。空氣消耗在$(italic)接收端/$的物流模組進行，因為空氣流向接收端。"
+    },
+    {
+      "type": "text",
+      "text": "模組上具有指示燈，指示其目前狀態：$(p)$(li)$(#f00)紅/$：壓力不足。施加至少 3 bar。$(li)$(#f80)橙/$：壓力高於 3 bar，但不足以進行所需的物品/流體傳輸。$(li)$(#0f0)綠/$：壓力足夠。待命。$(li)$(#00f)藍（閃爍）/$：物品/流體正在被傳輸。"
+    },
+    {
+      "type": "crafting",
+      "text": "物流管道模組的合成表",
+      "recipe": "pneumaticcraft:logistics_module_v1",
+      "recipe2": "pneumaticcraft:logistics_module_v2"
+    }
+  ]
+}

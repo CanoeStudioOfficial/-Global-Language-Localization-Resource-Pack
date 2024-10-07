@@ -1,0 +1,16 @@
+{
+    "name": "終界腐肉",
+    "icon": "endreborn:food_ender_flesh",
+    "category": "tools",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "所有的科學家都會去嘗試使用他們自己的發明，不過我想嚐嚐是什麼味道……我感到噁心……不過我好像能看到黑暗中的東西了。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "endreborn:items/food_ender_flesh"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Druid Hut",
+  "icon": "minecraft:golden_hoe",
+  "category": "次要地標",
+  "sortnum": 2100,
+  "pages": [
+    {
+      "type": "text",
+      "text": "things and stuff"
+    }
+  ]
+}

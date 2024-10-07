@@ -1,0 +1,19 @@
+{
+    "name": "極光熔爐",
+    "icon": "theaurorian:aurorianfurnace",
+    "category": "5blocks",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:aurorianfurnace",
+            "text": "與原版的熔爐相同，但你可以在上方放置孔道來加快熔煉速度！$(br2)速度和孔道最大數量可以在設定檔案中被修改。孔道之間也可以被擺放上方塊以實現無縫覆蓋。"
+        },
+        {
+            "type": "crafting",
+            "name": "",
+            "recipe": "theaurorian:blocks/tileentity/aurorianfurnace",
+            "recipe2": "theaurorian:blocks/tileentity/aurorianfurnacechimney"
+        }
+    ]
+}

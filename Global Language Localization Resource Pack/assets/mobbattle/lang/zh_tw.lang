@@ -1,0 +1,12 @@
+item.mob_stick.name=生物激怒杖
+item.mob_kill.name=生物擊殺杖
+item.mob_heal.name=生物治療杖
+item.mob_group.name=生物激怒杖(群體)
+item.mob_effect.name=狀態移除杖
+item.mob_effect_give.name=狀態給予杖
+item.mob_armor.name=盔甲編輯杖
+item.mob_army.name=生物組隊杖
+item.mob_mount.name=生物騎乘杖
+item.mob_equip.name=生物裝備杖
+item.egg_ex.name=生物複製蛋
+itemGroup.mobbattle=生物大亂鬥

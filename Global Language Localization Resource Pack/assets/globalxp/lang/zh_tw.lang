@@ -1,0 +1,11 @@
+tile.xp_block.name=經驗方塊
+info.levels=已儲存 %s 個等級
+info.xp=已儲存 %s 點經驗
+globalxp.config.spinspeed=綠寶石旋轉速度
+globalxp.config.spinspeed.tooltip=綠寶石應該旋轉多快 (預設速度的倍數)
+globalxp.config.bobspeed=綠寶石擺動速度
+globalxp.config.bobspeed.tooltip=綠寶石上下擺動速度應該有多快 (預設速度的倍數)
+globalxp.config.renderNameplate=查看經驗訊息
+globalxp.config.renderNameplate.tooltip=保存的等級訊息是否顯示在經驗方塊的上方
+globalxp.config.xpForComparator=基於所儲存經驗值的比較器輸出
+globalxp.config.xpForComparator.tooltip=比較器輸出強度為1的紅石訊號所需的經驗點數。預設情況下，如果儲存了30級經驗，紅石比較器將輸出強度為15的紅石訊號。

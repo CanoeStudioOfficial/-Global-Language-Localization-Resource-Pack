@@ -1,0 +1,16 @@
+tile.iron_furnace_idle.name=鐵熔爐
+tile.iron_furnace_active.name=鐵熔爐
+tile.gold_furnace_idle.name=金熔爐
+tile.gold_furnace_active.name=金熔爐
+tile.diamond_furnace_idle.name=鑽石熔爐
+tile.diamond_furnace_active.name=鑽石熔爐
+tile.glass_furnace_idle.name=玻璃熔爐
+tile.glass_furnace_active.name=玻璃熔爐
+tile.obsidian_furnace_idle.name=黑曜石熔爐
+tile.obsidian_furnace_active.name=黑曜石熔爐
+itemGroup.ironfurnaces=鐵熔爐
+container.furnace_0=鐵熔爐
+container.furnace_1=金熔爐
+container.furnace_2=鑽石熔爐
+container.furnace_3=玻璃熔爐
+container.furnace_4=黑曜石熔爐

@@ -1,0 +1,1 @@
+tnt_utilities.commands.explosion.usage=/explosion <x> <y> <z> [強度] [破壞方塊] [造成火焰]. 預設強度: 4 (TNT)

@@ -1,0 +1,28 @@
+{
+   "name": "「似蛭」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/nihil/nihil\", TextureName: \"named/nihil/nihil_bx\"}",
+   "category": "category_5",
+   "pages": [
+      {
+         "type": "text",
+         "text": "紅蓮的結晶與血染的刀身……$(br2)那是在地獄之底，渴望鮮血的死之慾望，謂之煉獄刀「死念」……$(br2)那不是這個世界的力量……而這股危險的力量，能為我等所利用嗎……"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:flammpfeil.slashblade.named.nihil",
+         "recipe2": "flammpfeil.slashblade:flammpfeil.slashblade.named.nihilex"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:flammpfeil.slashblade.named.nihilul",
+         "recipe2": "flammpfeil.slashblade:flammpfeil.slashblade.named.crimsoncherry"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:flammpfeil.slashblade.named.nihilbx"
+      }
+   ],
+   "advancement": "lastsmith:sharpness",
+   "flag": "mod:slashblade_addon",
+   "sortnum": 1
+}

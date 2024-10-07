@@ -1,0 +1,9 @@
+item.oakraft.name=橡木原木筏
+item.spruceraft.name=杉木原木筏
+item.birchraft.name=樺木原木筏
+item.jungleraft.name=叢林木原木筏
+item.acaciaraft.name=相思木原木筏
+item.dark_oakraft.name=黑橡木原木筏
+itemGroup.jarm=只是一個木筏Mod
+entity.jarm:Raft.name=木筏
+jarm.config.title=只是一個木筏設定

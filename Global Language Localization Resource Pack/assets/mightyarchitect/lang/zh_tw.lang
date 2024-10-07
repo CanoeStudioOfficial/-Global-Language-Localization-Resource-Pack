@@ -1,0 +1,8 @@
+item.mightyarchitect.blueprint_empty.name=空藍圖
+item.mightyarchitect.blueprint_filled.name=無用物品
+item.mightyarchitect.wand_symmetry.name=對稱法杖
+item.mightyarchitect.wand_architect.name=設計導出器
+item.mightyarchitect.wand_fill.name=填充法杖
+tile.mightyarchitect.slice_marker.name=設計層標記
+tile.mightyarchitect.design_anchor.name=設計標記
+itemGroup.mightyArchitectTab=偉大的建築師

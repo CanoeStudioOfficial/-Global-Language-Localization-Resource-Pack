@@ -1,0 +1,18 @@
+{
+    "name": "薰衣草麵包",
+    "icon": "theaurorian:lavenderbread",
+    "category": "4agriculture",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:lavenderbread",
+            "text": "$(#008cff)薰衣草麵包$()是一種由$(#008cff)薰衣草$()製成的簡單食物。事實上並沒有原版的麵包那麼好。"
+        },
+        {
+            "type": "crafting",
+            "name": "薰衣草麵包",
+            "recipe": "theaurorian:items/lavenderbread"
+        }
+    ]
+}

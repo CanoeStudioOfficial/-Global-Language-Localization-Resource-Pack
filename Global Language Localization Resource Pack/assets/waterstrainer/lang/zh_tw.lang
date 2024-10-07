@@ -1,0 +1,16 @@
+itemGroup.waterstrainer.main=濾水器
+tile.waterstrainer.strainer_base.name=濾網基座
+item.waterstrainer.efficiency_meter.name=效率計
+item.waterstrainer.garden_trowel.name=園藝鏟
+item.waterstrainer.worm.name=蚯蚓
+item.waterstrainer.super_worm.name=超級蚯蚓
+item.waterstrainer.bait_pot.name=魚餌罐
+item.waterstrainer.net.name=網
+item.waterstrainer.dense_net.name=緻密網
+item.waterstrainer.strainer_survivalist.name=生存者濾網
+item.waterstrainer.strainer_survivalist_solid.name=硬化生存者濾網
+item.waterstrainer.strainer_survivalist_reinforced.name=強化生存者濾網
+item.waterstrainer.strainer_survivalist_dense.name=生存者濾網（緻密）
+item.waterstrainer.strainer_survivalist_dense_solid.name=硬化生存者濾網（緻密）
+item.waterstrainer.strainer_survivalist_dense_reinforced.name=強化生存者濾網（緻密）
+item.waterstrainer.strainer_fisherman.name=漁夫濾網

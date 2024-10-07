@@ -1,0 +1,72 @@
+{
+  "name": "用泥磚做建材！",
+  "icon": "mysticalworld:mud_block_stairs",
+  "category": "blocks",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mysticalworld:mud_block_stairs",
+      "link_recipe": true,
+      "text": "用無機鹽泥塊和泥磚都可以合成對應的階梯。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mysticalworld:mud_block_stairs",
+      "recipe2": "mysticalworld:mud_brick_stairs",
+      "link_recipe": true,
+      "title": "階梯"
+    },
+    {
+      "type": "spotlight",
+      "item": "mysticalworld:mud_block_slab",
+      "link_recipe": true,
+      "text": "用無機鹽泥塊和泥磚都可以合成對應的半磚。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mysticalworld:mud_block_slab",
+      "recipe2": "mysticalworld:mud_brick_slab",
+      "link_recipe": true,
+      "title": "半磚"
+    },
+    {
+      "type": "spotlight",
+      "item": "mysticalworld:mud_block_wall",
+      "link_recipe": true,
+      "text": "用無機鹽泥塊和泥磚都可以合成對應的牆。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mysticalworld:mud_block_wall",
+      "recipe2": "mysticalworld:mud_brick_wall",
+      "link_recipe": true,
+      "title": "牆"
+    },
+    {
+      "type": "spotlight",
+      "item": "mysticalworld:mud_block_fence",
+      "link_recipe": true,
+      "text": "用無機鹽泥塊和泥磚都可以合成對應的柵欄。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mysticalworld:mud_block_fence",
+      "recipe2": "mysticalworld:mud_brick_fence",
+      "link_recipe": true,
+      "title": "柵欄"
+    },
+    {
+      "type": "spotlight",
+      "item": "mysticalworld:mud_block_fence_gate",
+      "link_recipe": true,
+      "text": "乾泥塊和乾泥磚都可以用來合成泥塊柵欄門。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mysticalworld:mud_block_fence_gate",
+      "recipe2": "mysticalworld:mud_brick_fence_gate",
+      "link_recipe": true,
+      "title": "柵欄"
+    }
+  ]
+}

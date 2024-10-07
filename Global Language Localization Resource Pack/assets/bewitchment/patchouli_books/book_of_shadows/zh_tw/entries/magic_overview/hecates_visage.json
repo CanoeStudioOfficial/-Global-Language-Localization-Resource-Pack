@@ -1,0 +1,16 @@
+{
+  "name": "赫卡忒之面",
+  "category": "magic_overview",
+  "icon": "bewitchment:hecates_visage",
+  "pages": [
+    {
+      "type": "text",
+      "text": "灼灼燃燒的銀冠象徵了這名偉大女神的火炬，而皎月的點點銀光則賜予她磅礴的力量。當穿戴著這件裝備時，它會使得 儀式的消耗降低，並且會提升所有非詛咒類儀式的效率。作為一件遠古女神的物品，它的製作方法早已遺失在了時間長河之中，但你可以在獎勵箱以及終界城中發現這件物品。"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:hecates_visage",
+      "text": "降低儀式消耗"
+    }
+  ]
+}

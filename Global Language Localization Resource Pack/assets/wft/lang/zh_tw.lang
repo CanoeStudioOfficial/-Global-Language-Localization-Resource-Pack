@@ -1,0 +1,4 @@
+item.wft:wft.name=無線流體終端
+item.wft:wft_creative.name=創造模式無線流體終端
+key.open_wft.desc=打開無線流體終端
+jei.wft.desc=無線版流體終端。需要通過安全終端連結到 ME 網路。可以在控制中設定按鍵綁定以打開 GUI。

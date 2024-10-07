@@ -1,0 +1,65 @@
+{
+  "name": "分裂倉結構",
+  "icon": "minecraft:writable_book",
+  "category": "fusion_category",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "分裂倉",
+      "multiblock": {
+        "pattern": [
+          [
+            "CCCCC",
+            "CCCCC",
+            "CCCCC",
+            "CCCCC",
+            "CCCCC",
+            "     "
+          ],
+          [
+            "CCCCC",
+            "C   C",
+            "C R C",
+            "C   C",
+            "CCCCC",
+            "     "
+          ],
+          [
+            "CCCCC",
+            "C   C",
+            "C R C",
+            "C   C",
+            "CCCCC",
+            "     "
+          ],
+          [
+            "CCCCC",
+            "C   C",
+            "C R C",
+            "C   C",
+            "CCCCC",
+            "     "
+          ],
+          [
+            "CCCCC",
+            "CCCCC",
+            "CC0CC",
+            "CCCCC",
+            "CCCCC",
+            "  T  "
+          ]
+        ],
+        "mapping": {
+          "C": "alchemistry:fusion_casing",
+          "T": "alchemistry:fission_controller",
+          "R": "alchemistry:fission_core",
+          "0": "alchemistry:fission_casing"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "text": "98x 分裂倉壁 $(br) 3x 分裂倉核心 $(br) 1x 分裂倉控制器"
+    }
+  ]
+}

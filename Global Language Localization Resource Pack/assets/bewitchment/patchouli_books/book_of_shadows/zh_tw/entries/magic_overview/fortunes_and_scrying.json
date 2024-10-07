@@ -1,0 +1,24 @@
+{
+  "name": "命運與占卜",
+  "category": "magic_overview",
+  "icon": "bewitchment:crystal_ball",
+  "pages": [
+    {
+      "type": "text",
+      "text": "占卜是一種獲得目標訊息的有效手段。接下來的頁面詳細介紹了如何釋讀占卜，除此之外還有如何為目標占卜運勢，等待宇宙實現它們。"
+    },
+    {
+      "type": "empty",
+      "draw_filler": false
+    },
+    {
+      "type": "text",
+      "title": "占卜水晶球",
+      "text": "水晶球一般都很神奇。它們最常用來預測未來和宣布命運，但也有人聲稱它們可以用於其他事情，比如遠程窺探。右擊與某一目標綁定的巫媒，你可以獲得它的一些訊息，但這些訊息並不會直接顯示出來，而是需要你的進一步闡釋。"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:crystal_ball"
+    }
+  ]
+}

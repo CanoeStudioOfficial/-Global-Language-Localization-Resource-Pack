@@ -1,0 +1,11 @@
+item.ice_wand.name=冰魔杖
+entity.Iceologer.name=冰術師
+entity.IceCube.name=冰塊史萊姆
+itemGroup.iceologertab=冰凍惡魔
+subtitles.iceologer_ambient=冰術師：低語
+subtitles.iceologer_hurt=冰術師：受傷
+subtitles.iceologer_death=冰術師：死亡
+subtitles.iceologer_cast_spell=冰術師：施咒
+subtitles.iceologer_prepare_spell=冰塊史萊姆：被召喚
+subtitles.ice_cube_hit=冰塊史萊姆：落地
+subtitles.ice_cube_ambient=冰塊史萊姆：懸浮

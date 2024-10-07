@@ -1,0 +1,52 @@
+{
+    "name": "嬗變催化器",
+    "icon": "naturesaura:conversion_catalyst",
+    "category": "using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:collecting/altar)自然祭壇$()有利於將$(#419600)靈氣$()注入特定物品，然而，它也可以幫助一個物體從一種類型轉化成另一種類型。$(br)這可以通過將$(item)嬗變催化器$()放置在任意一個祭壇核心周圍的低處的$(item)青苔鵝卵石磚$()方塊（共4處）上，然後像以往一樣放置材料達成。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "用$(l:practices/tree_ritual)森林儀式$()製造$(item)嬗變催化器$()。",
+            "recipe": "naturesaura:conversion_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "用瓶裝黑暗製造$(item)龍之吐息$()。",
+            "recipe": "naturesaura:breath"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "將腐肉轉化為$(item)皮革$()",
+            "recipe": "naturesaura:leather"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "利用沙製作$(item)靈魂砂$()",
+            "recipe": "naturesaura:soul_sand"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "用毒蘑菇合成$(item)地獄疣$()",
+            "recipe": "naturesaura:nether_wart"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "用地獄的礦物變出$(item)海磷碎片$()",
+            "recipe": "naturesaura:prismarine"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "使空$(item)玻璃瓶$()內開始積攢$(thing)水$()",
+            "recipe": "naturesaura:water"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "將$(item)木炭$()轉變為$(item)煤炭$()",
+            "recipe": "naturesaura:coal"
+        }
+    ]
+}

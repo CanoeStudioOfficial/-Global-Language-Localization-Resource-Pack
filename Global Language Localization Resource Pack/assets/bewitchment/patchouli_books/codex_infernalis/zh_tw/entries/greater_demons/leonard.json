@@ -1,0 +1,30 @@
+{
+  "name": "大師倫納德",
+  "category": "greater_demons",
+  "icon": "bewitchment:leonards_wand",
+  "pages": [
+    {
+      "type": "text",
+      "text": "一些儀式會談到倫納德的名諱，然而它所使用的名字可不僅僅只有這一個，森林中的黑羊，亞撒色，晨星，以及聖堂武士的虛假之王，這些都是倫納德。然而，面與面之間總存在著衝突與不協調，他似乎又是以惡魔的身份位居於女巫之首的王座上。"
+    },
+    {
+      "type": "text",
+      "text": "那些召喚他的女巫，將自己放縱於那種邪惡汙穢的混合物之中，手持幽幽綠燭，身穿繁複長袍，試圖以這樣的方式換取倫納德的的祝福。"
+    },
+    {
+      "type": "entity",
+      "entity": "bewitchment:leonard",
+      "scale": "0.9"
+    },
+    {
+      "type": "text",
+      "title": "召喚",
+      "text": "召喚大師倫納德並不困難，在儀式中傾撒些許羔羊之血即可。我將這一儀式記錄在此："
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:conjure_leonard",
+      "name": "Leonard's Sabbath"
+    }
+  ]
+}

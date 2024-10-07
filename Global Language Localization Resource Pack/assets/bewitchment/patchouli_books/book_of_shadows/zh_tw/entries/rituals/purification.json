@@ -1,0 +1,15 @@
+{
+  "name": "淨化",
+  "category": "rituals",
+  "icon": "bewitchment:purifying_earth",
+  "pages": [
+    {
+      "type": "text",
+      "text": "對泥土施加祝福，使之可以對不死生物造成嚴重傷害"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:purifying_earth"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "泥桶",
+    "read_by_default": "true",
+    "icon": "dynamictrees:dirtbucket",
+    "category": "othermechanics",
+    "sortnum": "2",
+    "pages": [
+        {
+            "type": "crafting",
+            "title": "泥桶",
+            "anchor": "dirtbucket",
+            "recipe": "dynamictrees:dirtbucket",
+            "text": "泥桶用於將種子轉換為樹苗，反之亦然。$(br2)將泥桶和種子或樹苗放在工作台中進行轉換。配方是無形的。"
+        }
+    ]
+}

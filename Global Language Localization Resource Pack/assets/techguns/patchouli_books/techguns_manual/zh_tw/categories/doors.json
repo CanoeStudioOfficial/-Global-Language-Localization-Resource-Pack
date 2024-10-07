@@ -1,0 +1,6 @@
+{
+    "name": "科技門",
+    "description": "科技槍械模組增加了可以設定為手動開關、紅石控制或自動偵測玩家的特殊門。",
+    "icon": "techguns:item_door3x3",
+    "sortnum": 7
+}

@@ -1,0 +1,29 @@
+{
+    "name": "定型藥水",
+    "icon": "dynamictrees:dendropotion:5",
+    "category": "藥水",
+    "sortnum": "7",
+    "pages": [
+        {
+            "type": "brewing",
+            "title": "定型藥水",
+            "ingredient": "minecraft:red_flower:1",
+            "bottle": "dynamictrees:dendropotion",
+            "output": "dynamictrees:dendropotion:5",
+            "text": "這種藥水改變了現有的樹木的生長，使其靜止。如果您希望樹木總是看起來像它的裝飾方式，則很有用。"
+        },
+        {
+            "type": "relations",
+            "title": "關係",
+            "entries": [
+                "potions/basepotion",
+                "potions/burgeoningpotion",
+                "potions/depletionpotion",
+                "potions/fertilitypotion",
+                "potions/gigaspotion",
+                "potions/transformationpotion",
+                "potions/basetransformationpotion"
+            ]
+        }
+    ]
+}

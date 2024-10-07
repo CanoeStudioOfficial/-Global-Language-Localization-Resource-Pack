@@ -1,0 +1,12 @@
+{
+  "name": "巫毒娃娃-飢餓庇佑",
+  "category": "poppets",
+  "icon": "bewitchment:poppet_hungerprotection",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "bewitchment:poppet_hungerprotection",
+      "text": "減輕因飢餓帶來的傷害，並恢復少許飢餓值度"
+    }
+  ]
+}

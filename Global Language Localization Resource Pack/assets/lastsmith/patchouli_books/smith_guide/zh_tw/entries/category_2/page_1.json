@@ -1,0 +1,30 @@
+{
+   "name": "無銘刀「木偶」",
+   "icon": "flammpfeil.slashblade:slashbladeWood",
+   "category": "category_2",
+   "pages": [
+      {
+         "type": "text",
+         "text": "日本刀的構造是最基礎的，也是任何打造刀刃之人必須學習的一塊內容。$(br2)製作木刀是學習構造的最好方式，根據這些配方合成木刀的部件並組裝起來。"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:blade_wood",
+         "recipe2": "lastsmith:wooden_saya"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:recipexes",
+         "text": "Congratulations for your completing your first katana making! Use your wooden Blade carefully, for it is easily to be broken. Sometimes you can protect yourself with it."
+      },
+      {
+         "type": "relations",
+         "entries": [
+            "lastsmith:category_2/page_2",
+            "lastsmith:category_2/page_3",
+            "lastsmith:category_2/page_6"
+         ]
+      }
+   ],
+   "sortnum": 0
+}

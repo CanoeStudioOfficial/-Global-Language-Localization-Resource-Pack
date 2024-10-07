@@ -1,0 +1,28 @@
+{
+   "name": "剛劍「胴田貫」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/doutanuki\"}",
+   "category": "category_3",
+   "pages": [
+      {
+         "type": "text",
+         "text": "有名的剛劍，能切裂耕地。$(br)切裂耕地指的是在田埂上疊放試斬用具，斬下之時能直接插入田埂之中。$(br2)現在只是被一些殭屍浪費的鏽刀罷了。但我仍舊修復了一振送給了犬走家的義弟。"
+      },
+      {
+         "type": "entity",
+         "entity": "minecraft:zombie{HandItems:[{id:\"flammpfeil.slashblade:slashbladenamed\",Count:1b,Damage:0s,tag:{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/sabigatana\"}},{}]}",
+         "text": "一隻攜帶著鏽刀的殭屍。$(br)事實上，很多持有鏽刀的殭屍要嘛鞘遺失了，要嘛刀斷了，甚至沒了鞘也丟失的刀也更加常見。"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:recipexx",
+         "recipe2": "flammpfeil.slashblade:recipex"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:doutanuki",
+         "text": "修復好的胴田貫，才擁有自身真正的力量。"
+      }
+   ],
+   "advancement": "lastsmith:slashblade_bamboolight",
+   "sortnum": 3
+}

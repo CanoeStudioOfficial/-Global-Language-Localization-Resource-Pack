@@ -1,0 +1,19 @@
+{
+    "name": "極光鋼工具",
+    "icon": "theaurorian:auroriansteel",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:auroriansteelsword",
+            "text": "$(#008cff)極光鋼$()是極光幽境每一方面的材料融合在一起製得的金屬。這些工具能升級它們的附魔！"
+        },
+        {
+            "type": "crafting",
+            "name": "極光鋼",
+            "recipe": "theaurorian:items/auroriansteel",
+            "text": "它們會選擇自己的第一個附魔並在能升級時隨著時間的推移逐漸升級！"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "柏樹",
+  "category": "trees",
+  "icon": "bewitchment:cypress_sapling",
+  "pages": [
+    {
+      "type": "text",
+      "title": "Cypress",
+      "text": "在針葉環境中(如Taigas地形)發現的一種高大而黑暗的樹。這種樹與死亡和來世有關，對製備死亡低潮煙霧至關重要。儘管如此，用柏木製成的掃把在飛行中可以給騎手帶來暫時的抗性。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "bewitchment:textures/gui/patchouli/cypress.png"
+      ],
+      "border": true
+    }
+  ]
+}

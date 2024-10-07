@@ -1,0 +1,13 @@
+{
+    "name": "修損寶珠",
+    "icon": "theaurorian:absorptionorb",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:absorptionorb",
+            "text": "$(#008cff)修損寶珠$()可以在在非慣用手時恢復你主手物品的耐久度！"
+        }
+    ]
+}

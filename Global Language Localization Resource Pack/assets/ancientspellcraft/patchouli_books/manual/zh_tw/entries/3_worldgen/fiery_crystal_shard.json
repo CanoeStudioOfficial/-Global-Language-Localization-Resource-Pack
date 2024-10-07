@@ -1,0 +1,28 @@
+{
+	"name": "赤焰水晶礦脈",
+	"icon": "ancientspellcraft:crystal_ore_fire",
+	"category": "3_worldgen",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "spotlight",
+			"item": "ancientspellcraft:crystal_ore_fire",
+			"text": " 赤焰水晶礦石可以在這片灼熱無情的沙漠中找到。它在出生時就徹底吸收了沙漠的炙熱，似乎散發著一股灼熱的氣息。",
+			"link_recipe": false
+		},
+		{
+			"type": "image",
+			"images": [
+				"ancientspellcraft:textures/gui/entries/fiery_ore_shard.png"
+			],
+			"title": "赤焰水晶礦脈",
+			"text": ""
+		},
+		{
+			"type": "crafting",
+			"recipe": "ancientspellcraft:magic_crystal_fire",
+			"title": "赤焰水晶",
+			"text": "        工作台"
+		}
+	]
+}

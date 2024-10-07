@@ -1,0 +1,12 @@
+{
+  "name": "返彈咒",
+  "category": "curses",
+  "icon": "minecraft:ghast_tear",
+  "pages": [
+    {
+      "type": "bewitchment:curse_recipe",
+      "recipe": "bewitchment:return_to_sender",
+      "text": "在目標周圍設定一面魔法屏障，這道屏障可以將外來的詛咒反彈回詛咒施咒者身上。"
+    }
+  ]
+}

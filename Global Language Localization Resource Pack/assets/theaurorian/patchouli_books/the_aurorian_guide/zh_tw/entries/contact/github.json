@@ -1,0 +1,14 @@
+{
+    "name": "維基",
+    "icon": "theaurorian:patchouli_books/the_aurorian_guide/en_us/entries/contact/github.png",
+    "category": "contact",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "link",
+            "link_text": "極光幽境 GitHub 維基",
+            "text": "源碼儲存倉庫，同時也放有維基指導！",
+            "url": "https://github.com/elseytd/TheAurorian/wiki"
+        }
+    ]
+}

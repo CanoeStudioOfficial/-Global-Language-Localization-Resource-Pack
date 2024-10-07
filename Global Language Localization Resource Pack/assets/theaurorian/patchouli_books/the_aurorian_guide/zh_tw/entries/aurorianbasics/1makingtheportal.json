@@ -1,0 +1,62 @@
+{
+    "name": "極光幽境傳送門",
+    "icon": "theaurorian:aurorianportal",
+    "category": "1aurorianbasics",
+    "sortnum": "1",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "要想進入極光幽境，你得先進入礦洞獲得一些礦物，並擊殺一些骷髏！（至少你得有足夠的資源進入下一步）"
+        },
+        {
+            "type": "crafting",
+            "name": "極光石",
+            "recipe": "theaurorian:blocks/aurorianstone",
+            "text": "首先你需要得到一些$(#008cff)青金石$()、$(#008cff)石頭$()、$(#008cff)黏土$()以及$(#008cff)骨頭$()。你可以使用它們合成$(#008cff)極光石$()。"
+        },
+        {
+            "type": "crafting",
+            "name": "極光傳送門框架",
+            "recipe": "theaurorian:blocks/aurorianportalframebricks",
+            "text": "$(#008cff)極光石$()可以被用於製作傳送門框架。你需要至少十個來建造傳送門！"
+        },
+        {
+            "type": "multiblock",
+            "name": "極光傳送門",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "OOOO"
+                    ],
+                    [
+                        "O  O"
+                    ],
+                    [
+                        "O  O"
+                    ],
+                    [
+                        "O  O"
+                    ],
+                    [
+                        "OOOO"
+                    ]
+                ],
+                "mapping": {
+                    "O": "theaurorian:aurorianportalframebricks"
+                }
+            },
+            "text": "當然，你也可以像建造地獄傳送門一樣將傳送門建造得大一點。"
+        },
+        {
+            "type": "spotlight",
+            "title": "點亮傳送門！",
+            "item": "minecraft:flint_and_steel",
+            "text": "現在使用$(#008cff)打火石$()來點亮傳送門！如果你已經在極光幽境中了，那麼你也可以雙手持$(#008cff)謐木棒$()來點亮傳送門！$(br2)$(l)提示：你可以在設定檔案中選定可用於點亮傳送門的物品。"
+        },
+        {
+            "type": "text",
+            "text": "$(#008cff)$(o)現在你已經建造好傳送門了，踏入傳送門並開始探索嶄新的維度吧！"
+        }
+    ]
+}

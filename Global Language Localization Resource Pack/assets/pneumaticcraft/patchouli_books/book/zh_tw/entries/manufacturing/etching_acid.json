@@ -1,0 +1,16 @@
+{
+  "name": "蝕刻酸",
+  "icon": "forge:bucketfilled{FluidName:'etchacid',Amount:1000}",
+  "category": "manufacturing",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "蝕刻酸用於以化學的方式蝕刻$(l:components/pcb)印刷電路板/$。蝕刻酸在$(l:manufacturing/pressure_chamber)壓力室/$中製作。$(p)見$(l:components/pcb)印刷電路板/$所在頁面以取得印刷電路板製作的更多資訊。"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "item": "forge:bucketfilled{FluidName:'etchacid',Amount:1000}"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+limitedlives.config.prop.maxLives.comment=玩家在被「封鎖」前可擁有的最大生命次數。
+limitedlives.config.prop.banTime.comment=封鎖時長（以秒計）。設為「0」以永久封鎖。
+limitedlives.config.prop.healthAdjust.comment=允許調整玩家生命值。
+limitedlives.banReason=[來自Limited Lives模組的通知] 你已經死透了。
+limitedlives.banKickReason=被伺服器封鎖：你沒有更多生命次數了。
+limitedlives.spectateForce=你用完了所有生命次數。強制旁觀者模式將於%s秒後解除。
+limitedlives.spectateForcePerma=你用完了所有生命次數。強制旁觀者模式已無限期啟用。
+limitedlives.respawned=你復活了。歡迎回來。
+limitedlives.respawnTimeLeft=將於%s分鐘後重新部署玩家。
+limitedlives.respawnTimeLeftSingle=將於%s分鐘後重新部署玩家。
+limitedlives.livesLeft=你還有%s條命。
+limitedlives.livesLeftSingle=你還有%s條命。

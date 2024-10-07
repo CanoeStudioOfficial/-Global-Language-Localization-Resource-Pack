@@ -1,0 +1,9 @@
+timecore.genobj.cantcreatefolder=§c無法創建輸出資料夾。Obj檔案將不會被創建。
+timecore.genobj.cantcreatefile=§c無法創建輸出檔案。Obj檔案將不會被創建。
+timecore.genobj.successgen=§aObj檔案生成成功。
+command.timecore.help.msg=可用指令:
+command.timecore.help.usage=/timecore help-打印可用指令及其用法
+command.timecore.genobj.usage=/timecore genobj <實體代號>-給指定實體生成obj檔案。
+command.timecore.main.usage=使用"/timecore help" 查看可用的指令。
+command.timecore.genobj.unknown=你填寫了未知的實體。使用TAB自動完成實體名稱。
+command.timecore.genobj.not_living=你填寫的實體並不是活體。

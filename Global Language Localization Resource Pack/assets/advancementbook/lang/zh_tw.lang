@@ -1,0 +1,4 @@
+item.advancement_book.name=進度書
+tile.advancement_bookstand.name=進度書架
+itemGroup.advancement_book=進度書
+advancementbook.config.title=進度書配置\n

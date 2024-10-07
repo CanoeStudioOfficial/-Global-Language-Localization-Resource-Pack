@@ -1,0 +1,31 @@
+{
+    "name": "月光融鍛台",
+    "icon": "theaurorian:moonlightforge",
+    "category": "1aurorianbasics",
+    "sortnum": "6",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "利用月光來融鍛！",
+            "item": "theaurorian:moonlightforge",
+            "text": "$(#008cff)月光融鍛台$()被用於將已有的錠融鍛為更加強力的工具！"
+        },
+        {
+            "type": "crafting",
+            "name": "",
+            "recipe": "theaurorian:blocks/tileentity/moonlightforge",
+            "text": "使用 JEI 查看全部的配方。$(br2)速記方式：$(br)[$(#008cff)皎月石工具$()] + $(br)[$(#008cff)錠$()] = $(br)[$(#008cff)嶄新的工具！$()]"
+        },
+        {
+            "type": "text",
+            "title": "重要訊息",
+            "text": "融鍛台只有在能清晰地看到月亮時才能工作，這意味著$(#008cff)它只能在晚上工作$()。它可以透過透明方塊，例如草，來看到月亮。$(br2融鍛台會保留之前工具的附魔以及耐久度至新工具！注意：$(#008cff)月光融鍛台位置越高，工作的速度也越快！$()"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:redstone",
+            "text": "如果你的電腦效能不佳，你可以通過給予月光融鍛台一個紅石訊號來讓它停止工作。當被給予了一個紅石訊號時，它不會檢查月光的可見情況，也不會進行任何工作。"
+        }
+    ]
+}

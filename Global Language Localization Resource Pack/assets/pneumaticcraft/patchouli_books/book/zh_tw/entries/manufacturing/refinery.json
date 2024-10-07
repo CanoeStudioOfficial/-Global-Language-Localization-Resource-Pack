@@ -1,0 +1,51 @@
+{
+  "name": "精煉廠",
+  "icon": "pneumaticcraft:refinery",
+  "category": "manufacturing",
+  "advancement": "pneumaticcraft:oil_bucket",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)精煉廠/$是一個使用$(l:base_concepts/heat)熱量/$將$(l:base_concepts/oil)石油/$精煉為各種燃料。其在 100℃ 下即可開始工作。溫度越高，精煉速度越快。能生產的燃料如下表所示，由輕到重排序：$(li)$(thing)液化石油氣（LPG）/$$(li)$(thing)汽油/$$(li)$(thing)煤油/$$(li)$(thing)柴油/$"
+    },
+    {
+      "type": "text",
+      "text": "$(item)精煉廠/$不能以單方塊形式執行：需要豎向堆疊 2-4 個精煉塔使其工作。$(p)不同的多方塊結構大小有不同的產出；若輸入 10mB 石油：$(p)$(bold)2 個精煉塔/$$(br)$(li)$(thing)液化石油氣/$（2mB）$(li)$(thing)柴油/$（4mB）$(br)$(bold)3 個精煉塔/$$(li)$(thing)液化石油氣/$（2mB）$(li)$(thing)煤油/$（3mB）$(li)$(thing)柴油/$（2mB）"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)4 個精煉廠/$$(br)$(li)$(thing)液化石油氣/$（2mB）$(li)$(thing)汽油/$（3mB）$(li)$(thing)煤油/$（3mB）$(li)$(thing)柴油/$（2mB）$(p)輕燃料永遠在靠上的$(item)精煉廠/$輸出，重燃料永遠在靠下的$(item)精煉廠/$輸出。若向已有結構加入$(item)精煉廠/$方塊，多方塊結構將試圖自動重排已有輸出流體，以使其能正常工作（輸出沒有被阻塞）。"
+    },
+    {
+      "type": "text",
+      "text": "所有產出的流體可以作為$(l:compressors/liquid_compressor)流體壓縮機/$的燃料（其中輕燃料更好）。$(p)但是，還有兩個很重要的用途：$(li)$(thing)液化石油氣/$用於合成液態$(l:components/plastic)塑膠/$$(li)$(thing)柴油/$用於合成$(l:components/lubricant)潤滑油/$，在$(l:base_concepts/upgrades#speed)速度升級$中用到。$(p)上述兩個合成在$(l:manufacturing/thermopneumatic_processing_plant)熱氣動加工機/$中進行。"
+    },
+    {
+      "type": "text",
+      "title": "比較器支持",
+      "text": "$(item)精煉廠/$可以被$(item)比較器/$檢測：當$(item)精煉廠/$可以工作時比較器輸出信號 15，否則輸出信號 0。當有$(thing)石油/$可供精煉$(italic)且/$有空間輸出產物，精煉廠被認為可以工作。"
+    },
+    {
+      "type": "text",
+      "title": "構建提示",
+      "text": "由於$(item)精煉廠/$是一個有很多面都暴露在空氣中的多方塊結構，如果沒有做好隔熱其將很快地散失$(l:base_concepts/heat)熱量/$。因此，建議覆蓋所有未被使用的麵以最大化效率。註：隔熱可以使用任何不導熱的方塊，包括碰撞箱不完整的方塊，如$(item)半磚/$和$(item)地板門/$."
+    },
+    {
+      "type": "text",
+      "text": "可以使用$(l:blocks/vortex_tube)渦流管/$來加熱$(item)精煉廠/$，或者放置熱的流體（熔岩等）或方塊（岩漿塊等）於與精煉廠方塊相鄰的位置。註：這樣的流體或方塊會被使用（其熱量被吸收盡），所以你或許想要試圖自動化這樣的熱量來源的生產與放置。"
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(thing)精煉廠/$中的合成配方支持被 $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$ 修改：合成配方可以被加入或移除，見下面連結以獲得更多資訊。",
+      "url": "https://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/Refinery/",
+      "link_text": "CraftTweaker 檔案"
+    },
+    {
+      "type": "crafting",
+      "text": "精煉廠的合成表",
+      "recipe": "pneumaticcraft:refinery"
+    }
+  ]
+}

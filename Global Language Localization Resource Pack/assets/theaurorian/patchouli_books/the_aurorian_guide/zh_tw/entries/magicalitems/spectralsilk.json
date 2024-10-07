@@ -1,0 +1,13 @@
+{
+    "name": "幽冥絲綢",
+    "icon": "theaurorian:spectralsilk",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:spectralsilk",
+            "text": "極光幽境的一些群系會出現靈體，擊殺這些靈體會掉落$(#008cff)幽冥絲綢$()，這是一種材料。可以用這種絲綢製作出整套盔甲。當你進行攻擊時，每一個盔甲部件都有一定機率淨化掉你身上的負面效果！有時你也可以在暗石地牢裡找到些許幽冥絲綢，但這種情況較為罕見。"
+        }
+    ]
+}

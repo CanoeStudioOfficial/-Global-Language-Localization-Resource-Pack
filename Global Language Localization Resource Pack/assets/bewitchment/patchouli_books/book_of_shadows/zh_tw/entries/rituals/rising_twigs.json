@@ -1,0 +1,51 @@
+{
+  "name": "抽枝",
+  "category": "rituals",
+  "icon": "bewitchment:broom",
+  "pages": [
+    {
+      "type": "text",
+      "text": "將一個平凡的掃帚轉化為它的魔法版本，而無論是普通掃帚還是魔法掃帚，都可以用來掃除地上的各種粉塵。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "bewitchment:broom"
+    },
+    {
+      "type": "text",
+      "title": "柏木掃帚",
+      "text": "柏木掃帚消耗魔導書中的魔力來保持飛行，當配備時，它也提供[ 抗性Ⅱ ]的效果"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:cypress_broom"
+    },
+    {
+      "type": "text",
+      "title": "接骨木掃帚",
+      "text": "消耗魔導書中的魔力來保持飛行，它是飛的最快的掃帚，但不提供任何特殊的屬性"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:elder_broom"
+    },
+    {
+      "type": "text",
+      "title": "杜松木掃帚",
+      "text": "杜松木掃帚不消耗魔導書中的魔力，因為它自身的魔法屬性，但是，它飛的是相當慢"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:juniper_broom"
+    },
+    {
+      "type": "text",
+      "title": "龍血木掃帚",
+      "text": "龍血木製作的掃帚，可以在上面附加上符文，符文效果會在騎手身上生效。飛行速度僅次於接骨木掃帚"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:dragons_blood_broom"
+    }
+  ]
+}

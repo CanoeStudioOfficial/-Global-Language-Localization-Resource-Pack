@@ -1,0 +1,47 @@
+{
+  "name": "詞綴",
+  "icon": "patchouli:guide_book{\"patchouli:book\":\"deepmoblearning:book\"}",
+  "category": "2_trials",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)詞綴$()會決定$(l:2_trials/1_trials)試煉$()中發生的事件。每種$(item)詞綴$()觸發的事件都不一樣，一個$(item)詞綴$()能夠$(item)增強$()或$(item)削弱$()$(br)$(item)玩家$() / $(item)怪物$()，或一些$(br)世界內事件。$(br2)以下會為你介紹$(item)詞綴$()的各個種類。"
+    },
+    {
+      "type": "text",
+      "title": "加速",
+      "text": "這個$(item)詞綴$()會讓$(l:2_trials/1_trials)試煉$()中的$(item)怪物$()獲得永久的速度效果。$(br2)不會影響$(item)玩家$()或其他$(item)詞綴$()生成的$(item)怪物$()。"
+    },
+    {
+      "type": "text",
+      "title": "再生之宴",
+      "text": "這個$(item)詞綴$()有時會在時空中撕開一道口子，並從這道口子中丟出$(item)滯留 再生藥水$()。"
+    },
+    {
+      "type": "text",
+      "title": "故障增強",
+      "text": "這個$(item)詞綴$()會$(item)增強$()$(br)$(l:2_trials/1_trials)試煉$()中的$(l:3_system_malfunction/0_system_glitches)系統故障者$()。$(br2)它們會獲得更高的$(item)生命$()，會發射更多的$(item)故障心臟$()，同時會造成更高的$(item)傷害$()。"
+    },
+    {
+      "type": "text",
+      "title": "擊退免疫",
+      "text": "這個$(item)詞綴$()將永久性給$(item)怪物$()提供$(item)擊退免疫$()。$(br2)不會影響$(item)玩家$()或其他$(item)詞綴$()所生成的$(item)怪物$()。"
+    },
+    {
+      "type": "text",
+      "title": "烈焰入侵者",
+      "text": "這個$(item)詞綴$()有時會讓$(item)烈焰使者$()生成在$(l:2_trials/1_trials)試煉$()中。$(br2)小心不要讓自己$(item)燒著$()"
+    },
+    {
+      "type": "text",
+      "title": "戰利品收藏家",
+      "text": "這個$(item)詞綴$()會在$(l:2_trials/1_trials)試煉$()裡生成更小更貪婪的$(item)殭屍$()。$(br2)他們也許會帶著$(item)獎勵$()。"
+    },
+    {
+      "type": "text",
+      "title": "雷！！",
+      "text": "這個$(item)詞綴$()會在$(l:2_trials/1_trials)試煉$()中增加$(item)閃電生成機率$()。$(br2)偶爾會生成$(item)閃電苦力怕$()和$(item)女巫$()。"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "極光鎬",
+    "icon": "theaurorian:aurorianitepickaxe",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:aurorianitepickaxe",
+            "text": "$(#008cff)極光鎬$()挖掘礦的速度更快！它與為礦加入了礦物詞典的其他模組相容。"
+        }
+    ]
+}

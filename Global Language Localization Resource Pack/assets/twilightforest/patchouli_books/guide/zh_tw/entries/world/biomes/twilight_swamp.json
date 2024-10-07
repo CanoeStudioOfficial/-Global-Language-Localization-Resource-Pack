@@ -1,0 +1,18 @@
+{
+  "name": "沼澤",
+  "icon": "twilightforest:twilight_sapling:2",
+  "category": "biomes",
+  "advancement": "twilightforest:alt/biomes/twilight_swamp",
+  "sortnum": 5000,
+  "pages": [
+    {
+      "type": "text",
+      "text": "一大片潮濕的暮光森林，類似沼澤。這個地方到處都是蚊子，任何闖入的冒險者都會生病。清理這個地方需要巫妖王的魔法權杖之一來擊退蚊子。這個生物群系中有土丘，也許表明存在地標？"
+    },
+    {
+      "type": "text",
+      "advancement": "火沼澤",
+      "text": "暮光沼澤的中心是火沼澤。這個相當溫和的生態域擁有豐富的岩漿，噴出煙霧和火焰的噴射流，都散佈在生鏽的紅色景觀中。由於炎熱，冒險者需要良好的營養才能進入火沼澤。據說在大型礦山的遺跡中居住著一隻可怕的怪物。"
+    }
+  ]
+}

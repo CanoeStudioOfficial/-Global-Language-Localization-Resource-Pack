@@ -1,0 +1,5 @@
+item.portablecrafting:portable_crafter.name=攜帶式工作台
+item.portablecrafting:crafting_core.name=合成核心
+itemGroup.portablecrafting=攜帶式合成
+crafting.portablecrafting=攜帶式合成
+key.open_portable_crafter.desc=開啟合成台

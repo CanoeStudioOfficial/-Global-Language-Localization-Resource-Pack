@@ -1,0 +1,16 @@
+{
+  "name": "入門",
+  "icon": "pneumaticcraft:textures/gui/gui_no_problem.png",
+  "category": "base_concepts",
+  "priority": "是",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)獲取一些$(thing)鐵/$；鐵錠或是鐵塊。開始時，最好有約一組的鐵錠。$(li)將其扔在地上，並將其炸掉。對，真的。$(li)收集爆炸產生的$(thing)壓縮鐵/$（比原來的鐵要少一些）。$(li)製作一些$(l:tubes/pressure_tubes)壓力管道/$。$(li)建造一個$(l:manufacturing/pressure_chamber)壓力室/$。"
+    },
+    {
+      "type": "text",
+      "text": "自此之後，該手冊的更多部分將會解鎖，基於你在$(pncr)的發展過程中達成的的$(thing)進度/$。查看該模組的進度頁獲取下一步發展的指導（完成某些進度也會給予$(thing)經驗/$，算是錦上添花）。"
+    }
+  ]
+}

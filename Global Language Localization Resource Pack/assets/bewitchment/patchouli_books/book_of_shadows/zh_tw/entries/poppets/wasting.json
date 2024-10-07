@@ -1,0 +1,12 @@
+{
+  "name": "巫毒娃娃-虛弱",
+  "category": "poppets",
+  "icon": "bewitchment:poppet_wasting",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "bewitchment:poppet_wasting",
+      "text": "攻擊攜帶者該娃娃的人會感到飢餓"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+backtools.config.prop.blacklistedItemClasses.name=列入黑名單的物品類
+backtools.config.prop.blacklistedItemClasses.description=被列入黑名單的物品的類的全名。

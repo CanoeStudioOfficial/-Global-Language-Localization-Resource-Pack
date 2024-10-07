@@ -1,0 +1,14 @@
+tab.jetorches.name=Just Enough Torches
+tile.jetorches.torch_stone.name=石製火把
+tile.jetorches.torch_nether.name=地獄火把
+tile.jetorches.torch_prismarine.name=海磷火把
+tile.jetorches.torch_obsidian.name=黑曜石火把
+tile.jetorches.torch_golden.name=黃金火把
+tile.jetorches.lamp_lapis.name=青金石燈
+tile.jetorches.lamp_obsidian.name=黑曜石燈
+tile.jetorches.lamp_quartz.name=石英燈
+item.jetorches.stick_stone.name=石棒
+item.jetorches.stick_nether.name=地獄石棒
+item.jetorches.stick_prismarine.name=海磷棒
+item.jetorches.stick_obsidian.name=黑曜石棒
+item.jetorches.stick_golden.name=金棒

@@ -1,0 +1,18 @@
+{
+   "name": "魂櫻之力及邪魔的引導之法",
+   "icon": "lastsmith:materials:6",
+   "category": "category_4",
+   "pages": [
+      {
+         "type": "text",
+         "text": "大量疊放的魂櫻之鋼形成的鋼塊，經歷過烈火的洗禮之後會變為櫻之寶珠。$(br2)櫻之寶珠聚集著巨量的魂櫻之力，而且相當純粹。$(br2)事實上，其力量之巨大如果駕馭得當，連普通的人類都可以駕馭邪魔而使刀刃沾染邪魔之力脫胎為妖刀……"
+      },
+      {
+         "type": "spotlight",
+         "item": "lastsmith:materials:6",
+         "text": "將自己的刀刃放在鐵砧上，用鐵錘注入櫻之寶珠的力量，完成之時即可脫胎為妖刀……"
+      }
+   ],
+   "advancement": "lastsmith:bewitched_blade",
+   "sortnum": 16
+}

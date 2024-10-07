@@ -1,0 +1,27 @@
+{
+   "name": "魔劍「閻魔刀」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamato\", TextureName: \"named/yamato\"}",
+   "category": "category_4",
+   "pages": [
+      {
+         "type": "text",
+         "text": "傳說中能夠斬斷空間之刃，斯巴達的遺物。$(br2)被龍所吞噬之後，正在等待Dark Slayer的歸來……$(br2)然而，它似乎已經被折斷了……"
+      },
+      {
+         "type": "entity",
+         "entity": "minecraft:ender_dragon",
+         "scale": "1.1",
+         "text": "終界之地的虛無之上，一劍斬斷魔龍之尾，斷刀自會顯現……"
+      },
+      {
+         "type": "text",
+         "text": "即便是斷刀，拔出之時也需要一定的勇氣。$(br2)用耀魂寶珠去修復這振刀，自然它內在的真正力量就會顯現……$(br2)這股靈力……是惡魔的力量……"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:yamato"
+      }
+   ],
+   "advancement": "lastsmith:bewitched_blade",
+   "sortnum": 0
+}

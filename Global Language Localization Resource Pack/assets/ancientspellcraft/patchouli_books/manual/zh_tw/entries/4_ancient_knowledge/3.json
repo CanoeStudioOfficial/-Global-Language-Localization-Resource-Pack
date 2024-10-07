@@ -1,0 +1,37 @@
+{
+	"name": "石碑",
+	"icon": "ancientspellcraft:stone_tablet",
+	"category": "ancient_knowledge",
+	"sortnum": 1,
+	"advancement": "ancientspellcraft:relics",
+	"pages": [
+		{
+			"type": "text",
+			"text": "石碑是用古人的語言書寫的，人們對這種久已消亡的方言知之甚少，能破譯它們的人更少$(br)$(br)$(o)也許用您的球體研究它們會有所幫助？"
+		},
+		{
+			"type": "spotlight",
+			"item": "ancientspellcraft:stone_tablet_small",
+			"text": "這些是最小的書面知識片段，通常是大表破碎成碎片的結果。",
+			"link_recipe": false
+		},
+		{
+			"type": "spotlight",
+			"item": "ancientspellcraft:stone_tablet",
+			"text": "有一點碎裂，但大部分完好無損",
+			"link_recipe": false
+		},
+		{
+			"type": "spotlight",
+			"item": "ancientspellcraft:stone_tablet_large",
+			"text": "這些大石碑非常罕見",
+			"link_recipe": false
+		},
+		{
+			"type": "spotlight",
+			"item": "ancientspellcraft:stone_tablet_grand",
+			"text": "最大的石碑——也是同類中最罕見的。",
+			"link_recipe": false
+		}
+	]
+}

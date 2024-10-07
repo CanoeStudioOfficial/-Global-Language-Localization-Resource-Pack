@@ -1,0 +1,55 @@
+{
+    "name": "應當尋找的結構",
+    "icon": "theaurorian:runestone",
+    "category": "1aurorianbasics",
+    "sortnum": "2",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "這些是你在極光幽境中探索時應當注意的結構。"
+        },
+        {
+            "type": "image",
+            "border": true,
+            "title": "地表遺跡",
+            "text": "你可以直接找到的遺跡。裡面會有能幫你進行探索初期熔煉的熔爐！",
+            "images": [
+                "theaurorian:patchouli_books/the_aurorian_guide/en_us/entries/aurorianbasics/ruins1.png"
+            ]
+        },
+        {
+            "type": "image",
+            "border": true,
+            "title": "地下遺跡",
+            "text": "只有地下才會生成的遺跡。其中會有高價值的戰利品！",
+            "images": [
+                "theaurorian:patchouli_books/the_aurorian_guide/en_us/entries/aurorianbasics/ruins2.png"
+            ]
+        },
+        {
+            "type": "image",
+            "border": true,
+            "title": "符石地牢",
+            "text": "在你前往暗石地牢前需要完成探索的地牢。",
+            "images": [
+                "theaurorian:patchouli_books/the_aurorian_guide/en_us/entries/aurorianbasics/runestone.png"
+            ]
+        },
+        {
+            "type": "image",
+            "border": true,
+            "title": "月宮",
+            "text": "在打敗暗石地牢的 Boss 後你才能探索的下一座地牢。",
+            "images": [
+                "theaurorian:patchouli_books/the_aurorian_guide/en_us/entries/aurorianbasics/moontemple.png"
+            ]
+        },
+        {
+            "type": "spotlight",
+            "title": "開鎖器",
+            "item": "theaurorian:lockpicks",
+            "text": "更多有關地牢的訊息請見$(#008cff)進程發展$()部分。"
+        }
+    ]
+}

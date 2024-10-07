@@ -1,0 +1,35 @@
+{
+   "name": "山櫻「神月」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamazakura/model\",TextureName: \"named/yamazakura/yamazakura_kamuy_tuki\"}",
+   "category": "category_4",
+   "pages": [
+      {
+         "type": "text",
+         "text": "邪魔侵染的山櫻，最終使得邪魔再度降臨……$(br2)邪魔吞噬了所有的山櫻刃，並殘忍的殺害了當時在場的所有人。$(br2)雖然已經過去一個輪迴，對於葦原的人來說邪魔仍然難以輕鬆戰勝……"
+      },
+      {
+         "type": "text",
+         "text": "人類使用了新的戰法，在一場慘烈的戰鬥之後斬殺了邪魔。$(br2)邪魔的身體化作了灰燼，留下了唯一一把山櫻刃。$(br2)此時，是太陰曆的閏月。人類因此命名這唯一的山櫻刃為：山櫻「神月」$(br2)那是山櫻村，是葦原國的希望……"
+      },
+      {
+         "type": "text",
+         "text": "盜國之戰爆發了……$(br2)手持「神月」之人與手持「葵」之人並肩作戰，以絕技：櫻之流「空間震」擊退了不知多少敵兵……$(br2)如同記載一般，我曾見識過那一劍技的真正實力：落下「五月雨」的一刻，空間被切裂開來……$(br2)據我所知，除了邪魔的力量之外，山櫻靈力之強盛的原因還在於其落下的隕鐵煉製而成的魂櫻之鋼……"
+      },
+      {
+         "type": "text",
+         "text": "葦原國的滅亡，是在短短十幾年後……$(br2)手持「神月」之人與手持「葵」之人被暗殺，「神月」與「葵」一併遺失。葦原土產的妖刀就這樣消失，只留下了一段史料……$(br2)我認為，山櫻刃的遺失屬實是一大遺憾。我也只能根據史料的記載來儘可能還原此二刃……$(br2)即便擁有力量，卻難以維持安寧……"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:flammpfeil.slashblade.named.yamazakura.minazuki",
+         "recipe2": "lastsmith:flammpfeil.slashblade.named.yamazakura.fumizuki"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:flammpfeil.slashblade.named.yamazakura.kannazuki",
+         "recipe2": "lastsmith:flammpfeil.slashblade.named.yamazakura.kamuy"
+      }
+   ],
+   "advancement": "lastsmith:bewitched_blade",
+   "sortnum": 7
+}

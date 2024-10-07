@@ -1,0 +1,27 @@
+{
+  "name": "汙漬長袍",
+  "category": "demonic_gear",
+  "icon": "bewitchment:besmirched_hat",
+  "pages": [
+    {
+      "type": "text",
+      "text": "普通女巫長袍的升級版，向長袍中縫入沾染了血汙的黑色布料，金線，以及惡魔血管，這件長袍就做好了。穿上時，惡魔攻擊你的欲望將會降低，暗黑魔法的威力會增加，譬如詛咒。"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:besmirched_hat"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:besmirched_hood"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:besmirched_robes"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:besmirched_pants"
+    }
+  ]
+}

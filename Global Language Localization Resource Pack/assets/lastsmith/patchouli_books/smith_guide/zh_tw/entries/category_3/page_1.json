@@ -1,0 +1,18 @@
+{
+   "name": "利刀「無名」紅玉",
+   "icon": "flammpfeil.slashblade:slashbladenamed{TextureName: \"BambooKatana\"}",
+   "category": "category_3",
+   "pages": [
+      {
+         "type": "text",
+         "text": "以第一代鍛造者——紅玉為名的優質打刀。我記錄下來了現在仿製品的通用配方。$(br2)在美好的過去，曾是人手一振仿製品，也算是那個時代的回憶了。$(br)因為各種原因，實際上現在持有紅玉的人越來越少了。"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:wrap.BambooMod.katana",
+         "text": "如果你無法看到這個配方，說明你缺少了前置內容（櫻Mod和SJAP），你只能通過刀魂來取得了。"
+      }
+   ],
+   "advancement": "lastsmith:slashblade_white",
+   "sortnum": 0
+}

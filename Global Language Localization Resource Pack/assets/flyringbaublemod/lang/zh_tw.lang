@@ -1,0 +1,17 @@
+item.flyringbaublemod.flyingring.name=飛行指環
+item.flyringbaublemod.pair.name=PAIR  (冗餘的鸚鵡陣列)
+flyringbaublemod.birdcage.name=鳥籠
+flyringbaublemod.birdcage.empty.name=鳥籠
+flyringbaublemod.birdcage.parrot.name=寵物鸚鵡（在鳥籠裡）
+flyringbaublemod.birdcage.mystery.name=薛定諤的鸚鵡
+flyringbaublemod.instructions.cage=右擊馴服的鸚鵡放入籠子裡
+flyringbaublemod.joke.raid=用鸚鵡的小部分
+flyringbaublemod.joke.mystery=你可能有也可能沒有一隻死的鸚鵡
+flyringbaublemod.config.title=Angel Ring To Bauble 設定
+flyringbaublemod.config.enableExtra=啟用 extra
+flyringbaublemod.config.enableExtra.tooltip=啟用獨立的飛行指環合成
+flyringbaublemod.config.recipeLevel=合成等級
+flyringbaublemod.config.recipeLevel.tooltip=合成的難易程度 (目前被忽略)
+flyringbaublemod.ring.useless1=這目前是無用的
+flyringbaublemod.ring.useless2=請安裝其中的一個：
+flyringbaublemod.ring.useless3=Baubles，可穿戴設備

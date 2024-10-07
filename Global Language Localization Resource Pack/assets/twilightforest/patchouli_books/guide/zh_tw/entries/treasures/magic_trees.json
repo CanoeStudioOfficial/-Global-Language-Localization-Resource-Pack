@@ -1,0 +1,33 @@
+{
+  "name": "Magical Trees",
+  "icon": "twilightforest:twilight_sapling:4",
+  "category": "treasures",
+  "advancement": "twilightforest:alt/treasures/magic_trees",
+  "sortnum": 2100,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Magic Trees can be found in dungeons on top of big trees inside the lootchest"
+    },
+    {
+      "type": "text",
+      "advancement": "時光樹",
+      "text": "時光樹"
+    },
+    {
+      "type": "text",
+      "advancement": "變化樹",
+      "text": "變化樹"
+    },
+    {
+      "type": "text",
+      "advancement": "礦石樹",
+      "text": "礦石樹"
+    },
+    {
+      "type": "text",
+      "advancement": "分類樹",
+      "text": "分類樹"
+    }
+  ]
+}

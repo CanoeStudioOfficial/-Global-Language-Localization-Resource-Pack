@@ -1,0 +1,19 @@
+{
+    "name": "原基反應器",
+    "icon": "prodigytech:primordialis_reactor",
+    "category": "primordium",
+    "advancement": "prodigytech:main/energion_aeroheater",
+    "priority": true,
+    "sortnum": -2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)原基反應器$()是一個把植物的物質(像是樹苗和作物)轉換成$(item)原基$()的機器。他需求的熱量只有$(item)能源氣熱爐$()能夠提供，以及還需要大量的基礎機器能夠以一個合理的速度執行。$(br2)物品能從機器除了頂部和底部以外的各個面輸入/輸出。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "prodigytech:machine/primordialis_reactor",
+            "text": "同時放入不同的物品，能讓機器工作得更快和更高效率。相比於只放入一種物品，同時放入9種不同的物品，會讓製作需求大致降低8倍和減少72倍的時間。"
+        }
+    ]
+}

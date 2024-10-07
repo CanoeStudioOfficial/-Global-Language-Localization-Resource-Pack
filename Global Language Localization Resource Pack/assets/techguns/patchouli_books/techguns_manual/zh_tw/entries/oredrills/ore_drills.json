@@ -1,0 +1,388 @@
+{
+    "name": "多方塊採礦機",
+    "icon": "techguns:oredrill:4",
+    "category": "ore_drills",
+    "pages": [
+        {
+            "type": "text",
+            "text": "採礦機為多方塊結構的機器，本書之$(l:machine_mechanics)《機器特性》$(/l)也適用於此機器。採礦機共有五種不同的建造型式，也可轉九十度橫向建造，但都必須與礦叢相接。本書$(l:oredrills/ore_clusters#formulas)此處$(/l)有輸出及能量的計算公式說明。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "techguns:oredrill_0_frame",
+            "recipe2": "techguns:oredrill_1_scaffold"
+        },
+        {
+            "type": "crafting",
+            "recipe": "techguns:oredrill_2_rod",
+            "recipe2": "techguns:oredrill_3_engine"
+        },
+        {
+            "type": "crafting",
+            "recipe": "techguns:oredrill_4_controller",
+            "text": "找到$(l:oredrills/ore_clusters)礦叢$(/l)後就可放上鑽軸開始建造採礦機。擺好方塊後對著控制器$(thing)點擊滑鼠右鍵$()以完成建造。"
+        },
+        {
+            "type": "multiblock",
+            "name": "最小的採礦機",
+            "anchor": "tinydrill",
+            "multiblock": {
+                "mapping": {
+                    "R": "techguns:oredrill[machinetype=controller]",
+                    "0": "techguns:oredrill[machinetype=rod]",
+                    "C": "techguns:orecluster[type=common_metal]"
+                },
+                "pattern": [
+                    [
+                        "R"
+                    ],
+                    [
+                        "0"
+                    ],
+                    [
+                        "C"
+                    ]
+                ],
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "text",
+            "title": "建造規模",
+            "text": "最小的採礦機僅需要一支鑽軸及一個控制器，其餘更大的都需要框架。需符合下列限制：$(li)鑽軸+引擎的長度 <= 16$(li)鑽軸長度 >= 鑽機直徑$(li)引擎高度 >= 鑽機半徑$(li)鑽軸長度 >= 引擎高度"
+        },
+        {
+            "type": "multiblock",
+            "name": "小型採礦機",
+            "multiblock": {
+                "mapping": {
+                    "0": "techguns:oredrill[machinetype=controller]",
+                    "R": "techguns:oredrill[machinetype=rod]",
+                    "F": "techguns:oredrill[machinetype=frame]",
+                    "S": "techguns:oredrill[machinetype=scaffold]",
+                    "E": "techguns:oredrill[machinetype=engine]",
+                    "C": "techguns:orecluster[type=common_metal]"
+                },
+                "pattern": [
+                    [
+                        "   ",
+                        " 0 ",
+                        "   "
+                    ],
+                    [
+                        "FFF",
+                        "FEF",
+                        "FFF"
+                    ],
+                    [
+                        "FSF",
+                        "SES",
+                        "FSF"
+                    ],
+                    [
+                        "FSF",
+                        "SRS",
+                        "FSF"
+                    ],
+                    [
+                        "FFF",
+                        "FRF",
+                        "FFF"
+                    ],
+                    [
+                        "   ",
+                        " C ",
+                        "   "
+                    ]
+                ],
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "multiblock",
+            "name": "中型採礦機",
+            "multiblock": {
+                "mapping": {
+                    "0": "techguns:oredrill[machinetype=controller]",
+                    "R": "techguns:oredrill[machinetype=rod]",
+                    "F": "techguns:oredrill[machinetype=frame]",
+                    "S": "techguns:oredrill[machinetype=scaffold]",
+                    "E": "techguns:oredrill[machinetype=engine]",
+                    "C": "techguns:orecluster[type=common_metal]"
+                },
+                "pattern": [
+                    [
+                        " FFFFFFFF ",
+                        " FSSSSSSF ",
+                        " FSSSSSSF ",
+                        " FSSSSSSF ",
+                        " FFFFFFFF "
+                    ],
+                    [
+                        " FSSSSSSF ",
+                        " S    EEE ",
+                        " S    EEE ",
+                        " S    EEE ",
+                        " FSSSSSSF "
+                    ],
+                    [
+                        " FSSSSSSF ",
+                        " S    EEE ",
+                        "CRRRRREEE0",
+                        " S    EEE ",
+                        " FSSSSSSF "
+                    ],
+                    [
+                        " FSSSSSSF ",
+                        " S    EEE ",
+                        " S    EEE ",
+                        " S    EEE ",
+                        " FSSSSSSF "
+                    ],
+                    [
+                        " FFFFFFFF ",
+                        " FSSSSSSF ",
+                        " FSSSSSSF ",
+                        " FSSSSSSF ",
+                        " FFFFFFFF "
+                    ]
+                ],
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "multiblock",
+            "name": "最大的採礦機",
+            "multiblock": {
+                "mapping": {
+                    "0": "techguns:oredrill[machinetype=controller]",
+                    "R": "techguns:oredrill[machinetype=rod]",
+                    "F": "techguns:oredrill[machinetype=frame]",
+                    "S": "techguns:oredrill[machinetype=scaffold]",
+                    "E": "techguns:oredrill[machinetype=engine]",
+                    "C": "techguns:orecluster[type=common_metal]"
+                },
+                "pattern": [
+                    [
+                        "         ",
+                        "         ",
+                        "         ",
+                        "         ",
+                        "    0    ",
+                        "         ",
+                        "         ",
+                        "         ",
+                        "         "
+                    ],
+                    [
+                        "FFFFFFFFF",
+                        "FEEEEEEEF",
+                        "FEEEEEEEF",
+                        "FEEEEEEEF",
+                        "FEEEEEEEF",
+                        "FEEEEEEEF",
+                        "FEEEEEEEF",
+                        "FEEEEEEEF",
+                        "FFFFFFFFF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "SEEEEEEES",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "S   R   S",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "S   R   S",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "S   R   S",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "S   R   S",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "S   R   S",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "S   R   S",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "S   R   S",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FSSSSSSSF",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "S   R   S",
+                        "S       S",
+                        "S       S",
+                        "S       S",
+                        "FSSSSSSSF"
+                    ],
+                    [
+                        "FFFFFFFFF",
+                        "FSSSSSSSF",
+                        "FSSSSSSSF",
+                        "FSSSSSSSF",
+                        "FSSSRSSSF",
+                        "FSSSSSSSF",
+                        "FSSSSSSSF",
+                        "FSSSSSSSF",
+                        "FFFFFFFFF"
+                    ],
+                    [
+                        "         ",
+                        "         ",
+                        "         ",
+                        "         ",
+                        "    C    ",
+                        "         ",
+                        "         ",
+                        "         ",
+                        "         "
+                    ]
+                ],
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "spotlight",
+            "title": "鑽頭",
+            "item": "techguns:itemshared:137",
+            "anchor": "drill",
+            "text": "採礦機需裝上鑽頭才能工作，鑽頭的大小需配合採礦機的規模。游標停留在介面中的進度指示條上，會顯示鑽機的半徑，半徑為 0 (僅控制器和鑽軸)只需小型鑽頭，半徑為 1 到 2 需要中型鑽頭，半徑達 3 到 4 則需大型鑽頭。"
+        },
+        {
+            "type": "spotlight",
+            "title": "鑽頭",
+            "item": "techguns:itemshared:138",
+            "anchor": "drill",
+            "text": "鑽頭的材質會決定採礦機的採掘等級，鐵的等級為 1，黑曜石鋼的等級為 2，碳纖維則為 3。"
+        },
+        {
+            "type": "text",
+            "title": "能量",
+            "text": "採礦機可經由線路或輸入固體或液體燃料來供給能量。固體燃料以熔爐的燃燒時間計算產生的能量，液體燃料則在控制檔中設定，所有在控制檔中定義為燃料的流體，其燃燒值都相同。公式說明請參閱$(l:oredrills/ore_clusters#power)此處$(/l)。"
+        }
+    ]
+}

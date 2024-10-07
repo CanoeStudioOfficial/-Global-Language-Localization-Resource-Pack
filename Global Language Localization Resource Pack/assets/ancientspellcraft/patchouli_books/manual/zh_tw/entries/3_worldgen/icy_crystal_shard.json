@@ -1,0 +1,28 @@
+{
+	"name": "寒霜水晶礦脈",
+	"icon": "ancientspellcraft:crystal_ore_ice",
+	"category": "3_worldgen",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "spotlight",
+			"item": "ancientspellcraft:crystal_ore_ice",
+			"text": "寒霜水晶礦石可以在凍土帶的冰凍深淵中找到。他們被凍結在覈心，並充滿了霜凍的力量。",
+			"link_recipe": false
+		},
+		{
+			"type": "image",
+			"images": [
+				"ancientspellcraft:textures/gui/entries/icy_ore_shard.png"
+			],
+			"title": "寒霜水晶礦脈",
+			"text": ""
+		},
+		{
+			"type": "crafting",
+			"recipe": "ancientspellcraft:magic_crystal_ice",
+			"title": "寒霜水晶",
+			"text": "        工作台"
+		}
+	]
+}

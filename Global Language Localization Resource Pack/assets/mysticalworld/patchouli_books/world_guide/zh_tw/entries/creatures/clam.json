@@ -1,0 +1,23 @@
+{
+  "name": "蛤蜊",
+  "icon": "mysticalworld:pearl",
+  "category": "creatures",
+  "flag": "roots:clam",
+  "pages": [
+    {
+      "type": "animal_spawn_info",
+      "animal": "clam",
+      "breed": "繁殖物品：無法繁殖。",
+      "tame": "馴服物品：無法馴服。",
+      "blurb": "有了$(l:items/pearleporter)珍珠提取器$()，珍珠就成了可再生資源！"
+    },
+    {
+      "type": "entity",
+      "name": "蛤蜊",
+      "entity": "mysticalworld:entity_clam",
+      "scale": "0.6",
+      "offset": "0.4",
+      "text": "成熟的蛤蜊會發出粒子效果，被殺死後會掉落一顆$(l:items/pearl)珍珠$()（特殊的蛤蜊還可能掉落終界珍珠！）。"
+    }
+  ]
+}

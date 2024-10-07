@@ -1,0 +1,16 @@
+bspkrs.configgui.allowDebugOutput.tooltip=未定義工具提示。
+bspkrs.configgui.allowDebugOutput=允許除錯輸出
+bspkrs.configgui.allowUpdateCheck.tooltip=設定為 true 來允許檢查我的所有模組的更新，設定為 false 來停用。
+bspkrs.configgui.allowUpdateCheck=允許檢查更新
+bspkrs.configgui.applyGlobally.tooltip=全域套用撤銷變更或重設為預設值。
+bspkrs.configgui.applyGlobally=全域套用
+bspkrs.configgui.generateUniqueNamesFile.tooltip=當為 true 時，為方便起見，將在 config 資料夾中生成一個名為 UniqueNames.txt 的檔案。在檔案中找到的名稱是 Minecraft 中方塊和物品的字串表示形式。由於 ID 消失了，Treecapitator 和 StartingInventory 等模組在其設定檔中使用它們。
+bspkrs.configgui.generateUniqueNamesFile=生成 UniqueNames.txt 檔案
+bspkrs.configgui.showMainMenuMobs.tooltip=設定為 true 來在主選單上顯示您登入的玩家和隨機生物，設定為 false 來停用。
+bspkrs.configgui.showMainMenuMobs=在主選單上顯示生物
+bspkrs.configgui.updateTimeoutMilliseconds.tooltip=版本更新檢查的逾時時間（以毫秒為單位）。
+bspkrs.configgui.updateTimeoutMilliseconds=更新檢查逾時（毫秒）
+bspkrs.modversionchecker.error=對模組 %s 執行版本檢查時發生錯誤。
+bspkrs.modversionchecker.invalidmodid=為版本檢查指定的模組 ID 無效。
+bspkrs.modversionchecker.uptodate=模組 %s 是最新的。\ncommands.bs.disabled=bspkrsCore.cfg 中停用了版本檢查。設定 allowUpdateCheck=true 來使用此指令。
+commands.bs.usage=bs version <modid>

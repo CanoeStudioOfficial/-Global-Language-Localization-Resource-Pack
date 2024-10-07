@@ -1,0 +1,18 @@
+{
+    "name": "森林之杖",
+    "read_by_default": "true",
+    "icon": "dynamictrees:staff",
+    "category": "othermechanics",
+    "sortnum": "1",
+    "pages": [
+        {
+            "type": "text",
+            "title": "森林之杖",
+            "text": "森林之杖是一種創造模式工具，可讓您複製和貼上樹木的狀態。$(br2)它可以使用 /dt createstaff 指令獲得，也可以從創造模式選單中獲得。$(br2)然後，您可以對樹木按右鍵來設定/重設目標物種，或者對樹木按右鍵來設定/重設樹木和 JoCode（生長形狀）。"
+        },
+        {
+            "type": "text",
+            "text": "另請注意，雖然這是一個創造模式工具，但它的斧頭收穫等級為 3，使其成為砍伐樹木的快速工具。"
+        }
+    ]
+}

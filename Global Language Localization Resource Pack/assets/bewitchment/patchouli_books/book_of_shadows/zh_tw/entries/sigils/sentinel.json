@@ -1,0 +1,16 @@
+{
+  "name": "守衛符文",
+  "category": "sigils",
+  "icon": "bewitchment:sigil_sentinel",
+  "pages": [
+    {
+      "type": "bewitchment:sigil_recipe",
+      "recipe": "bewitchment:sentinel"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:sigil_sentinel",
+      "text": "召喚一隻陰森的幽靈來進攻目標"
+    }
+  ]
+}

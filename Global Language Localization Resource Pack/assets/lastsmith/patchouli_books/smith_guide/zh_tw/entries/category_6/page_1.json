@@ -1,0 +1,17 @@
+{
+   "name": "櫻風華樂的渝州「長清」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/arthurs/model_0\", TextureName: \"named/arthurs/texture_0\"}",
+   "category": "category_6",
+   "pages": [
+      {
+         "type": "text",
+         "text": "妖怪之山鍛刀鋪的組長：櫻風華樂。$(br2)組裡的拔刀劍建模擔當，推動國內自訂拔刀劍的關鍵人物之一。$(br2)最近開始學習拔刀劍附屬的獨立開發了，可喜可賀。"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:flammpfeil.slashblade.named.mmf.r_liu"
+      }
+   ],
+   "advancement": "lastsmith:final_blade",
+   "sortnum": 0
+}

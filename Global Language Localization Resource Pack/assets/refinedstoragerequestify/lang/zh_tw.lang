@@ -1,0 +1,4 @@
+itemGroup.refinedstoragerequestify=精緻儲存丨請求
+block.refinedstoragerequestify:requester.name=請求者
+button.refinedstoragerequestify:requester.save=保存
+tooltip.refinedstoragerequestify:requester.missing=缺少原料

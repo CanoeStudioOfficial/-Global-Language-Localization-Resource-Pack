@@ -1,0 +1,13 @@
+{
+    "name": "怪異的肉",
+    "icon": "theaurorian:strangemeat",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:strangemeat",
+            "text": "$(#008cff)怪異的肉$()相當填肚子，並且需要很長的一段時間來食用。但是在你吃完後，你會隨機獲得一種原版的正面效果！"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "系統故障",
+  "icon": "deepmoblearning:glitch_heart",
+  "category": "3_system_malfunction",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)系統故障$()會在$(item)系統故障時$()生成在$(l:2_trials/1_trials)試煉中$()。更高$(item)等級$()的$(l:2_trials/1_trials)試煉$()會有更高機率出現$(item)故障$()。$(br2)故障擁有$(c)高度侵略性$()，會朝目標發射$(item)腐蝕性彈射物$()。"
+    },
+    {
+      "type": "entity",
+      "entity": "deepmoblearning:glitch",
+      "text": "$(item)注意:$() $(c)極其危險$()$(br)小心靠近。$(br)掉落$(item)故障心臟$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "deepmoblearning:glitch_heart",
+      "link_recipe": true,
+      "anchor": "heart",
+      "text": "擊殺$(item)系統故障$()後會掉落 (受掠奪影響)。$(br2)這種珍稀的物品用於製作威力極強的畢業$(l:3_system_malfunction/3_equipment)裝備$()。"
+    }
+  ]
+}

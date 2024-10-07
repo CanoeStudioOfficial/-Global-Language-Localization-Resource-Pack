@@ -1,0 +1,19 @@
+{
+    "name": "薰衣草",
+    "icon": "theaurorian:lavender",
+    "category": "4agriculture",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:lavender",
+            "text": "$(#008cff)薰衣草$()是極光幽境中一種很常見的植物！你需要使用鐮來採集薰衣草，如果想要種植它，則需要將其製作為$(#008cff)薰衣草籽$()。"
+        },
+        {
+            "type": "crafting",
+            "name": "薰衣草茶",
+            "recipe": "theaurorian:items/tea/tealavender",
+            "text": "$(#008cff)薰衣草$()也可以用於製作薰衣草茶，飲用薰衣草茶後可以獲得一小段時間的抗性效果。"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+item.ordinarycoins.coinBronze.name=青銅幣
+item.ordinarycoins.coinSilver.name=銀幣
+item.ordinarycoins.coinGold.name=金幣
+item.ordinarycoins.coinPlatinum.name=白金幣
+coins.stacked=堆積的硬幣。
+coins.unstacked=未堆積的硬幣。
+coins.repaired=物品已修復。
+coins.repair.disabled=禁止用硬幣維修。
+coins.cantrepair=物品未損壞或無法維修。
+coins.notenough.bronze=你沒有足夠的硬幣。這次維修將花費 %d 枚青銅幣。
+coins.notenough.silver=你沒有足夠的硬幣。這次維修將花費 %d 枚銀幣。
+coins.notenough.gold=你沒有足夠的硬幣。這次維修將花費 %d 枚金幣。
+coins.notenough.platinum=你沒有足夠的硬幣。這次維修將花費 %d 枚白金幣。

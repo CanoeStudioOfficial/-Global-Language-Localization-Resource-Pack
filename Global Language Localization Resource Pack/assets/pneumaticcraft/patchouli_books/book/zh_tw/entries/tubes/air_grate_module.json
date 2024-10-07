@@ -1,0 +1,32 @@
+{
+  "name": "空氣柵管道模組",
+  "icon": "pneumaticcraft:air_grate_module",
+  "category": "tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "該模組吸引或排斥周圍的實體。施加正$(l:base_concepts/pressure)壓力/$時，管道將排斥實體；施加$(thing)負/$壓力時，管道將吸引實體。負壓可以通過$(l:machines/vacuum_pump)真空泵/$創造。物品實體足夠接近容器時，其將被自動輸入到相鄰的容器內，接受擁有特定面的輸入規則的方塊（如熔爐）。"
+    },
+    {
+      "type": "text",
+      "text": "該模組的作用範圍可以使用下列公式計算：$(p)正壓狀態下：$(p)  $(#272)範圍（格）= 4 × 壓力（bar）/$$(p)負壓狀態下：$(p)  $(#272)範圍（格）= -16 × 壓力（bar）/$$(p)例如，當該模組的壓力為 2 bar 時其將會排斥在（4 × 2 =）8 格內的實體。當該模組的壓力為 -0.5 bar 時其範圍將為（-16 × -0.5 =）8 格。中鍵點擊空氣柵管道模組以顯示這一作用範圍。"
+    },
+    {
+      "type": "text",
+      "title": "散熱片主動散熱",
+      "anchor": "active_cooling",
+      "text": "空氣柵管道模組同樣可以被用於對$(l:machines/heat_sink)散熱片/$主動散熱。作用範圍為以空氣柵管道模組前方為基準的 3 * 3 * 3 格內。這一作用範圍在放置下模組時被顯示。$(p)只有在對於實體的作用範圍大於等於 3 格（也就是說，壓力至少為 0.75 bar ）時，模組才可以對散熱片進行散熱。"
+    },
+    {
+      "type": "text",
+      "title": "高級印刷電路板",
+      "text": "向空氣柵管道模組安裝$(l:tubes/advanced_pcb)高級印刷電路板/$後，可以控制特定實體受該模組影響。$(p)例如，可以將其設定為僅影響特定玩家，或者僅影響爬行者，或者只影響物品。右擊升級後的模組以打開設定介面，在此可以輸入$(l:base_concepts/entity_filter)實體過濾/$。"
+    },
+    {
+      "type": "crafting",
+      "text": "空氣柵管道模組的合成表",
+      "recipe": "pneumaticcraft:air_grate_module"
+    }
+  ]
+}

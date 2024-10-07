@@ -1,0 +1,13 @@
+{
+    "name": "尖釘胸甲",
+    "icon": "theaurorian:spikedchestplate",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:spikedchestplate",
+            "text": "$(#008cff)尖釘胸甲$()會給予緩慢的效果，並會在穿戴者蹲下時獲得尖刺。"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "魔法絲線",
+  "category": "spinning_wheel",
+  "icon": "bewitchment:spirit_string",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "人人知道絲線可以縫合物品。然而，魔法絲線可以做到比普通絲線更多的事情，譬如在靈魂甚至是維度的本原之間建立連接。"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:cobweb",
+      "text": "那些蜘蛛不會從你身上撈到什麼東西的"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:witches_stitching",
+      "text": "抽絲捻線，巫師盛年"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:golden_thread",
+      "text": "閃亮的金線"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:pure_filament",
+      "text": "一根閃亮的銀線，其上隱約閃動著祝福以及淨化的光芒"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:spirit_string",
+      "text": "注入了靈魂的絲線"
+    }
+  ]
+}

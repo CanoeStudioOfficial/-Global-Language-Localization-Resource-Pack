@@ -1,0 +1,20 @@
+#附魔名稱
+enchantment.vtweaks:lumbering=伐木
+enchantment.vtweaks:imperishable=不朽
+# 死亡點
+vtweaks.deathpoint.msg=你最近的死亡地點是 [X: %s, Y: %s, Z: %s]
+#菁英生物名稱
+vtweaks.mighty.challenger.mob=強大之%s
+vtweaks.hungry.challenger.mob=飢餓之%s
+vtweaks.ranger.challenger.mob=射手之%s
+vtweaks.arcane.challenger.mob=奧術之%s
+vtweaks.pyro.challenger.mob=縱火之%s
+vtweaks.zestonian.challenger.mob=狂熱的 %s
+vtweaks.reinforced.challenger.mob=硬化之%s
+vtweaks.agile.challenger.mob=靈活之%s
+#V-Tweaks 介紹連結
+vtweaks.intro.link=V-Tweaks 線上維基
+vtweaks.intro.message=歡迎%s! 看來這是你第一次在這個世界上執行V-Tweaks! 如果你有興趣，這裡有一個在線維基的連結，請記住一些功能可能會被停用!
+#附魔說明相容性
+enchantment.vtweaks.lumbering.desc=§3潛行時：§r破壞樹的任何木塊時會倒下整棵樹。§4§l也適用於非樹§r
+enchantment.vtweaks.imperishable.desc=保護您的工具或盔甲免於損壞，從而§l停用該物品的功能直到修復。§r

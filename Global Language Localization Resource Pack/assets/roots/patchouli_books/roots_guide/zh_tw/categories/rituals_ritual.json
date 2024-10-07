@@ -1,0 +1,7 @@
+{
+  "name": "儀式機制",
+  "sortnum": 3,
+  "parent": "rituals",
+  "description": "這一節介紹了各個儀式的特定細節，以及儀式之中會使用到的組分。",
+  "icon": "roots:chiseled_runestone"
+}

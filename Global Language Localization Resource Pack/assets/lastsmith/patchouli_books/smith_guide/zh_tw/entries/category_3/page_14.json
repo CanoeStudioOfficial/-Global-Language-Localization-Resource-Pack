@@ -1,0 +1,19 @@
+{
+   "name": "「冰狼之刃」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/frostwolf/frostwolfa\",TextureName: \"named/frostwolf/frostwolfa\"}",
+   "category": "category_3",
+   "pages": [
+      {
+         "type": "text",
+         "text": "承載著「極寒之冰」的日本狼靈魂的雙刃。$(br2)一振名曰：凍櫻刃「雪花蒼月」，另一名曰：明獸刃「陽牙冰狼」。$(br2)月影裡散發著耀眼的光輝……"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:flammpfeil.slashblade.named.frostwolfa",
+         "recipe2": "flammpfeil.slashblade:flammpfeil.slashblade.named.frostwolfb"
+      }
+   ],
+   "advancement": "lastsmith:slashblade_white",
+   "flag": "mod:slashblade_addon",
+   "sortnum": 13
+}

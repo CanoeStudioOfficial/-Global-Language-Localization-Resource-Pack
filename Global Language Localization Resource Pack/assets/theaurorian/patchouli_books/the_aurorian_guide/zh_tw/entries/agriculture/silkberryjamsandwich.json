@@ -1,0 +1,18 @@
+{
+    "name": "桑葚醬三明治",
+    "icon": "theaurorian:silkberryjamsandwich",
+    "category": "4agriculture",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:silkberryjamsandwich",
+            "text": "$(#008cff)桑葚醬三明治$()是一種有助於你在極光幽境中生存下去的好食物！"
+        },
+        {
+            "type": "crafting",
+            "name": "桑葚醬三明治",
+            "recipe": "theaurorian:items/silkberryjamsandwich"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+   "name": "「楔丸」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/sekiro/kusabimaru\",TextureName: \"named/sekiro/kusabimaru\"}",
+   "category": "category_3",
+   "pages": [
+      {
+         "type": "text",
+         "text": "這一振刀是侍奉龍胤的忍者之佩刀。$(br2)隱含著「即便忍者注定是殺人的宿命，也不可捨棄僅有的一點慈悲之心。」的心願。$(br2)他曾用這振刀斬殺過我等同胞……身後是一振赤色的大太刀……"
+      },
+      {
+         "type": "text",
+         "text": "太陰曆，第二輪迴，日與春與火之年，葦原國正式宣告滅亡……$(br2)龍胤之子及跟隨他的忍者，入侵了妖怪之山……$(br2)我親眼目睹了那赤色大太刀——不死斬之威力，以及堅韌至極點的刀——楔丸……$(br2)然而，真正恐怖的是龍胤的不死之力，而斬斷不死的能力卻掌握在他自己的手中……"
+      },
+      {
+         "type": "text",
+         "text": "龍胤被驅逐走，而我等也終於注意到人類的威脅……$(br2)在此之前，我等在山中並沒有意識到人類能夠威脅我等……$(br2)太陰曆，第二輪迴，星與冬與水之年，一些同胞前往葦原地區，見識到他們鍛刀技藝的發達……$(br2)我與另一批前往此地的同胞是在第二年前去的，目的是學習人類的鍛刀技藝……"
+      },
+      {
+         "type": "text",
+         "text": "The Second Cycle of Lunar Calendar, The year of Star, Winter and Water. Some Youkai travelled to the former Tomihara, and saw the prosperity of their smithing industry.$(br2)I travelled there with another group of my fellow in the following year, to learn smithing from human beings."
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:flammpfeil.slashblade.named.kusabimaru"
+      }
+   ],
+   "advancement": "lastsmith:slashblade_white",
+   "sortnum": 6
+}

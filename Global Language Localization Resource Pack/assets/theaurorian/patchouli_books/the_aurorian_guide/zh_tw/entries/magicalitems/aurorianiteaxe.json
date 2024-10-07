@@ -1,0 +1,13 @@
+{
+    "name": "極光斧",
+    "icon": "theaurorian:aurorianiteaxe",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:aurorianiteaxe",
+            "text": "$(#008cff)極光斧$()可以砍下整棵樹，也可以被用作武器！"
+        }
+    ]
+}

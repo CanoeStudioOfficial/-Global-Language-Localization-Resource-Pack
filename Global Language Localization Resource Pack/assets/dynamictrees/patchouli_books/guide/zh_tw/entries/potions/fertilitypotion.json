@@ -1,0 +1,29 @@
+{
+    "name": "肥沃藥水",
+    "icon": "dynamictrees:dendropotion:4",
+    "category": "藥水",
+    "sortnum": "4",
+    "pages": [
+        {
+            "type": "brewing",
+            "title": "肥沃藥水",
+            "ingredient": "minecraft:fish",
+            "bottle": "dynamictrees:dendropotion",
+            "output": "dynamictrees:dendropotion:4",
+            "text": "這種藥水可以使土壤充分肥沃。"
+        },
+        {
+            "type": "relations",
+            "title": "關係",
+            "entries": [
+                "potions/basepotion",
+                "potions/burgeoningpotion",
+                "potions/depletionpotion",
+                "potions/gigaspotion",
+                "potions/persistancepotion",
+                "potions/transformationpotion",
+                "potions/basetransformationpotion"
+            ]
+        }
+    ]
+}

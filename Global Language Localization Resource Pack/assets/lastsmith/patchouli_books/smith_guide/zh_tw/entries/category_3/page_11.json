@@ -1,0 +1,19 @@
+{
+   "name": "「梅」拵之雙刃",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"wa/model\",TextureName: \"wa/waA\"}",
+   "category": "category_3",
+   "pages": [
+      {
+         "type": "text",
+         "text": "在內府軍的一些低級將士之中，經常有兩個特別的刀拵的身影。$(br)因為刀鞘上的梅花特徵，被稱為「梅」。$(br2)實際上，非常的廉價。$(br)因為太過廉價所以並不是有地位之人看得上的東西。"
+      },
+      {
+         "type": "crafting",
+         "recipe": "flammpfeil.slashblade:flammpfeil.slashblade.named.wa.katana",
+         "recipe2": "flammpfeil.slashblade:flammpfeil.slashblade.named.wa.tachi"
+      }
+   ],
+   "advancement": "lastsmith:slashblade_white",
+   "flag": "mod:slashblade_addon",
+   "sortnum": 10
+}

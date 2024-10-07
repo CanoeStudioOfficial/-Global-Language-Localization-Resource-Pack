@@ -1,0 +1,17 @@
+{
+    "name": "垂柳樹液",
+    "icon": "theaurorian:weepingwillowsap",
+    "category": "4agriculture",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:weepingwillowsap",
+            "text": "$(#008cff)垂柳木樹液$()可以從垂柳木上取得到。它們可以被用作燃料，也可以食用，食用後可將玩家的中毒效果變為緩慢效果。"
+        },
+        {
+            "type": "text",
+            "text": "將中毒效果轉變為緩慢效果時會保留剩餘時間及等級。"
+        }
+    ]
+}

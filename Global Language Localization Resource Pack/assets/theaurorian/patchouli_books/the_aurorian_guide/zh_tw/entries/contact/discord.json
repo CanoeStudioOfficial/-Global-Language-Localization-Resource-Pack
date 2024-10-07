@@ -1,0 +1,14 @@
+{
+    "name": "Discord",
+    "icon": "theaurorian:patchouli_books/the_aurorian_guide/en_us/entries/contact/discord.png",
+    "category": "contact",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "link",
+            "link_text": "極光幽境 Discord 伺服器",
+            "text": "可以在此關注模組開發動態、分享自己遇到的問題或提供幫助與建議的社區。♥",
+            "url": "https://discord.gg/8tczsgx"
+        }
+    ]
+}

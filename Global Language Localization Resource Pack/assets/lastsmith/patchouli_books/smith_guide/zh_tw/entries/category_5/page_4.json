@@ -1,0 +1,25 @@
+{
+   "name": "「天雲」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/smith/model\", TextureName: \"named/smith/texture_wind\"}",
+   "category": "category_5",
+   "pages": [
+      {
+         "type": "text",
+         "text": "我是一名鴉天狗……$(br2)拿起這個鍛造錘的時候，我已經是合格的刀匠了……$(br2)我也是參與「魂櫻之長刀」鍛造的一員，是我發現了魂櫻的妙用之法！$(br2)是為我族，我等天狗一族鍛造無上利刃之時了！"
+      },
+      {
+         "type": "text",
+         "text": "完成這兩振刀已經有一段時間了……$(br2)如果沒有記錯，今年已經是第三輪迴的日與冬與土之年了，時間過去的確實很快呢……$(br2)也是時候鍛造第三振刃了……"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:flammpfeil.slashblade.named.amagumo.wind"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:flammpfeil.slashblade.named.amagumo.cloud"
+      }
+   ],
+   "advancement": "lastsmith:sharpness",
+   "sortnum": 3
+}

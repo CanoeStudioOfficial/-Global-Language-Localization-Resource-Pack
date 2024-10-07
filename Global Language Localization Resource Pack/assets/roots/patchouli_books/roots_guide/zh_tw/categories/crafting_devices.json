@@ -1,0 +1,7 @@
+{
+  "name": "設備",
+  "parent": "crafting",
+  "sortnum": 2,
+  "description": "這一節介紹了你可以合成的設備，以及一些可以幫助你更好地製作物品的設備。",
+  "icon": "roots:catalyst_plate"
+}

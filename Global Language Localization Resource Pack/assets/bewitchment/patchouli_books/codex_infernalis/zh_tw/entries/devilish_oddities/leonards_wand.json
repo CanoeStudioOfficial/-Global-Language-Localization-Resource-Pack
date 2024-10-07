@@ -1,0 +1,16 @@
+{
+  "name": "倫納德法杖",
+  "category": "devilish_oddities",
+  "icon": "bewitchment:leonards_wand",
+  "pages": [
+    {
+      "type": "text",
+      "text": "這一法杖的主人為大師倫納德。持有這一法杖的人可以像施放法術那樣施放藥水效果，每瓶藥水可以給予你8層「充能」，然而，法杖本身沒有充能，你需要自行給法杖充能。倫納德只有在其影子被擊殺後才會放棄自己的法杖，然而這件事並不容易。"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:leonards_wand",
+      "text": "這一法杖無法修復，也無法附魔。"
+    }
+  ]
+}

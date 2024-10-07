@@ -1,0 +1,55 @@
+{
+  "name": "物流框架",
+  "icon": "pneumaticcraft:logistic_frame_passive_provider",
+  "category": "logistics",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)物流框架/$是可以被附著於容器或儲罐上以標記為$(thing)物流系統/$之一部分的部件。$(p)放置下的物流框架可以透過使用$(l:tools/logistics_configurator)物流設定器/$$(thing)右擊/$設定，使用其$(thing)潛行右擊/$移除。物品形式的物流框架可以通過手持該物品右擊進行設定。"
+    },
+    {
+      "type": "text",
+      "text": "下列屬性可以被設定：$(li)所有物流框架支持$(thing)過濾/$指定物品/流體以供應或接受。$(li)$(thing)過濾/$標籤頁處可以設定物品過濾要求$(thing)元數據/$或 $(thing)NBT/$ 匹配，以及該過濾為白名單（預設）或黑名單。$(li)$(thing)朝向/$標籤頁處可以設定$(ttcolor)$(t:物流管道模組忽略該選項，並永遠從其所指向的一面存取)物流無人機/$應該從哪一面存取被加框架的容器。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)對於$(l:logistics/frames#requester)物流請求框架/$，$(thing)最小請求大小/$標籤頁處可以設定每次互動可以被移動的最少物品或流體；可以用於防止物流無人機一直執行少量物品或流體的運輸。$(li)最後，所有物流框架可以被設定為$(thing)不顯示/$，除非玩家手持物流物品（物流框架或物流設定器）。"
+    },
+    {
+      "type": "crafting",
+      "anchor": "active_provider",
+      "title": "物流主動供應框架",
+      "recipe": "pneumaticcraft:logistic_frame_active_provider",
+      "text": "$(item)物流主動供應框架/$向$(l:logistics/frames#requester)物流請求框架/$、$(l:logistics/frames#storage)物流儲存框架/$和$(l:logistics/frames#default_storage)物流預設儲存框架/$提供物品/流體。"
+    },
+    {
+      "type": "crafting",
+      "anchor": "passive_provider",
+      "title": "物流被動供應框架",
+      "recipe": "pneumaticcraft:logistic_frame_passive_provider",
+      "text": "$(item)物流被動供應框架/$僅向$(l:logistics/frames#requester)物流請求框架/$提供物品/流體。"
+    },
+    {
+      "type": "crafting",
+      "anchor": "storage",
+      "title": "物流儲存框架",
+      "recipe": "pneumaticcraft:logistic_frame_storage",
+      "text": "$(item)物流儲存框架/$可以從$(l:logistics/frames#active_provider)物流主動供應框架/$接受物品/流體，向$(l:logistics/frames#requester)物流請求框架/$提供物品。"
+    },
+    {
+      "type": "crafting",
+      "anchor": "default_storage",
+      "title": "物流預設儲存框架",
+      "recipe": "pneumaticcraft:logistic_frame_default_storage",
+      "text": "$(item)物流預設儲存框架/$可以從$(l:logistics/frames#active_provider)物流主動供應框架/$接受物品/流體，向$(l:logistics/frames#requester)物流請求框架/$和$(l:logistics/frames#storage)物流儲存框架/$提供物品/流體。該框架的優先度比物流儲存框架更低，所以物品/流體會優先嘗試進入物流儲存框架。"
+    },
+    {
+      "type": "crafting",
+      "anchor": "requester",
+      "title": "物流請求框架",
+      "recipe": "pneumaticcraft:logistic_frame_requester",
+      "text": "$(item)物流請求框架/$可以從其他加框架的容器請求物品。對於該框架，使用設定介面指定框架試圖在容器中$(thing)維持/$的各個物品/流體的量。"
+    }
+  ]
+}

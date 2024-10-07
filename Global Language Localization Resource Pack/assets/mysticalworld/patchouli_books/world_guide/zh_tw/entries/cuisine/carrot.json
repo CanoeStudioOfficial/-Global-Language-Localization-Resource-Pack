@@ -1,0 +1,19 @@
+{
+  "name": "胡蘿蔔配方",
+  "icon": "mysticalworld:cooked_carrot",
+  "category": "cuisine",
+  "pages": [
+    {
+      "type": "spotlight",
+      "link_recipe": true,
+      "item": "mysticalworld:cooked_carrot",
+      "text": "Like beetroots, carrots can also be roasted. You can also slice them into a smaller, more convenient snack!"
+    },
+    {
+      "type": "smelting",
+      "recipe": "mysticalworld:cooked_carrot",
+      "title": "烤胡蘿蔔",
+      "text": "Carrots can be cooked slowly over a campfire, in a furnace, or even more quickly in a smoker."
+    }
+  ]
+}

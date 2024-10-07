@@ -1,0 +1,86 @@
+{
+    "name": "你的第一個反應爐",
+    "icon": "bigreactors:reactorcasing",
+    "category": "bigreactors:intro",
+    "pages": [
+        {
+            "type": "text",
+            "text": "這個反應爐是一個主要生產能量的多方塊機器，。$(br2)一個多方塊機器是由各種方塊組成。$(br2)製作反應堆並為其提供動力你需要黃鈾錠，所以馬上去挖些黃鈾礦然後熔煉它！"
+        },
+        {
+            "type": "multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "bigreactors:reactorcasing",
+                    "C": "bigreactors:reactorcasing",
+                    "F": "bigreactors:reactorfuelrod",
+                    "R": "bigreactors:reactorcontrolrod",
+                    "A": "bigreactors:reactoraccessport",
+                    "E": "bigreactors:reactorpowertaprf",
+                    "X": "bigreactors:reactorcontroller"
+                },
+                "pattern": [
+                    [
+                        "CCC",
+                        "CRC",
+                        "CCC"
+                    ],
+                    [
+                        "CCC",
+                        "EFA",
+                        "CXC"
+                    ],
+                    [
+                        "CCC",
+                        "C0C",
+                        "CCC"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "text": "建造你的第一個反應堆你需要合成以下的基礎反應爐方塊。$(br2)$(li)22x 殼$(li)1x 控制器$(li)1x 控制棒$(li)1x 燃料棒$(li)1x 訪問接口$(li)1x 紅石通量電源接頭$(br2)玻璃方塊實際上是可選的可以被用來替代其他殼方塊。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:reactorcasingcores\n",
+            "recipe2": "bigreactors:reactorcasing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:reactorglass_vanillaglass",
+            "recipe2": "bigreactors:reactorcontroller"
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:reactorcontrolrod",
+            "recipe2": "bigreactors:reactorfuelrod_vanillaglass"
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:reactoraccessport",
+            "recipe2": "bigreactors:reactorpowertaprf"
+        },
+        {
+            "type": "text",
+            "text": "一旦你已經合成所有需要的方塊，你就可以來建造你的第一個反應爐。$(br2)根據圖表在你的世界放置方塊，在中間殼的下面放置燃料棒"
+        },
+        {
+            "type": "text",
+            "text": "如果全部正常，當你放置最後一個方塊時反應爐將會形成現在你可以右鍵開啟控制器的表面。$(br2)如果沒有發生任何事，右鍵任何你放置的方塊：你將會等得到一個解釋錯誤的訊息。一旦你成功修復它，你應該擁有一個成型的反應爐或者其他錯誤訊息。"
+        },
+        {
+            "type": "text",
+            "text": "現在你的反應爐已準備，是時候放入一些燃料。$(br2)拿起更多黃鈾錠然後在訪問接口右鍵。設定接口到輸入模式然後放入你的錠到輸入欄位。$(br2)該錠會快速被反應爐轉換成燃料。$(br2)開啟控制器然後啟動反應爐！"
+        },
+        {
+            "type": "text",
+            "text": "因為反應爐在升溫中，所以生產能量較慢和內能緩衝。$(br2)要使用庫存在反應爐內的能量你需要連一些一些能量管道或者機器到能量接口"
+        },
+        {
+            "type": "text",
+            "text": "恭喜，你已經建造你的第一個反應爐！$(br2)使用它生產所有前期遊戲你需要的能量然後繼續建造其他反應爐和渦輪在你已經讀完剩餘的部分"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "科技槍械畫面",
+    "icon": "techguns:itemshared:1",
+    "category": "tg_inventory",
+    "pages": [
+        {
+            "type": "text",
+            "text": "科技槍械模組會在畫面顯示一些表示狀態效果的指示符號，有些可經由$(l:tg_inventory_tab#buttons)按鈕$(/l)或按鍵來關閉。"
+        },
+        {
+            "type": "image",
+            "title": "畫面及按鈕符號",
+            "anchor": "images",
+            "images": [
+                "techguns:textures/gui/manual/tg_hud_symbols.png"
+            ],
+            "text": "顯示於畫面提示及$(l:tg_inventory_tab)科技槍械物品頁$(/l)中的$(l:tg_inventory_tab#buttons)按鈕$(/l)符號。"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+nucleus.energy.energy=能量
+nucleus.energy.energyStored=儲存能量
+nucleus.energy.energyIn=最大輸入
+nucleus.energy.energyOut=最大輸出
+nucleus.energy.energyTick=能量/tick
+nucleus.text.shiftInfo=按下<SHIFT>鍵來查看更多

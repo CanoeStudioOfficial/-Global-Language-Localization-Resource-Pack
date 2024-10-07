@@ -1,0 +1,12 @@
+{
+  "name": "炎上咒",
+  "category": "curses",
+  "icon": "bewitchment:bottled_hellfire",
+  "pages": [
+    {
+      "type": "bewitchment:curse_recipe",
+      "recipe": "bewitchment:conflagration",
+      "text": "來自地獄的烈焰狠狠地鞭打著敵人，削弱它們對於火焰以及高溫的抗性，這無邊烈焰似乎要將他們徹底化為灰燼。"
+    }
+  ]
+}

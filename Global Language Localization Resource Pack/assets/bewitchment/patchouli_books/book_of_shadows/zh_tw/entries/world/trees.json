@@ -1,0 +1,64 @@
+{
+  "name": "樹木",
+  "category": "world",
+  "icon": "bewitchment:elder_sapling",
+  "pages": [
+    {
+      "type": "text",
+      "text": "常見於各種樹林之中, 樹木是大多數巫術的關鍵道具。"
+    },
+    {
+      "type": "empty",
+      "draw_filler": false
+    },
+    {
+      "type": "text",
+      "title": "柏樹",
+      "text": "在針葉環境中(如Taigas地形)發現的一種高大而黑暗的樹。這種樹與死亡和來世有關，對製備死亡低潮煙霧至關重要。儘管如此，用柏木製成的掃把在飛行中可以給騎手帶來暫時的抗性。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "bewitchment:textures/gui/patchouli/cypress.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "接骨木",
+      "text": "接骨木是一種在茂密的森林中常見的樹，包括常見的森林和樺木森林。這棵樹與智慧有關，樹苗產生智慧液滴。用這棵樹的木頭製作的魔法掃把是最快的。這棵樹也產生多汁的漿果，這是你父親曾經聞到的。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "bewitchment:textures/gui/patchouli/elder.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "杜松",
+      "text": "一種主要在幹極度乾旱區發現的樹，最常見的是在薩瓦納草原。這棵樹以其強大的魔力而聞名，從幼樹中提取的提取物被用來製作液化魔力。這種木質的掃把具有天生的魔力，不需要額外提供魔力。它產生小的藍色莓狀球果，是一種流行的香料。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "bewitchment:textures/gui/patchouli/juniper.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "龍血木",
+      "text": "一種稀少的樹木，以其樹脂而聞名，它有著許多用途，但最常見的用途是參與符文製作。這種樹在自然環境下已經找不到了，但是某些鍊金術士會以家養的形式種植這種樹，他們或許會給其所信任的人一些樹苗。用伯萊恩新月小刀剝去一個成熟的原木，會使得原木流出似血殷紅的樹脂。用這種木頭做成的掃帚很快，速度僅次於接骨木。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "bewitchment:textures/gui/patchouli/dragonsblood.png"
+      ],
+      "border": true,
+      "text": "雖然速度略遜一籌，但是你可以將符文附著掃帚其上，掃帚上的符文效果會施加到騎手身上。"
+    }
+  ]
+}

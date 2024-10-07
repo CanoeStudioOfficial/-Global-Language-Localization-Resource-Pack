@@ -1,0 +1,17 @@
+{
+  "name": "生怪籠激發器",
+  "icon": "pneumaticcraft:spawner_agitator",
+  "category": "semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "放置在$(item)生怪籠/$上時，該物品「$(thing)激發/$」生怪籠：$(li)其將阻止生產的實體在玩家離開該區域時消失。$(li)即便玩家不在有效區域內，生怪籠仍將生成實體。$(p)有誰想要生怪塔嗎？$(p)使用$(l:tools/logistics_configurator)物流設定器/$或另一生怪籠激發器$(thing)潛行右擊/$以移除生怪籠激發器。"
+    },
+    {
+      "type": "crafting",
+      "text": "生怪籠激發器的合成表",
+      "recipe": "pneumaticcraft:spawner_agitator"
+    }
+  ]
+}

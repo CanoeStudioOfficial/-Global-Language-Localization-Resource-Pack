@@ -1,0 +1,28 @@
+{
+	"name": "風暴水晶礦脈",
+	"icon": "ancientspellcraft:crystal_ore_lightning",
+	"category": "3_worldgen",
+	"sortnum": 4,
+	"pages": [
+		{
+			"type": "spotlight",
+			"item": "ancientspellcraft:crystal_ore_lightning",
+			"text": "風暴水晶礦石可以在極端山地生態域的陡峭山脈下找到。由於他們家鄉的生態域高度，所以他們在形成過程中吸收了大量的靜電。",
+			"link_recipe": false
+		},
+		{
+			"type": "image",
+			"images": [
+				"ancientspellcraft:textures/gui/entries/stormy_ore_shard.png"
+			],
+			"title": "風暴水晶礦脈",
+			"text": ""
+		},
+		{
+			"type": "crafting",
+			"recipe": "ancientspellcraft:magic_crystal_lightning",
+			"title": "風暴水晶",
+			"text": "        工作台"
+		}
+	]
+}

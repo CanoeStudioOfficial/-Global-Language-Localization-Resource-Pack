@@ -1,0 +1,29 @@
+{
+    "name": "生長藥水",
+    "icon": "dynamictrees:dendropotion:3",
+    "category": "藥水",
+    "sortnum": "3",
+    "pages": [
+        {
+            "type": "brewing",
+            "title": "生長藥水",
+            "ingredient": "minecraft:ghast_tear",
+            "bottle": "dynamictrees:dendropotion",
+            "output": "dynamictrees:dendropotion:3",
+            "text": "這種藥水使樹木快速生長。"
+        },
+        {
+            "type": "relations",
+            "title": "關係",
+            "entries": [
+                "potions/basepotion",
+                "potions/depletionpotion",
+                "potions/fertilitypotion",
+                "potions/gigaspotion",
+                "potions/persistancepotion",
+                "potions/transformationpotion",
+                "potions/basetransformationpotion"
+            ]
+        }
+    ]
+}

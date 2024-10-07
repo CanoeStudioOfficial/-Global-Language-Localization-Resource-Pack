@@ -1,0 +1,28 @@
+{
+	"name": "蒼翠水晶礦脈",
+	"icon": "ancientspellcraft:crystal_ore_earth",
+	"category": "3_worldgen",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "spotlight",
+			"item": "ancientspellcraft:crystal_ore_earth",
+			"text": "倉翠水晶礦石可以在森林生態域下找到。它們在幾千年前形成期間由礦物質和史前蕈根的汁液滋養。這些水晶似乎與地球母親產生共鳴。",
+			"link_recipe": false
+		},
+		{
+			"type": "image",
+			"images": [
+				"ancientspellcraft:textures/gui/entries/verdant_ore_shard.png"
+			],
+			"title": "蒼翠水晶礦脈",
+			"text": ""
+		},
+		{
+			"type": "crafting",
+			"recipe": "ancientspellcraft:magic_crystal_earth",
+			"title": "暗夜水晶",
+			"text": "        工作台"
+		}
+	]
+}

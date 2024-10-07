@@ -1,0 +1,38 @@
+{
+    "name": "月宮",
+    "icon": "theaurorian:moontemplekey",
+    "category": "2modprogression",
+    "sortnum": "6",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "image",
+            "title": "月宮",
+            "text": "",
+            "images": [
+                "theaurorian:patchouli_books/the_aurorian_guide/en_us/entries/aurorianbasics/moontemple.png"
+            ]
+        },
+        {
+            "type": "text",
+            "text": "$(#008cff)月宮$()是浮空的島嶼，它們只會像$(#008cff)符石地牢$()一樣，沿 x 軸和 z 軸生成。有一條小路帶你上去。這裡是$(#8800ff)皎月女王$()的家！$(br2)月宮附近還有其他的浮空島世界嶼，重要的合成材料$(#008cff)皎月寶石$()便會在上面生成。"
+        },
+        {
+            "type": "crafting",
+            "title": "月宮鑰匙",
+            "recipe": "theaurorian:items/special/moontemplekey"
+        },
+        {
+            "type": "spotlight",
+            "title": "暗黑護符",
+            "item": "theaurorian:darkamulet",
+            "text": "$(#8800ff)蛛母$()會掉落能通往下一座地牢的$(#008cff)暗黑護符$()。$(br2)$(#008cff)月宮$()的內部有兩座塔。塔頂會有$(#008cff)月宮內室鑰匙碎片$()。"
+        },
+        {
+            "type": "crafting",
+            "title": "月宮內室鑰匙",
+            "recipe": "theaurorian:items/special/moontemplecellkey",
+            "text": "在完成兩座塔的探索並拿到兩個鑰匙碎片後，可以將取得到的鑰匙碎片與$(#008cff)皎月寶石$()合成為月宮內室鑰匙。現在你可以進入 Boss 房間了！"
+        }
+    ]
+}

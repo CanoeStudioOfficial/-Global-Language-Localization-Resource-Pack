@@ -1,0 +1,30 @@
+{
+  "name": "調節器管道模組",
+  "icon": "pneumaticcraft:regulator_tube_module",
+  "category": "tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "調節器管道模組是一個$(thing)管上/$模組，用於限制通過管道的$(l:base_concepts/pressure)壓力/$。要設定模組工作的閾值 $(formula)Pt/$，施加強度為 $(formula)S/$ 的$(#f00)紅石訊號/$：$(p)$(formula)  Pt = (15 - S) / 2/$$(p)例如，強度為 6 的$(#f00)紅石訊號/$將把壓力閾值設定為 $(formula) (15 - 6) / 2 = 4.5 bar/$。"
+    },
+    {
+      "type": "text",
+      "text": "模組的窄側達到這一壓力時，模組將阻止空氣流過該管道。這一點可以被用作「$(thing)變壓器/$」：輸入（寬）側為高壓空氣，但調節器管道模組將輸出端的壓力限制到閾值壓力。$(p)這可以用於用高壓氣網供應低壓氣網。"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)調節器管道模組/$$(italic)僅/$允許空氣從輸入面（寬）通向輸出面（窄）；空氣無法反向傳播。這意味著該模組也可以用作單向閥。$(p)註：$(thing)調節器管道模組/$$(italic)並不/$主動降低輸出側的壓力；其只在輸出側壓力將升高到閾值時阻止通過模組的空氣流動。"
+    },
+    {
+      "type": "text",
+      "title": "高級印刷電路板",
+      "text": "向調節器管道模組安裝$(l:tubes/advanced_pcb)高級印刷電路板/$後，可以在設定介面中更精細地控制閾值。或者，在勾選$(bold)高級設定/$標籤頁後，基於紅石訊號調整插值閾值。這一功能與$(l:tubes/pressure_gauge_module#img)壓力表管道模組/$相同。"
+    },
+    {
+      "type": "crafting",
+      "text": "調節器管道模組的合成表",
+      "recipe": "pneumaticcraft:regulator_tube_module"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+msc.default=系統預設
+msc.output=輸出:%s
+msc.newdevice=選擇新的輸出設備
+msc.activedevice=目前啟用:%s

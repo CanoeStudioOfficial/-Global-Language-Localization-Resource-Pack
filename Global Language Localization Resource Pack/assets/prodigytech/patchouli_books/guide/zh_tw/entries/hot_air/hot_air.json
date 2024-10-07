@@ -1,0 +1,27 @@
+{
+    "name": "熱空氣",
+    "icon": "prodigytech:air_funnel",
+    "category": "hot_air",
+    "advancement": "prodigytech:recipes/ferramic_ingot",
+    "priority": true,
+    "sortnum": -2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "這Mod中大多數的機器都用$(thing)熱空氣$()作為他們的燃料。$(thing)熱空氣$()是由$(thing)氣熱爐$()產出的，然後從機器的上方輸出$(thing)熱空氣$()。$(br2)$(thing)熱空氣$()會一直往上升，以及在遇到他不能通過的東西的時候就會開始消散。"
+        },
+        {
+            "type": "text",
+            "text": "$(thing)使用熱空氣的機器$()需要從他們的底面輸入$(thing)熱空氣$()且得在某個溫度才能讓他們工作。$(br2)他們也能向上傳輸$(thing)熱空氣$()，當機器在工作時，傳輸的溫度會低一些。這就需要你去只使用一個$(thing)氣熱爐$()來驅動你的一系列機器，而且還需要用向上堆疊的方式來放置機器。"
+        },
+        {
+            "type": "text",
+            "text": "更的溫度會讓機器運作得更快。例如你供給一個機器需求的兩倍溫度，那麼機器的運作速度也是兩倍。$(br2)所以他也間接的允許你堆疊儘可能多的能保持工作狀態的機器，一直到最後一個無法工作為止。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "prodigytech:machine/air_funnel",
+            "text": "$(item)空氣管道$()能讓你傳輸$(thing)熱空氣$()到更遠的距離，而不用做哪些昂貴的機器。$(br)此外給予管道一個紅石訊號就能讓他停止傳輸$(thing)熱空氣$()。"
+        }
+    ]
+}

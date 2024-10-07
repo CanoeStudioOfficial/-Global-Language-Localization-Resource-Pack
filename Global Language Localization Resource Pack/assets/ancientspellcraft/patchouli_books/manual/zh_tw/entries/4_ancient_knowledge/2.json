@@ -1,0 +1,17 @@
+{
+	"name": "遺跡",
+	"icon": "ancientspellcraft:ancient_spellcraft_spell_book",
+	"category": "ancient_knowledge",
+	"sortnum": 1,
+	"advancement": "ancientspellcraft:relics",
+	"pages": [
+		{
+			"type": "text",
+			"text": " 石碑、遠古法力瓶、符文……大多數法師認為這些遺物是垃圾——被遺忘時代的無用遺跡。一些巫師學者（通常是歷史學家）痴迷於這些石碑和其他遺物的收藏家，但已知他們中沒有人能夠破譯這些物品中的字形。它們通常用作裝飾品、禮物或書擋。然而，你的直覺和好奇心決定了它們在未來可能對你有用。"
+		},
+		{
+			"type": "text",
+			"text": " 他們將來可能會對你有用。"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "皎月寶石",
+    "icon": "theaurorian:moongem",
+    "category": "5blocks",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:moongem",
+            "text": "被不知名的統治者煉造出來的神秘寶石。皎月寶石可以在月宮附近的浮空島世界嶼上被找到，在許多配方中都很重要。"
+        }
+    ]
+}

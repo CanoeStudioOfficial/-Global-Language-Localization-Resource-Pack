@@ -1,0 +1,16 @@
+{
+  "name": "與祭壇連接",
+  "icon": "deepmoblearningbm:altar_linker",
+  "category": "4_bm",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)祭壇連接器$()可以將$(l:4_bm/0_digital_agonizer)數位折磨者$()連接到$(item)血之祭壇$()上。$(br2)最大連接距離：$(item)25$()格。"
+    },
+    {
+      "type": "recipelookup",
+      "recipe": "deepmoblearningbm:altar_linker"
+    }
+  ]
+}

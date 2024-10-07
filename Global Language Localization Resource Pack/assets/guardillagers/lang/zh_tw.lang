@@ -1,0 +1,5 @@
+entity.GuardIllager.name=窳民守衛
+item.guard_helm.name=守衛的頭盔
+guardillagers:subtitles.guardillager.ambient=窳民守衛嘀咕聲
+guardillagers:subtitles.guardillager.hurt=窳民守衛受傷
+guardillagers:subtitles.guardillager.die=窳民守衛死亡

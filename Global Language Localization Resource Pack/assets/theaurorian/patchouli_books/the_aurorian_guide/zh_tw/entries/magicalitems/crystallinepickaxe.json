@@ -1,0 +1,13 @@
+{
+    "name": "月凝晶鎬",
+    "icon": "theaurorian:crystallinepickaxe",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:crystallinepickaxe",
+            "text": "$(#008cff)月凝晶鎬$()會熔煉礦並掉落一些粒！"
+        }
+    ]
+}

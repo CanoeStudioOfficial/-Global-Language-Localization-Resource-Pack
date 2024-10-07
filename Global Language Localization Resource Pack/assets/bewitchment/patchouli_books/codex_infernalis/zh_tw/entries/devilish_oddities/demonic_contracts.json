@@ -1,0 +1,47 @@
+{
+  "name": "惡魔契約",
+  "category": "devilish_oddities",
+  "icon": "bewitchment:contract",
+  "pages": [
+    {
+      "type": "text",
+      "text": "許多惡魔會提供給凡人簽訂契約的機會，它們會說，契約必須以血液為證……這一邪惡的交易將會使得乙方將它的地獄能量注入到甲方之中。名譽，財富，所有的所有……$(br)$(o)墨水對我而言一文不值，$(playername)……簽下你的名字吧"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:contract",
+      "title": "契約：乾涸",
+      "text": "你將會獲得可以消滅周圍所有的作物的能力，你會力量會因此上漲。"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:contract",
+      "title": "契約：怒意吞噬",
+      "text": "你會在擊殺生物後恢復生命值。"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:contract",
+      "title": "契約：狂戰士",
+      "text": "敵人血量越少，你的傷害越高。"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:contract",
+      "title": "契約：點燃",
+      "text": "挖掘的礦將會被自動冶煉。"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:contract",
+      "title": "契約：火焰抗性",
+      "text": "降低你所受到的火焰傷害。"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:contract",
+      "title": "請求：極裂",
+      "text": "啟動能力時非慣用手須持一份巫媒，能力啟動後，巫媒對象會瞬間靜滯，接著被切割為數塊，然後死亡。"
+    }
+  ]
+}

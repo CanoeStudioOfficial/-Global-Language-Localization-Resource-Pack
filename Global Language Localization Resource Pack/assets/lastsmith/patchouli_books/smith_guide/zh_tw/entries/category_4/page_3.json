@@ -1,0 +1,19 @@
+{
+   "name": "「枯石之大刀」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/dios/dios\", TextureName: \"named/dios/koseki\"}",
+   "category": "category_4",
+   "pages": [
+      {
+         "type": "text",
+         "text": "被凋零之力侵蝕的大刀。$(br2)來自於散華和凋零的共同作用使得這振刀擁有凋零的力量……$(br2)極有可能反噬自身……"
+      },
+      {
+         "type": "entity",
+         "entity": "minecraft:wither",
+         "scale": 1,
+         "text": "在耀魂鐵錠構築的刀掛台上安放無銘之刃，召喚凋零，衝擊引起刀刃的共鳴達到進化……"
+      }
+   ],
+   "advancement": "lastsmith:bewitched_blade",
+   "sortnum": 2
+}

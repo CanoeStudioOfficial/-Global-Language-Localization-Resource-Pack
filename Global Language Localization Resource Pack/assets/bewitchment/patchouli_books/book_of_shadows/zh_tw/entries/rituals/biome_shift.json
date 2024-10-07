@@ -1,0 +1,15 @@
+{
+  "name": "生態域改變",
+  "category": "rituals",
+  "icon": "minecraft:sapling",
+  "pages": [
+    {
+      "type": "text",
+      "text": "通過超自然的方法，這個儀式可以改變特定區域的氣候，進而將群系改變為女巫所希望的那種群系。你需要在你所想需要的生態域裡使用一下伯萊恩新月小刀，這樣儀式才能知曉你所想要是什麼群系。"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:biome_shift"
+    }
+  ]
+}

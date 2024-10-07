@@ -1,0 +1,17 @@
+key.callablehorses.category=馬匹召喚
+key.sethorse.desc=設定馬
+key.callhorse.desc=召喚馬
+key.showstats.desc=顯示馬的數據
+callablehorses.error.dim=你不能在這裡召喚馬！
+callablehorses.error.riding=你不能在騎乘時召喚馬！
+callablehorses.error.nohorse=你還沒有用於召喚的馬！
+callablehorses.error.notriding=你需要騎著馬來設定！
+callablehorses.error.alreadyowned=這匹馬已經有主人了！
+callablehorses.error.alreadypersonal=你已經設定成私人馬了！
+callablehorses.error.area=你不能在這個區域召喚你的馬！
+callablehorses.error.range=你離你的馬太遠了，它聽不到你的聲音！
+callablehorses.error.setarea=你不能在這個區域放馬！
+callablehorses.error.nospace=這裡沒有足夠的空間來召喚你的馬！
+callablehorses.success=這匹馬現在是你的了！
+callablehorses.alert.death=你的私人馬已死亡！
+callablehorses.alert.offlinedeath=你的私人馬在離線時已死亡！

@@ -1,0 +1,13 @@
+{
+    "name": "月凝晶劍",
+    "icon": "theaurorian:crystallinesword",
+    "category": "3magicalitems",
+    "readbydefault": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "theaurorian:crystallinesword",
+            "text": "$(#008cff)月凝晶劍$()能讓你蓄力並發射出一道波束！"
+        }
+    ]
+}

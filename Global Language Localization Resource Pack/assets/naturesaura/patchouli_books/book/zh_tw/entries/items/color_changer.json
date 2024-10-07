@@ -1,0 +1,21 @@
+{
+    "name": "五彩繽紛桶",
+    "icon": "naturesaura:color_changer",
+    "category": "items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用$(thing)顏色$()讓建築美觀的手段是建築玩家間的標準技術。然而，有時很難找到你所需的所有顏色。$(item)五彩繽紛桶$()，僅僅使用了世上的三種主要顏色，可以在接觸時創造任何顏色，並將顏色轉移到可染色方塊上。"
+        },
+        {
+            "type": "text",
+            "text": "要使用五彩繽紛桶，只需在潛行時互動任何可染色方塊。若想讓這顏色轉移到另一方塊，只需直接與之互動。$(br)對空氣潛行右擊可以切換至$(thing)填充模式$()，意味著一旦著色了一個可染色方塊，周圍所有的同色方塊都將被著色。$(br)當然，這些都需要一些$(thing)靈氣$()，需要依靠背包中的$(l:items/aura_cache)靈氣快取$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "合成$(item)五彩繽紛桶$()",
+            "recipe": "naturesaura:color_changer"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "君王巴弗滅",
+  "category": "greater_demons",
+  "icon": "bewitchment:caduceus",
+  "pages": [
+    {
+      "type": "text",
+      "text": "它在所有惡魔中都是最臭名昭著的存在，巴弗滅長著山羊的頭和腿，以一種女性的形象示人，在背上還長著一對巨大且彎曲的翅膀。巴弗滅的頭上還頂著一束火把，那燃燒的火焰似乎輕喃著來自異域的知識。"
+    },
+    {
+      "type": "text",
+      "text": "人們常常會認為巴弗滅與鍊金術師以及墮落聖騎這些邪惡事物有關，這是由於它會「祝福」那些值得地獄知識侵占的人，哪怕那些人的腦子根本無法理解它的「祝福」。巴弗滅還可以強行控制下位惡魔，還能用惡魔的力量祝福那些召喚它的人。"
+    },
+    {
+      "type": "text",
+      "title": "誓約",
+      "text": "想要在這隻古老的山羊面前證明自己對它的忠誠，你需要手持五芒星，身著任意的全套女巫裝備，然後喝下大亂燉。"
+    },
+    {
+      "type": "entity",
+      "entity": "bewitchment:baphomet",
+      "scale": "0.9",
+      "text": "$(o)Wouldst thou like to live deliciously?"
+    },
+    {
+      "type": "text",
+      "title": "Summoning",
+      "text": "想要召喚出巴弗滅，你需要在儀式上傾撒一些羔羊之血。我在下面記錄了該儀式的具體細節。"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "bewitchment:conjure_baphomet",
+      "name": "巴弗滅之祭"
+    }
+  ]
+}

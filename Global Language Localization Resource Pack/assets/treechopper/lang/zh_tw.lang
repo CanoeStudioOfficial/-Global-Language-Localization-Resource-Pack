@@ -1,0 +1,17 @@
+proxy.printBlock=方塊：
+proxy.printMainHand=手持物品：
+command.errorMessage=輸入 "/tch help" 尋求幫助
+command.decayLeavesSwitch=樹葉清除已被切換
+command.plantSaplingSwitch=自動種植已被切換
+command.reverseShiftSwitch=翻轉方式已被切換
+command.disableShiftSwitch=shift停用功能已被切換
+command.permissions=你沒有使用此指令的權限
+command.infoInfo=打印伺服器設定相關訊息
+command.plantSaplingInfo=在他的樹幹周圍自動種植樹苗
+command.decayLeavesInfo=當樹倒下時快速凋謝樹葉
+command.reverseShiftInfo=反轉shift功能
+command.disableShiftInfo=停用shift功能
+command.decayLeaves=樹葉凋謝：
+command.plantSapling=自動種植樹苗:
+command.reverseShift=反向函數：
+command.disableShift=停用shift:

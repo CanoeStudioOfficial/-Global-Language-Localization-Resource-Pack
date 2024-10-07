@@ -1,0 +1,10 @@
+superbas11.configgui.showMainMenuMobs=顯示選單生物
+superbas11.configgui.showMainMenuMobs.tooltip=設定為「True」來顯示登入的玩家和一個隨機的實體在主選單中，設定為"False"來停用
+superbas11.configgui.showOnlyPlayerModels=只顯示玩家模型
+superbas11.configgui.showOnlyPlayerModels.tooltip=
+superbas11.configgui.mobSoundVolume=音量
+superbas11.configgui.mobSoundVolume.tooltip=
+superbas11.configgui.fixedMob=修復實體
+superbas11.configgui.fixedMob.tooltip=列出會顯示在主選單的生物
+superbas11.configgui.allowDebugOutput=允許除錯輸出
+superbas11.configgui.allowDebugOutput.tooltip=

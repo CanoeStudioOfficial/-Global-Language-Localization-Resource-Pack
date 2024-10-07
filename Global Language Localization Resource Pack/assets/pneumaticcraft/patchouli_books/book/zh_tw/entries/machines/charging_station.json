@@ -1,0 +1,50 @@
+{
+  "name": "充氣站",
+  "icon": "pneumaticcraft:charging_station",
+  "category": "machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)充氣站/$用於對氣動物品充氣（或放氣）。$(item)充氣站/$和$(l:base_concepts/pressure)氣動/$物品的互動與機器和管道的互動相同：壓力差將被平衡。也就是說，需要一個壓力很高的$(item)充氣站/$以將物品完全充氣。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:charging_station",
+      "text": "大多數氣動物品的最高壓力為 10 bar。但是不要擔心爆炸；物品不會因為壓力過大而爆炸。相反，在到達最大壓力時充氣將會停止。"
+    },
+    {
+      "type": "text",
+      "title": "充氣平台",
+      "text": "可以通過安裝$(l:base_concepts/upgrades#dispenser)發射器升級/$將充氣站轉化為$(thing)充氣平台/$。這將會把$(item)充氣站/$上的所有物品以及站在其上的玩家的物品欄中所有物品充/放氣。$(p)$(thing)充氣平台/$可以使用$(l:tools/camo_applicator)偽裝塗敷器/$進行偽裝。"
+    },
+    {
+      "type": "text",
+      "title": "管理升級",
+      "text": "$(item)充氣站/$同時可以用於管理可接受$(l:base_concepts/upgrades)升級/$的物品。要對物品安裝升級，將其放置在$(item)充氣站/$中，並點擊物品槽上方的$(thing)上箭頭/$按鈕。這將打開另一個介面；對應物品的所有可用升級在這個介面的側頁標籤頁上列出。"
+    },
+    {
+      "type": "relations",
+      "title": "可充氣的物品",
+      "entries": [
+        "tools/air_canister",
+        "tools/pneumatic_wrench",
+        "tools/logistics_configurator",
+        "tools/camo_applicator",
+        "tools/vortex_cannon",
+        "tools/minigun",
+        "tools/drone",
+        "tools/manometer",
+        "armor/pneumatic_helmet",
+        "armor/pneumatic_chestplate",
+        "armor/pneumatic_leggings",
+        "armor/pneumatic_boots"
+      ]
+    },
+    {
+      "type": "crafting",
+      "text": "充氣站的合成表",
+      "recipe": "pneumaticcraft:charging_station"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+tile.chest_andesite.name=安山岩儲物箱
+tile.chest_cobblestone.name=鵝卵石儲物箱
+tile.chest_diorite.name=閃長岩儲物箱
+tile.chest_granite.name=花崗岩儲物箱
+tile.chest_stone.name=石頭儲物箱
+item.part_andesite.name=安山岩部件
+item.part_cobblestone.name=鵝卵石部件
+item.part_diorite.name=閃長岩部件
+item.part_granite.name=花崗岩部件
+item.part_stone.name=石頭部件

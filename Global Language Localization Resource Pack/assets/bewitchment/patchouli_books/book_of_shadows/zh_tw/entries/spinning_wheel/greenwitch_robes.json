@@ -1,0 +1,27 @@
+{
+  "name": "綠野女巫長袍",
+  "category": "spinning_wheel",
+  "icon": "bewitchment:green_witch_hat",
+  "pages": [
+    {
+      "type": "text",
+      "text": "用真絲將藍色羊毛以及生氣勃勃的植物縫入傳統長袍內，這一帶有生命氣息的長袍可以使得行走於自然之中的穿戴者得到增強，並讓他們更為親近大自然的靈魂，獲得關於植物的知識，同時它也能催生周圍的作物。"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:green_witch_hat"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:green_witch_hood"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:green_witch_robes"
+    },
+    {
+      "type": "bewitchment:spinning_wheel_recipe",
+      "recipe": "bewitchment:green_witch_pants"
+    }
+  ]
+}

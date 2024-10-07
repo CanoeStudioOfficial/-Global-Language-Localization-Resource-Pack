@@ -1,0 +1,17 @@
+{
+    "name": "焚化爐",
+    "icon": "prodigytech:incinerator",
+    "category": "hot_air",
+    "advancement": "prodigytech:main/aeroheater",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)焚化爐$()只是一個十分普通的機器，他會把任意物品都轉換成$(item)灰$()。$(item)灰$()有多種用途，包括裝飾和作為一個能給$(item)爆炸熔爐$()吸收少量EP的$(thing)吸收劑$()。$(br2)物品能從機器除了頂部和底部以外的各個面輸入/輸出。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "prodigytech:machine/incinerator",
+            "recipe2": "prodigytech:decorative/ash_bricks"
+        }
+    ]
+}

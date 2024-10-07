@@ -1,0 +1,5 @@
+itemGroup.usefulrailroads:tab=實用鐵軌
+tile.usefulrailroads:rail_highspeed.name=高速軌道 (5 方塊/刻)
+tile.usefulrailroads:rail_teleport.name=傳送軌道
+tile.usefulrailroads:rail_direction.name=單向軌道
+tile.usefulrailroads:rail_intersection.name=交叉軌道

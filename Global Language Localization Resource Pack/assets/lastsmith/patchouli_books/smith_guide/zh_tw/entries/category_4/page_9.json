@@ -1,0 +1,34 @@
+{
+   "name": "山櫻「葵」",
+   "icon": "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamazakura/model\",TextureName: \"named/yamazakura/yamazakura_aoi\"}",
+   "category": "category_4",
+   "pages": [
+      {
+         "type": "text",
+         "text": "事實上，在山櫻十二刃鍛造的過程中有幾名其他地區的刀匠曾偷取一些山櫻村的隕鐵。$(br2)他們在葦原邊境的一處地方，根據其完成的刀試圖打造出同等上品的鋼刀，準備賜給內府將軍。$(br2)他們打造出來了一振鋼刀，取名為「葵」"
+      },
+      {
+         "type": "text",
+         "text": "刀匠畢竟只是刀匠，不會運用手中的武器……$(br2)察覺事態變化的葦原武者，將他們在路上用他們鍛造出來的「葵」殺害並將其帶走。$(br2)或許是因為他們的作祟，「葵」也被邪魔所侵染，與隕鐵起了反應……$(br2)儘管略遜於神月，毫無疑問也是葦原的一大戰力，被一名精英所持有……"
+      },
+      {
+         "type": "text",
+         "text": "盜國之戰爆發了……$(br2)手持「神月」之人與手持「葵」之人並肩作戰，以絕技：櫻之流「空間震」擊退了不知多少敵兵……$(br2)如同記載一般，我曾見識過那一劍技的真正實力：落下「五月雨」的一刻，空間被切裂開來……$(br2)據我所知，除了邪魔的力量之外，山櫻靈力之強盛的原因還在於其落下的隕鐵煉製而成的魂櫻之鋼……"
+      },
+      {
+         "type": "text",
+         "text": "葦原國的滅亡，是在短短十幾年後……$(br2)手持「神月」之人與手持「葵」之人被暗殺，「神月」與「葵」一併遺失。葦原土產的妖刀就這樣消失，只留下了一段史料……$(br2)我認為，山櫻刃的遺失屬實是一大遺憾。我也只能根據史料的記載來儘可能還原此二刃……$(br2)即便擁有力量，卻難以維持安寧……"
+      },
+      {
+         "type": "entity",
+         "entity": "minecraft:evocation_illager",
+         "text": "使用刀擊殺，會得到「葵」的仿作……"
+      },
+      {
+         "type": "crafting",
+         "recipe": "lastsmith:flammpfeil.slashblade.named.yamazakura.aoi"
+      }
+   ],
+   "advancement": "lastsmith:bewitched_blade",
+   "sortnum": 8
+}

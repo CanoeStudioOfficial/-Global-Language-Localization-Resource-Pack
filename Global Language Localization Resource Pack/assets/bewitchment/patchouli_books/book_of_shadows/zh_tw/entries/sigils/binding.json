@@ -1,0 +1,16 @@
+{
+  "name": "束縛符文",
+  "category": "sigils",
+  "icon": "bewitchment:sigil_binding",
+  "pages": [
+    {
+      "type": "bewitchment:sigil_recipe",
+      "recipe": "bewitchment:binding"
+    },
+    {
+      "type": "spotlight",
+      "item": "bewitchment:sigil_binding",
+      "text": "給對象造成暫時性癱瘓效果"
+    }
+  ]
+}

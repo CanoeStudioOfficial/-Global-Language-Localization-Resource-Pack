@@ -1,0 +1,1678 @@
+#Railcraft_12.0.0-beta-3
+#Ice_ink
+
+advancements.railcraft.carts.bed_cart.name=車輪の上の夢
+advancements.railcraft.carts.bed_cart.desc=ベッドカートに乗って寝ている。
+advancements.railcraft.carts.jukebox_cart.name=通り過ぎてゆく音楽
+advancements.railcraft.carts.jukebox_cart.desc=ジュークボックスカートでレコードを再生する。
+advancements.railcraft.carts.link_carts.name=カートを連結
+advancements.railcraft.carts.link_carts.desc=スニークを忘れないで!
+advancements.railcraft.carts.locomotive.name=ローリング・スルー
+advancements.railcraft.carts.locomotive.desc=機関車で列車を動かす。
+advancements.railcraft.carts.root.name=カートたち
+advancements.railcraft.carts.root.desc=車両と魔法のRailcraft
+advancements.railcraft.carts.seasons.name=古き良き
+advancements.railcraft.carts.seasons.desc=ｼｰｽﾞﾝ･ｵﾌﾞ･ﾊﾞｰﾙでカートの季節を変更する。
+advancements.railcraft.carts.surprise.name=盛大に吹き飛ばす
+advancements.railcraft.carts.surprise.desc=季節のカートを爆発させて(マジで?)プレゼントを受け取りましょう。
+
+advancements.railcraft.tracks.blast_furnace.name=製鉄所
+advancements.railcraft.tracks.blast_furnace.desc=高炉を建設する。
+advancements.railcraft.tracks.coke_oven.name=コークスヘッド
+advancements.railcraft.tracks.coke_oven.desc=コークス炉用レンガの説明/ﾂｰﾙﾁｯﾌﾟを読み、きちんと組み立てる。
+advancements.railcraft.tracks.firestone.name=扱い悩むエネルギー
+advancements.railcraft.tracks.firestone.desc=ネザーの溶岩の海の底からファイアストーン鉱石を見つけ出し、破砕機でそれを砕く。
+advancements.railcraft.tracks.high_speed_track.name=カートも奮い立つ
+advancements.railcraft.tracks.high_speed_track.desc=ハイスピードレールを手に入れ、マインカートでそこに乗り込む。
+advancements.railcraft.tracks.junctions.name=ベター・フォーク
+advancements.railcraft.tracks.junctions.desc=犬釘ハンマーを使い、通常のレールを,分岐,Ｙ字型,交差に変換する。
+advancements.railcraft.tracks.manual_rolling_machine.name=疲れ知らずのローリング
+advancements.railcraft.tracks.manual_rolling_machine.desc=合金から圧延機を作成する。
+advancements.railcraft.tracks.regular_track.name=合理的な価格
+advancements.railcraft.tracks.regular_track.desc=標準軌条からレールを作成する。
+advancements.railcraft.tracks.rock_crusher.name=ヘビィ・マシーナリー
+advancements.railcraft.tracks.rock_crusher.desc=破砕機を組み立てる。
+advancements.railcraft.tracks.root.name=レール/トラックたち
+advancements.railcraft.tracks.root.desc=Railcraft Inc.'s がお送りします。
+advancements.railcraft.tracks.track_kit.name=多機能レール
+advancements.railcraft.tracks.track_kit.desc=電装レールにレールキットを配置し、車止めなどの機能を付与する。
+advancements.railcraft.tracks.wooden_track.name=ウッド・エイジ
+advancements.railcraft.tracks.wooden_track.desc=少しの鉄で作成できる、鉄打ちレールを入手する。
+
+chat.railcraft.api.error=Error: 古いAPIです。 詳細についてはログを参照してください。
+
+command.railcraft.aliases=エイリアス/Aliases: %s
+command.railcraft.block.notFound=対象の場所に、有効なブロックが見つかりませんでした。
+command.railcraft.help=ヘルプ/helpについては、'%s'を入力してください。
+command.railcraft.list=利用可能なサブ-コマンド:
+command.railcraft.permlevel=権限レベル: %s
+command.railcraft.noperms=あなたには、このコマンドを実行させる権限がありません。
+
+command.railcraft.railcraft.help=Railcraftにおける様々なコマンド
+command.railcraft.railcraft.format=形式/Format: /%s <sub-command>
+
+command.railcraft.railcraft.admin.desc=- %s : 管理者用ツール
+command.railcraft.railcraft.admin.help=管理者のためのツールです。
+command.railcraft.railcraft.admin.format=形式/Format: /%s
+
+command.railcraft.railcraft.admin.kill.desc=- %s : 様々な物の消去/Kill Tasks
+command.railcraft.railcraft.admin.kill.help=様々なものを消去するためのツール。
+command.railcraft.railcraft.admin.kill.format=形式/Format: /%s
+
+command.railcraft.railcraft.admin.kill.animals.desc=- %s : 動物の消去/Kill Animals
+command.railcraft.railcraft.admin.kill.animals.help=現在のワールドに存在する全ての動物を消去します。
+command.railcraft.railcraft.admin.kill.animals.format=形式/Format: /%s
+
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : マインカートの消去/Kill Minecarts
+command.railcraft.railcraft.admin.kill.minecarts.help=現在のワールドに存在する全てのマインカートを消去します。
+command.railcraft.railcraft.admin.kill.minecarts.format=形式/Format: /%s
+
+command.railcraft.railcraft.crafting.desc=- %s : レシピのテスト
+command.railcraft.railcraft.crafting.help=レシピの出力とエフェクト(効果)をテストします。
+command.railcraft.railcraft.crafting.format=形式/Format: /%s
+
+command.railcraft.railcraft.crafting.blast.furnace.desc=- %s : 高炉レシピの出力テスト
+command.railcraft.railcraft.crafting.blast.furnace.help=高炉レシピの出力テストを行います。 入力に使用するのは、主にメインハンドにあるアイテムです。
+command.railcraft.railcraft.crafting.blast.furnace.format=形式/Format: /%s
+command.railcraft.railcraft.crafting.blast.furnace.message=高炉では、入力するアイテムスタックに対し[%s / %s]が出力されます。
+
+command.railcraft.railcraft.crafting.blast.furnace.fuel.desc=- %s : 高炉における燃料消費のテスト
+command.railcraft.railcraft.crafting.blast.furnace.fuel.help=高炉に使われる燃料の性能値をテストします。 メインハンドにあるアイテムが燃料として使われます。
+command.railcraft.railcraft.crafting.blast.furnace.fuel.format=形式/Format: /%s
+command.railcraft.railcraft.crafting.blast.furnace.fuel.message=高炉における入力されたアイテムスタックの燃焼時間は、[%s / %s]です。
+
+command.railcraft.railcraft.crafting.coke.oven.desc=- %s : コークス炉におけるレシピ出力のテスト
+command.railcraft.railcraft.crafting.coke.oven.help=コークス炉レシピの出力テストを行います。 入力に使用するのは、主にメインハンドにあるアイテムです。
+command.railcraft.railcraft.crafting.coke.oven.format=形式/Format: /%s
+command.railcraft.railcraft.crafting.coke.oven.message=コークス炉では、入力するアイテムスタックに対し[%s / %s]が出力されます。
+
+command.railcraft.railcraft.debug.desc=- %s : デバッグツール
+command.railcraft.railcraft.debug.help=難しい問題のデバッグを行うためのツールです。
+command.railcraft.railcraft.debug.format=形式/Format: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : デバッグツール
+command.railcraft.railcraft.debug.tile.help=タイルエンティティに対するデバッグツールです。
+command.railcraft.railcraft.debug.tile.format=形式/Format: /%s [<x> <y> <z>]
+
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : 送信機デバッグツール
+command.railcraft.railcraft.debug.tile.controller.help=信号送信ボックスなどの、コントローラータイルに対するデバッグツールです。
+command.railcraft.railcraft.debug.tile.controller.format=形式/Format: /%s [<x> <y> <z>]
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : 受信機デバッグツール
+command.railcraft.railcraft.debug.tile.receiver.help=信号受信ボックスなどの、レシーバータイルに対するデバッグツールです。
+command.railcraft.railcraft.debug.tile.receiver.format=形式/Format: /%s [<x> <y> <z>]
+
+
+command.railcraft.railcraft.debug.train.desc=- %s : 列車のデバッグツール
+command.railcraft.railcraft.debug.train.help=列車に対するデバッグツールです。
+command.railcraft.railcraft.debug.train.format=形式/Format: /%s
+
+command.railcraft.railcraft.debug.train.clear.desc=- %s : 列車を消去
+command.railcraft.railcraft.debug.train.clear.help=列車に関する保存データを消去します。
+command.railcraft.railcraft.debug.train.clear.format=形式/Format: /%s
+
+command.railcraft.railcraft.track.desc=- %s : トラックツール
+command.railcraft.railcraft.track.help=トラック(レール)に対するツールです。
+command.railcraft.railcraft.track.format=形式/Format: /%s
+
+command.railcraft.railcraft.track.message.desc=- %s : メッセージレール
+command.railcraft.railcraft.track.message.help=メッセージレールのテキストを設定します。 バニラの '/title' コマンドを参照してください。
+command.railcraft.railcraft.track.message.format=形式/Format: /%s [<x> <y> <z>] <raw json message>
+
+command.railcraft.railcraft.track.message.title.desc=- %s : メッセージレール/タイトル
+command.railcraft.railcraft.track.message.title.help=メッセージレールのタイトルを設定します。 バニラの '/title' コマンドを参照してください。
+command.railcraft.railcraft.track.message.title.format=形式/Format: /%s [<x> <y> <z>] <raw json message>
+
+command.railcraft.railcraft.track.message.subtitle.desc=- %s : メッセージレール/サブタイトル
+command.railcraft.railcraft.track.message.subtitle.help=メッセージレールのサブタイトルを設定します。 バニラの '/title' コマンドを参照してください。
+command.railcraft.railcraft.track.message.subtitle.format=形式/Format: /%s [<x> <y> <z>] <json message or "string">
+
+command.railcraft.railcraft.track.message.actionbar.desc=- %s : メッセージレール/アクションバー
+command.railcraft.railcraft.track.message.actionbar.help=メッセージレールのアクションバーにおけるテキストを設定します。 バニラの '/title' コマンドを参照してください。
+command.railcraft.railcraft.track.message.actionbar.format=形式/Format: /%s [<x> <y> <z>] <json message or "string">
+
+command.railcraft.railcraft.tile.desc=- %s : タイルツール
+command.railcraft.railcraft.tile.help=タイルエンティティに対するツールです。
+command.railcraft.railcraft.tile.format=形式/Format: /%s
+
+command.railcraft.railcraft.tile.owner.desc=- %s : ブロックの所有者
+command.railcraft.railcraft.tile.owner.help=ブロックの所有者を設定します。
+command.railcraft.railcraft.tile.owner.format=形式/Format: /%s [<x> <y> <z>]
+command.railcraft.railcraft.tile.owner.message=所有者/Owner: %s
+
+command.railcraft.railcraft.tile.owner.clear.desc=- %s : ブロックの所有者を初期化
+command.railcraft.railcraft.tile.owner.clear.help=ブロックの所有者を[railcraft]に設定します。
+command.railcraft.railcraft.tile.owner.clear.format=形式/Format: /%s [<x> <y> <z>]
+
+death.railcraft.bore.1=%s は、進路上に飛び出してしまいました。
+death.railcraft.bore.2=%s はシールドマシンの静止を試みました。
+death.railcraft.bore.3=%s はシールドマシンに粉砕されました。
+death.railcraft.bore.4=%s は「ジョン・ヘンリー」よりもやってやれると思いました。
+death.railcraft.bore.5=%s は、岩石と削岩部の間に引きずり込まれました。
+death.railcraft.bore.6=%s は間違った方へ進んでしまいました。
+
+death.railcraft.crusher.1=%s は重機の近くで転んでしまった
+death.railcraft.crusher.2=%s 彼は鋼の男ではなく、潰れかたはみんなと同じでした。
+death.railcraft.crusher.3=%s は奈落の底を眺め、足を滑らせてしまいました。
+death.railcraft.crusher.4=%s は、自身を交換すべきだったのでしょう。
+death.railcraft.crusher.5=%s は、”足元注意！”のサインを無視していました。
+death.railcraft.crusher.6=発売中! %s のブラッドジャム！
+death.railcraft.crusher.7=%s はペースト状になってしまいました。
+death.railcraft.crusher.8=%s は、マニュアルかwikiを読む必要があります。
+
+death.railcraft.electric.1=「こんにちは」と、%s はニコラス・テスラに声をかけられました。
+death.railcraft.electric.2=%s は「高電圧」の意味を理解しました。
+death.railcraft.electric.3=%s は、感電によりて悟りを開きました。
+death.railcraft.electric.4=%s は警告のラベルを、目に入れておくべきでした。
+death.railcraft.electric.5=%s は衝撃的な啓示を受けました。
+death.railcraft.electric.6=%s は、電気とは何であるかを学びました。　これは、痛い!
+
+death.railcraft.steam.1=%s は調理されました。見事なまでにジューシーです。
+death.railcraft.steam.2=%s は、高温に影響されない、という宣伝に惑わされてしまいました。
+death.railcraft.steam.3=%s は、いかに蒸気が痛みを伴うかを発見しました。
+death.railcraft.steam.4=%s は、労災に入っていました。
+death.railcraft.steam.5=%s は、そこに入るべきではありませんでした。
+death.railcraft.steam.6=%s は、最高のサウナがそこにあることを発見しました。
+
+death.railcraft.track.electric.1=%s は、電装レールの仕様に腹を立てました。
+death.railcraft.track.electric.2=%s は「高電圧」の意味を理解しました。
+death.railcraft.track.electric.3=%s は感電によって悟りを開きました。
+death.railcraft.track.electric.4=%s は第三のレールにつまづいてしまいました。
+death.railcraft.track.electric.5=%s は衝撃的な啓示を受けました。
+death.railcraft.track.electric.6=%s は、電気とは何であるかを学びました。　これは、痛い!
+
+death.railcraft.train.1=%s は列車と衝突しました。
+death.railcraft.train.2=%s はレールの上でふざけてしまいました。
+death.railcraft.train.3=%s はチキンレースを開催。 列車が勝利しました。
+death.railcraft.train.4=%s は列車を捕まえようとしてしまいました。
+death.railcraft.train.5=%s はアフターライフの片道切符を購入しました。
+death.railcraft.train.6=%s がオーバーオールを着ていれば,,,
+
+enchantment.railcraft.destruction=爆砕/範囲破壊
+enchantment.railcraft.implosion=縛縮/ｸﾘｰﾊﾟｰ特攻
+enchantment.railcraft.smack=スマック/効率的なｶｰﾄ押し出し
+enchantment.railcraft.wrecking=レッキング/攻撃力増加
+
+entity.railcraft.bore.name=シールドマシン
+entity.railcraft.cart_worldspike_admin.name=管理者用ワールドスパイクカート
+entity.railcraft.cart_worldspike_standard.name=標準型ワールドスパイクカート
+entity.railcraft.cart_worldspike_personal.name=個人用ワールドスパイクカート
+entity.railcraft.cart_basic.name=マインカート
+entity.railcraft.cart_bed.name=ベッド付きカート
+entity.railcraft.cart_cargo.name=カーゴカート
+entity.railcraft.cart_chest.name=チェストカート
+entity.railcraft.cart_chest_metals.name=メタルチェスト付きカート
+entity.railcraft.cart_chest_void.name=消滅チェスト付きカート
+entity.railcraft.cart_command_block.name=コマンドブロックカート
+entity.railcraft.cart_furnace.name=かまど付きカート
+entity.railcraft.cart_gift.name=プレゼントカート
+entity.railcraft.cart_hopper.name=ホッパー付きカート
+entity.railcraft.cart_ic2_batbox.name=バットボックスカート
+entity.railcraft.cart_ic2_cesu.name=CESU カート
+entity.railcraft.cart_ic2_mfe.name=MFE カート
+entity.railcraft.cart_ic2_mfsu.name=MFSU カート
+entity.railcraft.cart_jukebox.name=ジュークボックスカート
+entity.railcraft.cart_pumpkin.name=パンプキンカート
+entity.railcraft.cart_redstone_flux.name=RFカート
+entity.railcraft.cart_spawner.name=スポナーカート
+entity.railcraft.cart_tank.name=タンクカート
+entity.railcraft.cart_tnt.name=TNT付きカート
+entity.railcraft.cart_tnt_wood.name=TNT付き木製カート
+entity.railcraft.cart_trade_station.name=取引所カート
+entity.railcraft.cart_work.name=作業台カート
+entity.railcraft.locomotive_creative.name=無限動力機関車
+entity.railcraft.locomotive_electric.name=電気機関車
+entity.railcraft.locomotive_steam_solid.name=蒸気機関車
+entity.railcraft.mow_track_layer.name=レール敷設カート
+entity.railcraft.mow_track_relayer.name=レール換装カート
+entity.railcraft.mow_track_remover.name=レール除去カート
+entity.railcraft.mow_undercutter.name=敷石交換カート
+
+entity.Villager.trackman=鉄道技師
+entity.Villager.cartman=カート技師
+entity.Villager.alloyer=合金精錬工
+entity.Villager.steel_forger=鋼鉄精錬工
+
+fluid.creosote=クレオソートオイル
+fluid.steam=蒸気
+
+item.minecartChest.name=チェストカート
+item.minecartFurnace.name=かまど付きカート
+item.minecartTnt.name=TNT付きカート
+item.minecartHopper.name=ホッパー付きカート
+
+item.railcraft.armor.boots.steel.name=鋼鉄のブーツ
+item.railcraft.armor.chestplate.steel.name=鋼鉄のチェストプレート
+item.railcraft.armor.goggles.name=鉄道技師のゴーグル
+item.railcraft.armor.helmet.steel.name=鋼鉄のヘルメット
+item.railcraft.armor.leggings.steel.name=鋼鉄のレギンス
+item.railcraft.armor.overalls.name=整備士のオーバーオール
+item.railcraft.armor.overalls.tips=線路で起きる事故から\nあなたを護ります。
+
+item.railcraft.backpack.apothecary.t1.name=薬師のバックパック
+item.railcraft.backpack.apothecary.t2.name=編み上げられた薬師のバックパック
+item.railcraft.backpack.iceman.t1.name=氷屋のバックパック
+item.railcraft.backpack.iceman.t2.name=編み上げられた氷屋のバックパック
+item.railcraft.backpack.tips=Railcraft, Incによるデザイン。
+item.railcraft.backpack.trackman.t1.name=鉄道技師のバックパック
+item.railcraft.backpack.trackman.t2.name=編み上げられた鉄道技師のバックパック
+
+item.railcraft.bleached.clay.name=白骨粘土
+
+item.railcraft.borehead.bronze.name=青銅のボールヘッド
+item.railcraft.borehead.diamond.name=ダイヤモンドのボールヘッド
+item.railcraft.borehead.iron.name=鉄のボールヘッド
+item.railcraft.borehead.steel.name=鋼鉄のボールヘッド
+
+item.railcraft.charge.coil.name=チャージコイル
+item.railcraft.charge.electrode.iron.name=鉄製の電極
+item.railcraft.charge.electrode.nickel.name=ニッケル製の電極
+item.railcraft.charge.electrode.zinc.name=亜鉛製の電極
+item.railcraft.charge.motor.name=チャージモーター
+item.railcraft.charge.terminal.name=チャージターミナル
+item.railcraft.charge.spool.large.name=太いチャージワイヤの束
+item.railcraft.charge.spool.medium.name=中太のチャージワイヤの束
+item.railcraft.charge.spool.small.name=細いチャージワイヤの束
+
+item.railcraft.circuit.controller.name=制御回路基板
+item.railcraft.circuit.radio.name=ラジオ回路基板
+item.railcraft.circuit.receiver.name=受信回路基板
+item.railcraft.circuit.signal.name=信号回路基板
+
+item.railcraft.concrete.name=ドライ・コンクリートの袋
+
+item.railcraft.dust.charcoal.name=木炭の粉
+item.railcraft.dust.coal.name=石炭の粉
+item.railcraft.dust.ender.name=エンダーパウダー
+item.railcraft.dust.obsidian.name=黒曜石の粉
+item.railcraft.dust.saltpeter.name=硝石の粉
+item.railcraft.dust.slag.name=粉砕された高炉スラグ
+item.railcraft.dust.sulfur.name=硫黄の粉
+item.railcraft.dust.void.name=ボイドパウダー
+
+item.railcraft.emblem.name=エンブレム
+
+item.railcraft.entity.bore.desc=トンネルを掘り、レールを敷設してゆくマシンです。
+item.railcraft.entity.bore.name=シールドマシン
+item.railcraft.entity.cart.worldspike.admin.desc=ワールドの読み込み時に5x5チャンクの範囲の読み込みを行います。 燃料を必要とせず、またこのアイテムを作成することはできません、
+item.railcraft.entity.cart.worldspike.admin.name=管理者用:ワールドスパイクカート
+item.railcraft.entity.cart.worldspike.admin.tips=チャンクローダー\n§o§c- ｱｸﾃｨﾍﾞｰﾀｰﾚｰﾙには反応しません -
+item.railcraft.entity.cart.worldspike.personal.desc=5x5チャンクの範囲を読み込みます。 ただし、ワールド読み込み時にそれを行うことはありません。  さらに所有者がログオフしたときに、それらの読み込みを停止します。 コンフィグ設定に応じて、燃料が必要な
+item.railcraft.entity.cart.worldspike.personal.name=個人用:ワールドスパイクカート
+item.railcraft.entity.cart.worldspike.personal.tips=チャンクローダー\n§o§c- ｱｸﾃｨﾍﾞｰﾀｰﾚｰﾙには反応しません -
+item.railcraft.entity.cart.worldspike.standard.desc=5x5チャンクの範囲を読み込みます。 ただし、ワールド読み込み時にそれを行うことはありません。 コンフィグ設定に応じて、燃料が必要な場合があります。
+item.railcraft.entity.cart.worldspike.standard.name=標準:ワールドスパイクカート
+item.railcraft.entity.cart.worldspike.standard.tips=チャンクローダー\n§o§c- ｱｸﾃｨﾍﾞｰﾀｰﾚｰﾙには反応しません -
+item.railcraft.entity.cart.basic.name=マインカート
+item.railcraft.entity.cart.bed.name=ベッド付きカート
+item.railcraft.entity.cart.cargo.name=カーゴカート
+item.railcraft.entity.cart.chest.name=チェストカート
+item.railcraft.entity.cart.chest.metals.name=メタルチェスト付きカート
+item.railcraft.entity.cart.chest.void.name=消滅チェスト付きカート
+item.railcraft.entity.cart.furnace.name=かまど付きカート
+item.railcraft.entity.cart.gift.name=プレゼントカート
+item.railcraft.entity.cart.gift.tips=メリークリスマス!
+item.railcraft.entity.cart.ic2.batbox.name=バットボックスカート
+item.railcraft.entity.cart.ic2.cesu.name=CESU カート
+item.railcraft.entity.cart.ic2.mfe.name=MFE カート
+item.railcraft.entity.cart.ic2.mfsu.name=MFSU カート
+item.railcraft.entity.cart.jukebox.name=ジュークボックスカート
+item.railcraft.entity.cart.pumpkin.name=パンプキンカート
+item.railcraft.entity.cart.pumpkin.tips=トリック オア トリート!
+item.railcraft.entity.cart.redstone.flux.name=RFカート
+item.railcraft.entity.cart.spawner.name=スポナーカート
+item.railcraft.entity.cart.tank.name=タンクカート
+item.railcraft.entity.cart.tnt.name=TNT付きカート
+item.railcraft.entity.cart.tnt.wood.name=TNT付き木製カート
+item.railcraft.entity.cart.trade.station.name=取引所カート
+item.railcraft.entity.cart.work.name=作業台カート
+item.railcraft.entity.locomotive.creative.name=無限動力機関車
+item.railcraft.entity.locomotive.creative.tips=§o§9クリエイティブ限定
+item.railcraft.entity.locomotive.electric.name=電気機関車
+item.railcraft.entity.locomotive.steam.solid.name=蒸気機関車
+item.railcraft.entity.mow.track.layer.name=レール敷設カート
+item.railcraft.entity.mow.track.layer.tips=移動する先にレールを敷設します
+item.railcraft.entity.mow.track.relayer.name=レール換装カート
+item.railcraft.entity.mow.track.relayer.tips=カート下にあるレールを\n交換してゆきます
+item.railcraft.entity.mow.track.remover.name=レール除去カート
+item.railcraft.entity.mow.track.remover.tips=通過したレールを\n取り除いて行きます
+item.railcraft.entity.mow.undercutter.name=敷石交換カート
+item.railcraft.entity.mow.undercutter.tips=レール下のブロックを\n置き換えて行きます
+
+item.railcraft.filter.bee.desc=アイテムローダー(アンローダー)、アイテムディテクターにおいて、全ての蜂を扱えるようになります。
+item.railcraft.filter.bee.name=蜂フィルター
+item.railcraft.filter.bee.tips=全ての蜂を網羅しています。
+item.railcraft.filter.bee.genome.desc=アイテムローダー(ｱﾝﾛｰﾀﾞｰ)、アイテムディテクターに使用することで、分析済みの蜂と照らし合わせることができます。 分析済みの蜂と一緒にクラフトしてください。 上側は蜂の品種、左は優性の遺伝子、右は劣性の遺伝子が設定されます。 各スロットに必ず蜂をが必要な訳ではありません。蜂がいない場合、ワイルドカード(なんでも)として扱われます。 染色体(雄/雌)を切り替えるには、手にもってフィルターを使用してください。
+item.railcraft.filter.bee.genome.name=遺伝子別の蜂フィルター
+item.railcraft.filter.bee.genome.tips=フィルターを設定するには、分析された\n蜂を使ってクラフトしてください。\n使用することで染色体を切り替えます。
+item.railcraft.filter.bee.genome.tips.type=§aハチの品種: §7%s
+item.railcraft.filter.bee.genome.tips.chromosome=§a染色体(雄/雌): §7%s
+item.railcraft.filter.bee.genome.tips.active=§a優性遺伝子: §7%s
+item.railcraft.filter.bee.genome.tips.inactive=§a劣性遺伝子: §7%s
+item.railcraft.filter.bee.genome.tips.wildcard=全て
+item.railcraft.filter.blank.desc=なにも設定されていないフィルターです。 アイテムタイプ、または鉱石辞書に基づくフィルターを作成するための中間素材です。
+item.railcraft.filter.blank.name=白紙のフィルター
+item.railcraft.filter.ore.dict.desc=規準として設定したアイテムが持つ鉱石辞書のタグと、同じタグを持つアイテムを選別することができます。<br>アイテム(アン)ローダー、アイテムディテクターにおいて使用できます。<br>鉱石辞書タグの例:
+item.railcraft.filter.ore.dict.name=鉱石辞書フィルター
+item.railcraft.filter.ore.dict.tips=規準となるアイテムを設定するために、\n鉱石辞書のタグが付いたアイテムと\nクラフトします。
+item.railcraft.filter.ore.dict.tips.tags=§a一致するタグ:
+item.railcraft.filter.type.desc=規準として設定したアイテムと同じitem classを持つアイテムを選別することができます。<br>アイテム(アン)ローダー、アイテムディテクターにおいて使用できます。
+item.railcraft.filter.type.name=アイテムタイプフィルター
+item.railcraft.filter.type.tips=規準となるアイテムを設定するために\nそのアイテムとクラフトしてください。
+item.railcraft.filter.tips.prototype=§a規準アイテム:
+
+item.railcraft.firestone.cracked.name=割れたファイアストーン
+item.railcraft.firestone.cracked.tips.charged=石から熱が漏れ出しています。\n注意して扱えば、まだ活用できる\nかもしれません...
+item.railcraft.firestone.cracked.tips.empty=壊れていますが、\n充填すれば使える\nようです。
+item.railcraft.firestone.cut.name=研ぎ出したファイアストーン
+item.railcraft.firestone.cut.tips=荒れ狂う力が、\n今だ内部で暴れています...
+item.railcraft.firestone.raw.name=ファイアストーンの原石
+item.railcraft.firestone.raw.tips=石は手の中で高ぶり始めます。\nあなたを取り巻く空気も、\nそれに気が付かせるでしょう...
+item.railcraft.firestone.refined.name=ファイアストーン
+item.railcraft.firestone.refined.tips.charged=エネルギーでみたされています。\nあなたの意志で、凄まじい熱量が\n解放されるでしょう...
+item.railcraft.firestone.refined.tips.empty=中の熱は制御下にあり、\n充填させて使えば\n役に立つことでしょう。
+
+item.railcraft.fluid.bottle.creosote.name=クレオソート入りの瓶
+item.railcraft.fluid.bottle.steam.name=蒸気入りの瓶
+item.railcraft.fluid.bucket.creosote.name=クレオソート入りのバケツ
+
+item.railcraft.fluid.creosote.can.name=クレオソート入りのカン
+item.railcraft.fluid.creosote.cell.name=クレオソート入りのセル
+item.railcraft.fluid.creosote.refactory.name=クレオソート入りのカプセル
+item.railcraft.fluid.creosote.wax.name=クレオソート入りのカプセル
+
+item.railcraft.fuel.coke.name=コークス
+
+item.railcraft.gear.brass.name=真鍮の歯車
+item.railcraft.gear.bronze.name=青銅の歯車
+item.railcraft.gear.bushing.name=ギアパーツ
+item.railcraft.gear.invar.name=インバーの歯車
+item.railcraft.gear.iron.name=鉄の歯車
+item.railcraft.gear.steel.name=鋼鉄の歯車
+
+item.railcraft.ingot.brass.name=真鍮インゴット
+item.railcraft.ingot.bronze.name=青銅インゴット
+item.railcraft.ingot.copper.name=銅インゴット
+item.railcraft.ingot.invar.name=インバーインゴット
+item.railcraft.ingot.lead.name=鉛インゴット
+item.railcraft.ingot.nickel.name=ニッケルインゴット
+item.railcraft.ingot.silver.name=銀インゴット
+item.railcraft.ingot.steel.name=鋼鉄インゴット
+item.railcraft.ingot.tin.name=錫インゴット
+item.railcraft.ingot.zinc.name=亜鉛インゴット
+
+item.railcraft.nugget.brass.name=真鍮のナゲット
+item.railcraft.nugget.bronze.name=青銅のナゲットt
+item.railcraft.nugget.copper.name=銅のナゲット
+item.railcraft.nugget.invar.name=インバーのナゲット
+item.railcraft.nugget.iron.name=鉄のナゲット
+item.railcraft.nugget.lead.name=鉛のナゲット
+item.railcraft.nugget.nickel.name=ニッケルのナゲット
+item.railcraft.nugget.silver.name=銀のナゲット
+item.railcraft.nugget.steel.name=鋼鉄のナゲット
+item.railcraft.nugget.tin.name=錫のナゲット
+item.railcraft.nugget.zinc.name=亜鉛のナゲット
+
+item.railcraft.plate.brass.name=真鍮の圧延板
+item.railcraft.plate.bronze.name=青銅の圧延板
+item.railcraft.plate.copper.name=銅の圧延板
+item.railcraft.plate.gold.name=金の圧延板
+item.railcraft.plate.invar.name=インバーの圧延板
+item.railcraft.plate.iron.name=鉄の圧延板
+item.railcraft.plate.lead.name=鉛の圧延板
+item.railcraft.plate.nickel.name=ニッケルの圧延板
+item.railcraft.plate.silver.name=銀の圧延板
+item.railcraft.plate.steel.name=鋼鉄の圧延板
+item.railcraft.plate.tin.name=錫の圧延板
+item.railcraft.plate.zinc.name=亜鉛の圧延板
+
+item.railcraft.rail.advanced.name=特殊軌条
+item.railcraft.rail.electric.name=電装軌条
+item.railcraft.rail.reinforced.name=耐爆軌条
+item.railcraft.rail.speed.name=H.S.軌条
+item.railcraft.rail.standard.name=標準軌条
+item.railcraft.rail.wood.name=鈍行軌条
+
+item.railcraft.railbed.stone.name=石の枕木
+item.railcraft.railbed.wood.name=木の枕木
+
+item.railcraft.rebar.name=鉄筋材
+
+item.railcraft.routing.table.name=経路表
+item.railcraft.routing.ticket.gold.name=ゴールドチケット
+item.railcraft.routing.ticket.name=鉄道チケット
+
+item.railcraft.signal.lamp.name=信号機ランプ
+
+item.railcraft.tie.stone.name=石の横木
+item.railcraft.tie.wood.name=木の横木
+
+item.railcraft.tool.axe.steel.name=鋼鉄のオノ
+item.railcraft.tool.charge.meter.name=チャージメーター
+item.railcraft.tool.charge.meter.tips=§o右クリックすることで充電された\nブロックの容量を測定します
+item.railcraft.tool.crowbar.iron.name=鉄製のバール
+item.railcraft.tool.crowbar.magic.name=ソーミウム製のバール
+item.railcraft.tool.crowbar.seasons.name=シーズン・オブ・バール
+item.railcraft.tool.crowbar.seasons.tips=叩くことで、季節の魔法をかけます。
+item.railcraft.tool.crowbar.seasons.tips.mode=シーズン: %s
+item.railcraft.tool.crowbar.steel.name=鋼鉄製のバール
+item.railcraft.tool.crowbar.tips=§oスニーク-右クリックでカートを連結させます
+item.railcraft.tool.crowbar.void.name=ヴォイドメタルのバール
+item.railcraft.tool.hoe.steel.name=鋼鉄のクワ
+item.railcraft.tool.magnifying.glass.name=拡大鏡
+item.railcraft.tool.notepad.action.copy.fail=コピーできるものがありません。有効な対象ではありません。
+item.railcraft.tool.notepad.action.copy=%s の設定をコピーしました
+item.railcraft.tool.notepad.action.empty=貼り付けできるものがありません。スニーク-クリックで対象をコピーします。
+item.railcraft.tool.notepad.action.paste.fail=貼り付けできません。%sは、有効な対象ではありません。
+item.railcraft.tool.notepad.action.paste=%s の設定を貼り付けしました。
+item.railcraft.tool.notepad.name=鉄道技師のノートパッド
+item.railcraft.tool.notepad.tips.contents.empty=§4フィルターなし
+item.railcraft.tool.notepad.tips.contents.filter.cart=§eカートフィルター
+item.railcraft.tool.notepad.tips.contents.filter.fluid=§b液体フィルター
+item.railcraft.tool.notepad.tips.contents.filter.items=§2アイテムフィルター
+item.railcraft.tool.notepad.tips.contents=内容: %s
+item.railcraft.tool.notepad.tips.mode.all=全て
+item.railcraft.tool.notepad.tips.mode.cart.filter=カートフィルター
+item.railcraft.tool.notepad.tips.mode.loader.filters=アイテム/液体フィルター
+item.railcraft.tool.notepad.tips.mode=貼り付けモード: %s
+item.railcraft.tool.notepad.tips= §o右クリックで貼り付け、スニーク-右クリックでコピー、\n再度右クリックでコピーしたものを削除します。
+item.railcraft.tool.pickaxe.steel.name=鋼鉄のツルハシ
+item.railcraft.tool.shears.steel.name=鋼鉄のハサミ
+item.railcraft.tool.shovel.steel.name=鋼鉄のシャベル
+item.railcraft.tool.signal.label.name=信号機ラベル
+item.railcraft.tool.signal.label.tips=§9- 金床で名前を変更できます -\n§oスニーク-右クリックで信号、\nまたは信号機に名前を付けます
+item.railcraft.tool.signal.surveyor.name=RailCraft:信号リンクサーベイヤー
+item.railcraft.tool.signal.surveyor.tips=信号機同士をリンクさせます
+item.railcraft.tool.signal.tuner.name=RailCraft:標識送受信チューナー
+item.railcraft.tool.signal.tuner.tips=受信機と送信機をリンクさせます
+item.railcraft.tool.spike.maul.iron.name=鉄の犬釘ハンマー
+item.railcraft.tool.spike.maul.steel.name=鋼鉄の犬釘ハンマー
+item.railcraft.tool.spike.maul.tips=レールを分岐、交差型に変換できます
+item.railcraft.tool.stone.carver.name=石の彫刻具
+item.railcraft.tool.sword.steel.name=鋼鉄の剣
+item.railcraft.tool.whistle.tuner.name=警笛調整具
+
+item.railcraft.track.parts.name=レールパーツ
+item.railcraft.track.parts.tips=レールキットの作成に使用します
+
+item.railcraft.turbine.blade.name=タービンブレード
+item.railcraft.turbine.disk.name=タービンディスク
+item.railcraft.turbine.rotor.name=タービンローター
+
+item.railcraft.upgrade.lapotron=ラポトロンローダー アップグレードキット
+
+item.synthetic=合成品
+
+itemGroup.railcraft.general=Railcraft
+itemGroup.railcraft.track=Railcraft: キットを装着したレール
+itemGroup.railcraft.structure=Railcraft: 装飾用ブロック
+
+railcraft.color.black=黒色
+railcraft.color.blue=青色
+railcraft.color.brown=茶色
+railcraft.color.cyan=青緑色
+railcraft.color.gray=灰色
+railcraft.color.green=緑色
+railcraft.color.light_blue=空色
+railcraft.color.light_gray=薄灰色
+railcraft.color.lime=黄緑色
+railcraft.color.magenta=赤紫色
+railcraft.color.orange=橙色
+railcraft.color.pink=桃色
+railcraft.color.purple=紫色
+railcraft.color.red=赤色
+railcraft.color.white=白色
+railcraft.color.yellow=黄色
+
+railcraft.gates.action.pause=一時停止
+railcraft.gates.action.sendcart=カートを排出
+
+railcraft.gates.trigger.aspect.green=標識:緑色
+railcraft.gates.trigger.aspect.off=標識:off
+railcraft.gates.trigger.aspect.red.blink=標識:赤色点滅
+railcraft.gates.trigger.aspect.red=標識:赤色
+railcraft.gates.trigger.aspect.yellow.blink=標識:黄色点滅
+railcraft.gates.trigger.aspect.yellow=標識:黄色
+railcraft.gates.trigger.cart=カートがある
+railcraft.gates.trigger.engine.blue=エンジンの状態
+railcraft.gates.trigger.engine.green=エンジンの状態
+railcraft.gates.trigger.engine.orange=エンジンの状態
+railcraft.gates.trigger.engine.red=エンジンの状態
+railcraft.gates.trigger.engine.yellow=エンジンの状態
+railcraft.gates.trigger.fuel=燃料不足
+railcraft.gates.trigger.maintenance=整備が必要
+railcraft.gates.trigger.temp.cold=冷えている
+railcraft.gates.trigger.temp.hot=熱い
+railcraft.gates.trigger.temp.warm=ぬるい
+railcraft.gates.trigger.work=動作中
+
+gui.railcraft.actuator.motor.action=標識を表示させる
+gui.railcraft.actuator.motor.redstone=赤石信号を無視
+
+gui.railcraft.worldspike.fuel.remaining=%s 時間
+gui.railcraft.worldspike.fuel=ワールドスパイク 燃料
+gui.railcraft.worldspike.pair.cancel=%s ペアリングが取り消されました。
+gui.railcraft.worldspike.pair.fail.alignment=@1$s は @2$s の軸と一致していません。
+gui.railcraft.worldspike.pair.fail.dimension=%1$s は対象と異なるディメンションにあります。
+gui.railcraft.worldspike.pair.fail.distance=@1$s と @2$s は離れ過ぎています。
+gui.railcraft.worldspike.pair.fail.invalid=%sとのペアリングにおいて、有効な対象ではありません。
+gui.railcraft.worldspike.pair.fail.unloaded=%s とのペアリングの際、対象が読み込まれて(ロードされて)いませんでした。
+gui.railcraft.worldspike.pair.start=%s のペアリングを開始しました。
+gui.railcraft.worldspike.pair.success=%s はペアリングに成功しました。
+
+gui.railcraft.aspect.blink.red.name=赤色点滅
+gui.railcraft.aspect.blink.yellow.name=黄色点滅
+gui.railcraft.aspect.green.name=緑色
+gui.railcraft.aspect.off.name=Off
+gui.railcraft.aspect.red.name=赤色
+gui.railcraft.aspect.yellow.name=黄色
+
+gui.railcraft.aura.disable=%s オーラ Off
+gui.railcraft.aura.enable=%s オーラ On
+
+gui.railcraft.blast.furnace=高炉
+
+gui.railcraft.bore.ballast=バラスト(敷石)
+gui.railcraft.bore.fuel=燃料
+gui.railcraft.bore.head=採掘ヘッド
+gui.railcraft.bore.track=レール
+
+gui.railcraft.box.aspect.action=一致すると赤石信号を出力
+gui.railcraft.box.capacitor.duration=赤石信号を %s 秒間出力
+gui.railcraft.box.capacitor.falling.name=立ち下がりエッジ
+gui.railcraft.box.capacitor.falling.tips=最後の信号がOFFになるとタイマーを開始させます。
+gui.railcraft.box.capacitor.rising.name=立ち上がりエッジ
+gui.railcraft.box.capacitor.rising.tips=信号を受信すると、タイマーを開始させます。
+gui.railcraft.box.controller.aspect.default=初期状態の標識:
+gui.railcraft.box.controller.aspect.redstone=赤石信号の標識:
+
+# Stuff after newline is hidden for hotbar messages
+gui.railcraft.cart.bed.key=起きるには%1$sを押してください。 - 夜を寝て過ごす場合は、%2$sを押してください。
+gui.railcraft.cart.tnt.fuse=起爆時間
+gui.railcraft.cart.track.relayer.pattern=換装パターン
+gui.railcraft.cart.track.relayer.stock=在荷
+gui.railcraft.cart.undercutter.pattern=交換の対象
+gui.railcraft.cart.undercutter.sides=敷石の両隣
+gui.railcraft.cart.undercutter.transfer.stock.name=在荷
+gui.railcraft.cart.undercutter.under=敷石
+
+gui.railcraft.charge.meter.cart=カート -> 蓄電量: %s c | 引込: %s c/t | 損失: %s c/t
+gui.railcraft.charge.meter.network=ネットワーク -> 規模: %s | 蓄電量: %s c | 引込: %s c/t | 最大引込量: %s c/t | 損失: %s c/t | 効率: %s%%
+gui.railcraft.charge.meter.node=接続部 -> Draw: %s c/t | 損失: %s c/t
+gui.railcraft.charge.meter.producer=供給 -> 蓄電量: %s c | 生成量: %s c/t | 最大引込量: %s c/t | 損失: %s c/t | 効率: %s%%
+gui.railcraft.charge.meter.start=--- %s 秒間におけるデータを記録、測定しています...
+
+gui.railcraft.charge.network.usage=ネットワーク使用率: {percent}
+
+gui.railcraft.coke.oven=コークス炉
+
+gui.railcraft.detector.item.analog=何かが入っていれば
+gui.railcraft.detector.item.anything=インベントリのあるカートであれば
+gui.railcraft.detector.item.at_least=全て揃っていればいれば
+gui.railcraft.detector.item.at_most=どれかが入っていなければ
+gui.railcraft.detector.item.empty=空荷であれば
+gui.railcraft.detector.item.exactly=種類、個数まで一致していれば
+gui.railcraft.detector.item.filtered=フィルター設定
+gui.railcraft.detector.item.full=満載であれば
+gui.railcraft.detector.item.greater_than=全ての種類が個数を上回って入れば
+gui.railcraft.detector.item.less_than=いずれかの種類が個数に届かなければ
+gui.railcraft.detector.item.not_empty=空荷でない
+gui.railcraft.detector.loco.primary=プライマリ カラー
+gui.railcraft.detector.loco.secondary=セカンダリ カラー
+gui.railcraft.detector.tank.tips.analog=タンクの内容量に基づいた\n強度の赤石信号を出力
+gui.railcraft.detector.tank.tips.empty=タンクが空である
+gui.railcraft.detector.tank.tips.full=タンクが満杯である
+gui.railcraft.detector.tank.tips.half=タンク内容量が半分"以上"である
+gui.railcraft.detector.tank.tips.less.than.full=タンク内容量が満杯に達していない
+gui.railcraft.detector.tank.tips.less.than.half=タンク内容量が半分"以下"である
+gui.railcraft.detector.tank.tips.less.than.most=タンク内容量が3/4"以下"である
+gui.railcraft.detector.tank.tips.less.than.quarter=タンク内容量が1/4"以下"である
+gui.railcraft.detector.tank.tips.most=タンク内容量が3/4"以上"である
+gui.railcraft.detector.tank.tips.not.empty=タンク内が空でない
+gui.railcraft.detector.tank.tips.quarter=タンク内容量が1/4"以上"である
+gui.railcraft.detector.tank.tips.void=任意の値に一致している
+gui.railcraft.detector.train.size=列車規模 %s
+gui.railcraft.detector.villager.any=全て
+gui.railcraft.detector.villager.equals=等しい
+gui.railcraft.detector.villager.none=村人以外
+gui.railcraft.detector.villager.not=等しくない
+
+gui.railcraft.energy.loader.empty=空の状態を保とうとする
+gui.railcraft.energy.loader.fill=満タンになるまで
+gui.railcraft.energy.unloader.wait=空になるまで待機
+
+gui.railcraft.engrave.entercode=アンロックのためのコードを入力してください。
+gui.railcraft.engrave.getmore1=下のリンクから訪ねてください。
+gui.railcraft.engrave.getmore2=アンロックコードをさらに見つける!
+gui.railcraft.engrave.openunlock=エンブレムをアンロック
+gui.railcraft.engrave.unlock.exists=アンロック済みです!
+gui.railcraft.engrave.unlock.fail=失敗しました!
+gui.railcraft.engrave.unlock.success=成功しました!
+gui.railcraft.engrave.unlock=アンロックしました!
+gui.railcraft.engrave=エングレイヴ
+
+gui.railcraft.feed.station.feed=餌を入れて下さい。
+
+gui.railcraft.force.track.emitter.info=現在、%d個のフォーストラックが存在します。
+
+gui.railcraft.filter=フィルター
+gui.railcraft.filters.carts=認識カート
+gui.railcraft.filters=フィルタ内
+
+gui.railcraft.goggles.aura.worldspike=ワールドスパイク
+gui.railcraft.goggles.aura.none=なし
+gui.railcraft.goggles.aura.shunting=列車連結
+gui.railcraft.goggles.aura.signalling=信号機リンク
+gui.railcraft.goggles.aura.surveying=サーベイヤーリンク
+gui.railcraft.goggles.aura.tracking=トラッキング
+gui.railcraft.goggles.aura.tuning=空中線リンク
+gui.railcraft.goggles.mode=選択中のオーラ: %s
+gui.railcraft.goggles.tips=オーラを変更するには\n手にもって右クリックをしてください。
+
+gui.railcraft.help=ヘルプ
+
+gui.railcraft.ic2.energy.rate=変換率: %s EU
+
+gui.railcraft.jei.category.coke=コークス炉による精錬
+gui.railcraft.jei.category.blast_furnace=高炉による精錬
+gui.railcraft.jei.category.crushing=破砕機
+gui.railcraft.jei.category.rolling=圧延機
+gui.railcraft.jei.burntime=燃焼時間: %s tick
+gui.railcraft.jei.recipe.copy=NBTをコピー
+gui.railcraft.jei.recipe.paint=ペイント
+gui.railcraft.jei.recipe.repair=修復
+gui.railcraft.jei.recipe.setup=セットアップ
+gui.railcraft.jei.recipe.split=スプリット
+
+gui.railcraft.link.broken=連結を解除
+gui.railcraft.link.created=連結完了
+gui.railcraft.link.failed=連結を放棄
+gui.railcraft.link.started=連結を開始
+
+gui.railcraft.liquid.capacity=容量
+
+gui.railcraft.locomotive.electric.tips.button.mode.running=機関車を稼働させます。
+gui.railcraft.locomotive.electric.tips.button.mode.shutdown=機関車を停止させます。
+gui.railcraft.locomotive.mode.idle=暖機
+gui.railcraft.locomotive.mode.running=走行
+gui.railcraft.locomotive.mode.shutdown=停止
+gui.railcraft.locomotive.steam.tips.button.mode.idle=暖機状態は燃料を消費しますが、\n機関車の熱を保持し続けます。\n機関車がレールに停車させられているときは、\n暖機状態と同じように動作します。
+gui.railcraft.locomotive.steam.tips.button.mode.running=機関車を稼働させます。
+gui.railcraft.locomotive.steam.tips.button.mode.shutdown=機関車を停止させます。\n内部の燃焼も停止し、動力部は冷えてゆきます。\nこれには時間がかかることがあります。
+gui.railcraft.locomotive.tips.button.locked=この機関車両は、\n {owner}\nによってロックされています。\nまたこれらは、機関車両のオーナーによって\n発光されたチケットのみを受け付けます。
+gui.railcraft.locomotive.tips.button.private=この機関車は、\n {owner}\nのプライベート車両です。\nこれらは車両オーナーによってのみ\n制御することができます。
+gui.railcraft.locomotive.tips.button.unlocked=クリックすると機関車両が\nロックされます。\n一度ロックを行うと、あなた自身、\nまたは管理者が発行した\nチケットのみを受け付けます。
+gui.railcraft.locomotive.tips.item.emblem=§oエンブレム:§r %s
+gui.railcraft.locomotive.tips.item.model.default=初期モデル
+gui.railcraft.locomotive.tips.item.model=§oモデル:§r %s
+gui.railcraft.locomotive.tips.item.owner=§oオーナー:§r %s
+gui.railcraft.locomotive.tips.item.primary=§oプライマリカラー:§r %s
+gui.railcraft.locomotive.tips.item.secondary=§oセカンダリカラー:§r %s
+gui.railcraft.locomotive.tips.item.whistle=§o警笛のピッチ:§r %s
+gui.railcraft.locomotive.tips.slot.ticket=チケットを挿入
+
+gui.railcraft.mag.glass.aspect.dual=信号機における標識: 上部:%1$s 下部:%2$s
+gui.railcraft.mag.glass.aspect=この信号機の標識は %s です。
+gui.railcraft.mag.glass.cart.furnace=かまど付きカート内の残り燃料: %d ticks分
+gui.railcraft.mag.glass.cart.number=次のカートの番号: %d
+gui.railcraft.mag.glass.placedby=%1$s は %2$s によって配置されました。
+
+gui.railcraft.manipulator.buffer=控え
+gui.railcraft.manipulator.redstone.complete.name=コンプリート :発車条件
+gui.railcraft.manipulator.redstone.complete.tips=処理が完了していると、\nレールへ赤石信号を出力します。
+gui.railcraft.manipulator.redstone.immediate.name=見送り :発車条件
+gui.railcraft.manipulator.redstone.immediate.tips=積み込み、取り出しが\n出来なくなるまでは\n赤石信号を出力しません。
+gui.railcraft.manipulator.redstone.manual.name=手動操作 :発車条件
+gui.railcraft.manipulator.redstone.manual.tips=レッドストーン信号を\n発することはありません。
+gui.railcraft.manipulator.redstone.partial.name=待機 :発車条件
+gui.railcraft.manipulator.redstone.partial.tips=積み込み、取り出しが\n出来なくなるまでは\n赤石信号を出力しません。\nカートの内容物に変化があるまでは、\n赤石信号を出力しません。
+gui.railcraft.manipulator.transfer.all.name=全て :仕分け
+gui.railcraft.manipulator.transfer.all.tips=フィルタに該当している種類の\nアイテムを全て積み込み、\n取り出しを行います。
+gui.railcraft.manipulator.transfer.excess.name=圧迫 :仕分け
+gui.railcraft.manipulator.transfer.excess.tips=控えに置かれているアイテムが、\nフィルタ内にある種類と数に\n一致するまで積み込み、\n取り出しを行います。
+gui.railcraft.manipulator.transfer.stock.name=調達 :仕分け
+gui.railcraft.manipulator.transfer.stock.tips=カートの中のものが、フィルタ内のものと\n同じになるまで積み込み、\n取り出しを行います。
+gui.railcraft.manipulator.transfer.transfer.name=配分 :仕分け
+gui.railcraft.manipulator.transfer.transfer.tips=フィルタ内にある種類と数の分だけ、\n積み込み、取り出しを行います。
+
+gui.railcraft.rolling.machine.tips.craft=§e§o-クリックしてクラフト-
+
+gui.railcraft.routing.logic.blank=無記入
+gui.railcraft.routing.logic.constant.invalid=無効な定数があります。
+gui.railcraft.routing.logic.insufficient.operands=オペランドが不十分です。
+gui.railcraft.routing.logic.malformed.syntax=構文が正しくありません。
+gui.railcraft.routing.logic.operand.invalid=無効なオペランドです。
+gui.railcraft.routing.logic.regex.invalid=無効な正規表現です。
+gui.railcraft.routing.logic.regex.unsupported=正規表現に対応していないオペランドを使用しています。
+gui.railcraft.routing.logic.unrecognized.keyword=認識できないキーワードがあります。
+
+gui.railcraft.routing.slot.label=経路表
+
+gui.railcraft.routing.table.editor=最新の編集者 %s
+gui.railcraft.routing.table.manual.numPages=12
+gui.railcraft.routing.table.manual.page1=検出器(経路表)、切り替えスイッチに配置される経路表\n(Routing_Table)は、通過する機関車の照合に使用される\n一連のルールを定義します。\nこれらのルールは簡単な論理構文を使用して定義され、\nシンプル、または複雑なルールを作成できます。\n\n構文は接頭辞表記のスクリプトで、オペレート、演算子\n(+,-,AND,NOTのこと)の後にはオペランド、\n被演算子(演算子の演算対象、数値)が続きます。\n\n1行につき、1つのキーワードが記述できます。\n演算子が指定されていない場合は、ORが仮定されます。\n経路表は2つ以上でクラフトすることでコピーできます。
+gui.railcraft.routing.table.manual.page2=演算子(オペレーター)キーワード:\nAND -\n2つのオペランドは両方とも真でなければなりません。\nOR -\nどちらかのオペランドは真でなければなりません。\nNOT -\n以下のオペランドの条件を反転させます。\nIF -\n3つのオペランド: cond, then, else\ncondがtrueの場合はthenを使用し、\nそうでない場合はelseを使用します。
+gui.railcraft.routing.table.manual.page3=条件(オペランド)キーワード:\nDest=<文字列>\n機関車の到着地の名称がこの文字列で始まっている場合\n条件の結果は[真(true)]となります。\n"Dest=null"は、目的地の無い機関車と一致します。\n\nOwner=<ユーザー名>\n機関車がこの人物に属していると、条件の結果は\n[真(true)]となります。
+gui.railcraft.routing.table.manual.page4=条件(オペランド)キーワード:\n\nName=<エンティティ名>\nマインカートの名前と一致する場合、[真(true)]となります。\n"Name=null"は、カスタム名の無いカートと一致します。\n\nType=<MODのID:アイテム名>\nマインカートのアイテム名と一致する場合、[真(true)]となります。
+gui.railcraft.routing.table.manual.page5=条件(オペランド)キーワード:\nRider=<タイプ>[:<装飾子>]\n列車の中に一致する乗客が含まれている場合、\n[真(true)]となります。\n\nタイプの基本的なもの:\nany, none, mob, animal, unnamed\n有効な装飾子のタイプ:\nplayer, named, entity\n正規表現が可能なタイプ:player, named\n例については、GitHub Issue #844を参照してください。
+gui.railcraft.routing.table.manual.page6=条件(オペランド)キーワード:\nColor=<primary>,<secondary>\n機関車のプライマリ、セカンダリカラーが一致していれば[真(true)]となります。\nもれなく受け入れる場合は、[Any]を使用します。\n記述できるカラーの種類:\nBlack, Red, Green, Brown, Blue,Purple, Cyan, LightGray,\nGray, Pink, Lime,Yellow, LightBlue,Magenta, Orange, White\n\nNeedsRefuel=<true/false>\n機関車に燃料や水が足りない場合、ここで判断します。\n機関車への補給が必要(true)、不要(false)の判断し、\n一致すれば[真(true)]となります。
+gui.railcraft.routing.table.manual.page7=条件(オペランド)キーワード:\n\nRedstone=<true/false>\n経路ブロックにレッドストーン信号が発信されている場合、[真(true)]となります。
+gui.railcraft.routing.table.manual.page8=条件(オペランド)キーワード:\n\nLoco=<文字列>\n機関車がパラメータの文字列(上の文字列のとこ)と\n一致する場合は、[真(true)]となります。\n\n記述できる文字列:\nelectric, steam, creative, none\nパラメータでnoneを使用すると、機関車が無い場合に\nのみtrueが返されます。
+gui.railcraft.routing.table.manual.page9=スクリプトの例:\n\nDest=TheFarLands\nColor=Black,Red\nAND\nNOT\nOwner=RichardG\nDest=SecretHideout/OceanEntrance
+gui.railcraft.routing.table.manual.page10=スクリプトの結果:\n\n前ページのスクリプトでは、\n到着地に"TheFarLands/Milliways"と記入されている、\nもしくは黒と赤の色の機関車を、\n[真(true)]と判断します。\nまたは、プレイヤー"RichardG"に属していない\nそして"SecretHideout/OceanEntrance"行きでない\n機関車も、[真(true)]と判断します。\n\n(ORの演算子が省略されています)\n(OR:どちらかが満たされていれば)\n(AND:両方を満たしていれば)
+gui.railcraft.routing.table.manual.page11=正規表現:\n条件の中には正規表現に対応しているものがあります。\n正規表現を使用するには"="の前に"?"を入れて下さい。ルールはJavaの標準形式です。\n対応している条件:Dest, Name\n\n例:\nDest?=.*Hill\n(到着地の名称が、\n"なんたらかんたらHill"なら、trueになります)
+gui.railcraft.routing.table.manual.page12=アナログ出力:\nIFはアナログ出力に整数を使用することができます。\nIntsとIFは最高位のレベルでしか使用できず、\nそれ以降はIFとなります。\nTRUEとFALSEはどこでも使用できます。\n例:\nIF\nDest=Town\n8\nIF\nDest=City\n4\nFALSE
+gui.railcraft.routing.table.manual.title=経路の手引き
+gui.railcraft.routing.table.name=Name
+
+gui.railcraft.routing.ticket.line1=有効なチケットです。
+gui.railcraft.routing.ticket.line2=次の到着地:
+gui.railcraft.routing.ticket.manual.title=ゴールドチケットについて
+gui.railcraft.routing.ticket.redstone.manual.name=ゴールドチケットは、発券者が所有する列車、または公共の列車に乗車する際、無制限に使用することのできるチケットです。 紙とともにクラフトすることで、一回限りのチケットを作成することができます。
+gui.railcraft.routing.ticket.tips.blank=無記入のチケット
+gui.railcraft.routing.ticket.tips.dest=目的地:
+gui.railcraft.routing.ticket.tips.issuer=発行:
+gui.railcraft.routing.ticket.title=ゴールドチケット
+
+gui.railcraft.routing.tips.slot=経路表を挿入してください。
+gui.railcraft.routing.track.slot.label=チケット
+gui.railcraft.routing.track.tips.slot=ゴールドチケットを挿入してください。
+gui.railcraft.routing.type.private.tips={owner}\n に属する機関車両のみに\n経路を開きます。
+gui.railcraft.routing.type.private=プライベート路線
+gui.railcraft.routing.type.public.tips=どの機関車両も通行できます。
+gui.railcraft.routing.type.public=公共路線
+
+gui.railcraft.season.christmas=クリスマス仕様
+gui.railcraft.season.default=初期設定
+gui.railcraft.season.halloween=ハロウィン仕様
+gui.railcraft.season.none=なし
+
+gui.railcraft.slot.map.valid=有効なアイテム:
+
+gui.railcraft.steam.boiler=スチームボイラー
+gui.railcraft.steam.oven=スチームオーブン
+
+gui.railcraft.surveyor.abandon=信号機のリンク作業を放棄しました。
+gui.railcraft.surveyor.begin=信号機のリンク作業を開始しました。
+gui.railcraft.surveyor.invalid=リンク設定が無効:レールと離れすぎている、レールが無い、または自分自身とリンク設定を試みました。
+gui.railcraft.surveyor.lost=最初の信号機が存在しなくなりました。信号機のリンク作業を放棄します。
+gui.railcraft.surveyor.success=信号機のリンクに成功しました。
+gui.railcraft.surveyor.track=%s の付近にレールを確認できません。
+gui.railcraft.surveyor.unloaded=最初の信号機が、ロードされたチャンクにありません。
+gui.railcraft.surveyor.wrong=適切な信号機ではありません。
+
+gui.railcraft.tank.iron=鉄製のタンク
+gui.railcraft.tank.steel=鋼鉄製のタンク
+gui.railcraft.tank.water=水タンク
+
+gui.railcraft.ticks=ticks
+
+gui.railcraft.tips.button.lock.locked={owner}により、\nこの装置はロックされています。\n所有者、または管理者だけが\n操作できます。
+gui.railcraft.tips.button.lock.notowner=あなたはこの装置の\n所有者ではありません。\nこの所有者は、\n{owner}です。
+gui.railcraft.tips.button.lock.unlocked=クリックをすると\nこの装置はロックされます。\nロックされた装置は、\nあなた自身か管理者によって\nのみ操作することができます。
+
+gui.railcraft.track.coupler.mode.auto.coupler=自動連結モード
+gui.railcraft.track.coupler.mode.coupler=連結モード
+gui.railcraft.track.coupler.mode.decoupler=連結解除モード
+gui.railcraft.track.embarking.radius=強制乗車半径
+gui.railcraft.track.launcher.force=射出距離 = %s
+gui.railcraft.track.locking.delay.delay=遅延時間 = %s ticks
+gui.railcraft.track.locking.mode.boarding.train=列車 乗車モード
+gui.railcraft.track.locking.mode.boarding=乗車モード
+gui.railcraft.track.locking.mode.holding.train=列車 一時停車モード
+gui.railcraft.track.locking.mode.holding=一時停車モード
+gui.railcraft.track.locking.mode.lockdown.train=列車 拘束モード
+gui.railcraft.track.locking.mode.lockdown=拘束モード
+gui.railcraft.track.mode.change=モードを変更 : %s
+gui.railcraft.track.priming.fuse=起爆までの時間 = %s ticks
+
+gui.railcraft.track_kit.item.invalid.curve=§c§oカーブ部分には配置できません。
+gui.railcraft.track_kit.item.invalid.slope=§c§o斜面には配置できません。
+gui.railcraft.track_kit.item.invalid.track=§c§o適していないレール、電装されたレールでない、または既に取り付けられています。
+gui.railcraft.track_kit.item.invalid.track_type=§c§o適していない種類のレールです。
+gui.railcraft.track_kit.messenger.actionbar.default=§o§7オプションの、ｱｳｼｮﾝﾊﾞｰﾒｯｾｰｼﾞはこちら
+gui.railcraft.track_kit.messenger.actionbar.set=レールのｱｸｼｮﾝﾊﾞｰﾒｯｾｰｼﾞを設定
+gui.railcraft.track_kit.messenger.subtitle.default=§o§7コマンド "/rc track msg" で変更を行ってください。
+gui.railcraft.track_kit.messenger.subtitle.set=レールのサブタイトルを設定
+gui.railcraft.track_kit.messenger.subtitle.standard=§o§7レールのメッセージ
+gui.railcraft.track_kit.messenger.title.default=メッセージが設定されていません。
+gui.railcraft.track_kit.messenger.title.set=レールのタイトルを設定
+
+gui.railcraft.trade.station.dice.tips=ランダムな取引
+
+gui.railcraft.tuner.abandon.chunk=送信機がロードされたチャンクにないため、空中線リンクを放棄します。
+gui.railcraft.tuner.abandon.gone=送信機が存在しなくなったため、空中線リンクを放棄します。
+gui.railcraft.tuner.abandon.player=送信機機との空中線リンクを放棄しました。
+gui.railcraft.tuner.start=%s と受信側の空中線リンクを開始しました。
+gui.railcraft.tuner.stop=%s と受信側の空中線リンクを停止しました。
+gui.railcraft.tuner.success=%1$s は %2$s との空中線リンクに成功しました。
+
+gui.railcraft.steam.turbine.output=出力: %s%%
+gui.railcraft.steam.turbine.rotor=ローター:
+gui.railcraft.steam.turbine=スチームタービン
+
+gui.railcraft.update.message=最新のRailcraftは<http://railcraft.info>から入手できます。
+
+railcraft.keybind.aura.worldspike=オーラ:ワールドスパイク
+railcraft.keybind.aura.surveying=オーラ:信号リンクサーベイング
+railcraft.keybind.aura.tuning=オーラ:標識送受信チューニング
+
+keybind.railcraft.cart.bed=ベッドカートでの睡眠キー
+keybind.railcraft.loco.faster=機関車:加速
+keybind.railcraft.loco.mode=機関車:モード
+keybind.railcraft.loco.reverse=機関車:後進
+keybind.railcraft.loco.slower=機関車:減速
+keybind.railcraft.loco.whistle=機関車:警笛
+
+potion.railcraft.creosote=クレオソート油
+potion.effect.railcraft.creosote=クレオソート油のポーション
+splash_potion.effect.railcraft.creosote=クレオソート油のスプラッシュポーション
+lingering_potion.effect.railcraft.creosote=クレオソート油の炸裂ポーション
+tipped_arrow.effect.railcraft.creosote=クレオソート油の矢
+
+railcraft.locomotive.model.electric.default.name=燃料規格:電気
+railcraft.locomotive.model.steam.magic.default.name=燃料規格:魔術
+railcraft.locomotive.model.steam.solid.default.name=燃料規格:個体燃料
+
+railcraft.multiblock.state.invalid.entity=途中にエンティティがあります: %s
+railcraft.multiblock.state.invalid.pattern=パターンが一致していないようです:
+railcraft.multiblock.state.master.true=これはマスターブロックです。
+railcraft.multiblock.state.master.false=これはマスターブロックではありません。
+railcraft.multiblock.state.unknown.unloaded=構造体の一部が読み込まれていません: %s
+railcraft.multiblock.state.valid=構造体は有効です
+
+subtitles.railcraft.locomotive.steam.whistle=蒸気機関車の警笛
+subtitles.railcraft.locomotive.electric.whistle=電気機関車の警笛
+subtitles.railcraft.machine.steamburst=吹き出す蒸気
+subtitles.railcraft.machine.steamhiss=蒸気の噴出
+subtitles.railcraft.machine.zap=機械の駆動音
+
+tc.research_category.RAILCRAFT=軌道誘導学/Traheremagy
+thaumcraft.research.RC_Crowbar.name=魔導金属のバール
+thaumcraft.research.RC_Crowbar.page.1=鋼鉄を魔導金属に置き換え、そこに秩序の相を吹き込む手法を見出した。
+thaumcraft.research.RC_Crowbar.text=[RC] 君の落とし物じゃないかね...?
+thaumcraft.research.RC_Crowbar_Void.name=虚無鋼のバール
+thaumcraft.research.RC_Crowbar_Void.page.1=さらなる一歩を踏み出し、大いなる秘儀の素材をもって、究極を実現させることを試みた。
+thaumcraft.research.RC_Crowbar_Void.text=[RC] Gordonも鼻が高いことだろう...
+
+tile.activatorRail.name=アクティベーターレール
+tile.detectorRail.name=ディテクターレール
+tile.goldenRail.name=パワードレール
+tile.rail.name=レール
+
+tile.railcraft.actuator.lever.name=手動式切替スイッチ
+tile.railcraft.actuator.lever.tips=隣接する分岐レールを切り替えます。\n§o§9手動操作
+tile.railcraft.actuator.motor.name=モーター式切替スイッチ
+tile.railcraft.actuator.motor.tips=隣接する分岐レールを切り替えます。\n§o§9空中線リンク: 1x受信ボックス\n§o§9赤石リンク: 可能\n§o§c関連するツール:\n§o§c- 標識送受信チューナー
+tile.railcraft.actuator.routing.name=モーター式経路切替スイッチ
+tile.railcraft.actuator.routing.tips=隣接する分岐レールを切り替えます。\n§o§9スクリプトによる論理演算\n§o§c関連するツール:\n§o§c- 経路表
+
+tile.railcraft.anvil.intact.name=鋼鉄の金床
+tile.railcraft.anvil.slightlyDamaged.name=少し壊れた鋼鉄の金床
+tile.railcraft.anvil.veryDamaged.name=かなり壊れた鋼鉄の金床
+
+tile.railcraft.battery.nickel.iron.name=ニッケル-鉄蓄電池
+tile.railcraft.battery.nickel.iron.desc=チャージネットワークと連携するように設計された蓄電池です。様々な運用に適したバランス型です。 破砕機でリサイクルが可能です。
+tile.railcraft.battery.nickel.iron.tips=§9チャージネットワーク用バッテリー
+tile.railcraft.battery.nickel.zinc.name=ニッケル-亜鉛蓄電池
+tile.railcraft.battery.nickel.zinc.desc=チャージネットワークと連携するように設計された蓄電池です。 低出力、長期の電力保持に適しています。 破砕機でリサイクルが可能です。
+tile.railcraft.battery.nickel.zinc.tips=§9チャージネットワーク用バッテリー
+tile.railcraft.battery.zinc.carbon.name=亜鉛-炭素蓄電池
+tile.railcraft.battery.zinc.carbon.desc=チャージネットワークと連携するように設計された蓄電池です。 安価であり、使い捨てとして優れています。 破砕機でリサイクルが可能です。
+tile.railcraft.battery.zinc.carbon.tips=§9チャージネットワーク用バッテリー
+tile.railcraft.battery.zinc.silver.name=亜鉛-銀蓄電池
+tile.railcraft.battery.zinc.silver.desc=チャージネットワークと連携するように設計された蓄電池です。 大容量の使い切り電池です。 破砕機でリサイクルが可能です。
+tile.railcraft.battery.zinc.silver.tips=§9チャージネットワーク用バッテリー
+
+tile.railcraft.battery.state.disabled=無効
+tile.railcraft.battery.state.disposable=使い捨て
+tile.railcraft.battery.state.infinite=無限
+tile.railcraft.battery.state.rechargeable=充電式
+tile.railcraft.battery.state.source=原料
+
+tile.railcraft.battery.tips.capacity=容量: %s c
+tile.railcraft.battery.tips.type=種別: %s
+tile.railcraft.battery.tips.efficiency=効率: %s%%
+tile.railcraft.battery.tips.maxdraw=最大出力: %s c/t
+tile.railcraft.battery.tips.loss=損失率: %s  c/t
+
+tile.railcraft.brick.abyssal.block.name=深層ブロック
+tile.railcraft.brick.abyssal.brick.name=深層レンガブロック
+tile.railcraft.brick.abyssal.cobble.name=深層の丸石ブロック
+tile.railcraft.brick.abyssal.etched.name=深層の彫刻石ブロック
+tile.railcraft.brick.abyssal.fitted.name=深層の石レンガブロック
+tile.railcraft.brick.abyssal.ornate.name=深層の模様入りブロック
+
+tile.railcraft.brick.bleachedbone.block.name=白骨ブロック
+tile.railcraft.brick.bleachedbone.brick.name=白骨レンガブロック
+tile.railcraft.brick.bleachedbone.cobble.name=白骨の丸石ブロック
+tile.railcraft.brick.bleachedbone.etched.name=白骨の彫刻石ブロック
+tile.railcraft.brick.bleachedbone.fitted.name=白骨の石レンガブロック
+tile.railcraft.brick.bleachedbone.ornate.name=白骨の模様入りブロック
+
+tile.railcraft.brick.bloodstained.block.name=血染めのブロック
+tile.railcraft.brick.bloodstained.brick.name=血染めのレンガブロック
+tile.railcraft.brick.bloodstained.cobble.name=血染めの丸石ブロック
+tile.railcraft.brick.bloodstained.etched.name=血染めの彫刻石ブロック
+tile.railcraft.brick.bloodstained.fitted.name=血染めの石レンガブロック
+tile.railcraft.brick.bloodstained.ornate.name=血染めの模様入りブロック
+
+tile.railcraft.brick.frostbound.block.name=氷層ブロック
+tile.railcraft.brick.frostbound.brick.name=氷層のレンガブロック
+tile.railcraft.brick.frostbound.cobble.name=氷層の丸石ブロック
+tile.railcraft.brick.frostbound.etched.name=氷層の彫刻石ブロック
+tile.railcraft.brick.frostbound.fitted.name=氷層の石レンガブロック
+tile.railcraft.brick.frostbound.ornate.name=氷層の模様入りブロック
+
+tile.railcraft.brick.infernal.block.name=煉獄ブロック
+tile.railcraft.brick.infernal.brick.name=煉獄のレンガブロック
+tile.railcraft.brick.infernal.cobble.name=煉獄の丸石ブロック
+tile.railcraft.brick.infernal.etched.name=煉獄の彫刻石ブロック
+tile.railcraft.brick.infernal.fitted.name=煉獄の石レンガブロック
+tile.railcraft.brick.infernal.ornate.name=煉獄の模様入りブロック
+
+tile.railcraft.brick.nether.block.name=焼きネザーブロック
+tile.railcraft.brick.nether.cobble.name=ネザーの丸石ブロック
+tile.railcraft.brick.nether.etched.name=ネザーの彫刻石ブロック
+tile.railcraft.brick.nether.fitted.name=ネザーの石レンガブロック
+tile.railcraft.brick.nether.ornate.name=ネザーの模様入りブロック
+
+tile.railcraft.brick.red.nether.block.name=赤い焼きネザーブロック
+tile.railcraft.brick.red.nether.cobble.name=赤いネザー丸石ブロック
+tile.railcraft.brick.red.nether.etched.name=赤いネザー彫刻石ブロック
+tile.railcraft.brick.red.nether.fitted.name=赤いネザー石レンガブロック
+tile.railcraft.brick.red.nether.ornate.name=赤いネザー模様入りブロック
+
+tile.railcraft.brick.quarried.block.name=白層ブロック
+tile.railcraft.brick.quarried.brick.name=白層のレンガブロック
+tile.railcraft.brick.quarried.cobble.name=白層の丸石ブロック
+tile.railcraft.brick.quarried.etched.name=白層の彫刻石ブロック
+tile.railcraft.brick.quarried.fitted.name=白層の石レンガブロック
+tile.railcraft.brick.quarried.ornate.name=白層の模様入りブロック
+
+tile.railcraft.brick.granite.brick.name=花崗岩のレンガブロック
+tile.railcraft.brick.granite.cobble.name=花崗岩の丸石ブロック
+tile.railcraft.brick.granite.etched.name=花崗岩の彫刻石ブロック
+tile.railcraft.brick.granite.fitted.name=花崗岩の石レンガブロック
+tile.railcraft.brick.granite.ornate.name=花崗岩の模様入りブロック
+
+tile.railcraft.brick.diorite.brick.name=閃緑岩のレンガブロック
+tile.railcraft.brick.diorite.cobble.name=閃緑岩の丸石ブロック
+tile.railcraft.brick.diorite.etched.name=閃緑岩の彫刻石ブロック
+tile.railcraft.brick.diorite.fitted.name=閃緑岩の石レンガブロック
+tile.railcraft.brick.diorite.ornate.name=閃緑岩の模様入りブロック
+
+tile.railcraft.brick.andesite.brick.name=安山岩のレンガブロック
+tile.railcraft.brick.andesite.cobble.name=安山岩の丸石ブロック
+tile.railcraft.brick.andesite.etched.name=安山岩の彫刻石ブロック
+tile.railcraft.brick.andesite.fitted.name=安山岩の石レンガブロック
+tile.railcraft.brick.andesite.ornate.name=安山岩の模様入りブロック
+
+tile.railcraft.brick.sandy.block.name=砂層ブロック
+tile.railcraft.brick.sandy.brick.name=砂層のレンガブロック
+tile.railcraft.brick.sandy.cobble.name=砂層の丸石ブロック
+tile.railcraft.brick.sandy.etched.name=砂層の彫刻石ブロック
+tile.railcraft.brick.sandy.fitted.name=砂層の石レンガブロック
+tile.railcraft.brick.sandy.ornate.name=砂層の模様入りブロック
+
+tile.railcraft.brick.red.sandy.block.name=赤い砂層ブロック
+tile.railcraft.brick.red.sandy.brick.name=赤い砂層レンガブロック
+tile.railcraft.brick.red.sandy.cobble.name=赤い砂層丸石ブロック
+tile.railcraft.brick.red.sandy.etched.name=赤い砂層彫刻石ブロック
+tile.railcraft.brick.red.sandy.fitted.name=赤い砂層石レンガブロック
+tile.railcraft.brick.red.sandy.ornate.name=赤い砂層模様入りブロック
+
+tile.railcraft.brick.pearlized.block.name=黒真珠ブロック
+tile.railcraft.brick.pearlized.brick.name=黒真珠のレンガブロック
+tile.railcraft.brick.pearlized.cobble.name=黒真珠の丸石ブロック
+tile.railcraft.brick.pearlized.etched.name=黒真珠の彫刻ブロック
+tile.railcraft.brick.pearlized.fitted.name=黒真珠の石レンガブロック
+tile.railcraft.brick.pearlized.ornate.name=黒真珠の模様入りブロック
+
+tile.railcraft.charge.feeder.admin.name=管理者用給電器
+tile.railcraft.charge.feeder.admin.tips=RC(Railcraft_Charge)の\nエネルギーを無限に供給します。\n§o§c- 赤石信号により作動 -
+tile.railcraft.charge.feeder.ic2.name=IC2給電器
+tile.railcraft.charge.feeder.ic2.tips=IndustrialCraft由来のEUエネルギーを\nRC(Railcraft_Charge)エネルギーに変換します。\n§o§c- 赤石信号により作動 -
+
+tile.railcraft.charge.trap.name=チャージトラップ
+
+tile.railcraft.detector.advanced.name=カート検出器 - 発展型
+tile.railcraft.detector.age.name=カート検出器 - 成長した動物
+tile.railcraft.detector.animal.name=カート検出器 - 動物
+tile.railcraft.detector.any.name=カート検出器 - 全て
+tile.railcraft.detector.cart.name=カート検出器 - カート
+tile.railcraft.detector.empty.name=カート検出器 - 空車
+tile.railcraft.detector.energy.name=カート検出器 - 蓄電器
+tile.railcraft.detector.explosive.name=カート検出器 - 爆発物
+tile.railcraft.detector.item.name=カート検出器 - アイテム
+tile.railcraft.detector.locomotive.name=カート検出器 - 機関車
+tile.railcraft.detector.mob.name=カート検出器 - MOB
+tile.railcraft.detector.player.name=カート検出器 - プレイヤー
+tile.railcraft.detector.powered.name=カート検出器 - 動力付きカート
+tile.railcraft.detector.routing.name=カート検出器 - 経路
+tile.railcraft.detector.sheep.name=カート検出器 - 羊
+tile.railcraft.detector.tank.name=カート検出器 - タンクカート
+tile.railcraft.detector.train.name=カート検出器 - 列車
+tile.railcraft.detector.villager.name=カート検出器 - 村人
+
+tile.railcraft.firestone.recharge.name=ファイアストーンの再充電
+
+tile.railcraft.fluid.creosote.name=クレオソートオイル
+tile.railcraft.fluid.steam.name=蒸気
+
+tile.railcraft.frame.name=ワイヤーフレーム
+tile.railcraft.frame.tips=Charge:分流ワイヤーを\nレール下に配置するため\nに使用します。
+
+tile.railcraft.generic_coke.name=コークスブロック
+tile.railcraft.generic_coke.tips=32,000 Fuel 分の燃料
+tile.railcraft.generic_creosote.name=クレオソート木ブロック
+tile.railcraft.generic_crushed_obsidian.name=黒曜石の砂利
+tile.railcraft.generic_crushed_obsidian.tips=MOBが発生しません
+tile.railcraft.generic_stone_abyssal.name=深層石
+tile.railcraft.generic_stone_quarried.name=白層石
+
+tile.railcraft.glass.black.name=黒色の硬質化ガラス
+tile.railcraft.glass.red.name=赤色の硬質化ガラス
+tile.railcraft.glass.green.name=緑色の硬質化ガラス
+tile.railcraft.glass.brown.name=茶色の硬質化ガラス
+tile.railcraft.glass.blue.name=青色の硬質化ガラス
+tile.railcraft.glass.purple.name=紫色の硬質化ガラス
+tile.railcraft.glass.cyan.name=青緑色の硬質化ガラス
+tile.railcraft.glass.light.gray.name=薄灰色の硬質化ガラス
+tile.railcraft.glass.gray.name=灰色の硬質化ガラス
+tile.railcraft.glass.pink.name=桃色の硬質化ガラス
+tile.railcraft.glass.lime.name=黄緑色の硬質化ガラス
+tile.railcraft.glass.yellow.name=黄色の硬質化ガラス
+tile.railcraft.glass.light.blue.name=空色の硬質化ガラス
+tile.railcraft.glass.magenta.name=赤紫色の硬質化ガラス
+tile.railcraft.glass.orange.name=橙色の硬質化ガラス
+tile.railcraft.glass.white.name=硬質化ガラス
+
+tile.railcraft.reinforced.concrete.black.name=黒色の硬質コンクリート
+tile.railcraft.reinforced.concrete.red.name=赤色の硬質コンクリート
+tile.railcraft.reinforced.concrete.green.name=緑色の硬質コンクリート
+tile.railcraft.reinforced.concrete.brown.name=茶色の硬質コンクリート
+tile.railcraft.reinforced.concrete.blue.name=青色の硬質コンクリート
+tile.railcraft.reinforced.concrete.purple.name=紫色の硬質コンクリート
+tile.railcraft.reinforced.concrete.cyan.name=青緑色の硬質コンクリート
+tile.railcraft.reinforced.concrete.light.gray.name=薄灰色の硬質コンクリート
+tile.railcraft.reinforced.concrete.gray.name=灰色の硬質コンクリート
+tile.railcraft.reinforced.concrete.pink.name=桃色の硬質コンクリート
+tile.railcraft.reinforced.concrete.lime.name=黄緑色の硬質コンクリート
+tile.railcraft.reinforced.concrete.yellow.name=黄色の硬質コンクリート
+tile.railcraft.reinforced.concrete.light.blue.name=空色の硬質コンクリート
+tile.railcraft.reinforced.concrete.magenta.name=赤紫色の硬質コンクリート
+tile.railcraft.reinforced.concrete.orange.name=橙色の硬質コンクリート
+tile.railcraft.reinforced.concrete.white.name=白色の硬質コンクリート
+
+tile.railcraft.lantern.metal.copper.name=銅のランタン
+tile.railcraft.lantern.metal.gold.name=金のランタン
+tile.railcraft.lantern.metal.iron.name=鉄のランタン
+tile.railcraft.lantern.metal.lead.name=鉛のランタン
+tile.railcraft.lantern.metal.steel.name=鋼鉄のランタン
+tile.railcraft.lantern.metal.tin.name=錫のランタン
+
+tile.railcraft.lantern.stone.abyssal.name=深層のランタン
+tile.railcraft.lantern.stone.bleachedbone.name=白骨のランタン
+tile.railcraft.lantern.stone.bloodstained.name=血染めのランタン
+tile.railcraft.lantern.stone.frostbound.name=氷層のランタン
+tile.railcraft.lantern.stone.infernal.name=煉獄のランタン
+tile.railcraft.lantern.stone.nether.name=ネザーのランタン
+tile.railcraft.lantern.stone.quarried.name=白層のランタン
+tile.railcraft.lantern.stone.sandstone.name=砂岩のランタン
+tile.railcraft.lantern.stone.sandy.name=砂層のランタン
+tile.railcraft.lantern.stone.stone.name=石のランタン
+
+tile.railcraft.logbook.name=記帳台
+tile.railcraft.logbook.desc=記帳台の半径16ブロック内を通過したプレイヤーが記録されます。 これはその所有者によってのみ回収することができます。
+tile.railcraft.logbook.tips=訪問者を記録します。
+
+tile.railcraft.metal_brass.name=真鍮ブロック
+tile.railcraft.metal_bronze.name=青銅ブロック
+tile.railcraft.metal_tin.name=錫ブロック
+tile.railcraft.metal_zinc.name=亜鉛ブロック
+tile.railcraft.metal_invar.name=インバーブロック
+tile.railcraft.metal_lead.name=鉛ブロック
+tile.railcraft.metal_nickel.name=ニッケルブロック
+tile.railcraft.metal_silver.name=銀ブロック
+tile.railcraft.metal_steel.name=鋼鉄ブロック
+tile.railcraft.metal_copper.name=銅ブロック
+
+tile.railcraft.blast.furnace.name=高炉用レンガ
+tile.railcraft.blast.furnace.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 3x4x3 (中空)
+tile.railcraft.coke.oven.name=コークス炉用レンガ
+tile.railcraft.coke.oven.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 3x3x3 (中空)
+tile.railcraft.rock.crusher.name=破砕機ブロック
+tile.railcraft.rock.crusher.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 3x2x2
+tile.railcraft.steam.oven.name=スチームオーブンブロック
+tile.railcraft.steam.oven.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 2x2x2
+tile.railcraft.steam.trap.auto.name=自動型蒸気トラップ
+tile.railcraft.steam.trap.name=手動型蒸気トラップ
+tile.railcraft.tank.water.name=水タンクの羽目板
+tile.railcraft.tank.water.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 3x3x3 (中空)
+tile.railcraft.trade.station.name=簡易取引所
+tile.railcraft.steam.turbine.name=蒸気タービンハウジング
+tile.railcraft.steam.turbine.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 3x2x2\n 蒸気から電気を生成します\n 底部から水抜きを行ってください\n タービンロータが必要です
+
+tile.railcraft.boiler.firebox.fluid.name=液体燃料用火室
+tile.railcraft.boiler.firebox.fluid.tips=ﾏﾙﾁﾌﾞﾛｯｸ: サイズにより性能が変わります\n底部に設置してください\n寸法: 1x1, 2x2, 3x3
+tile.railcraft.boiler.firebox.solid.name=固体燃料用火室
+tile.railcraft.boiler.firebox.solid.tips=ﾏﾙﾁﾌﾞﾛｯｸ: サイズにより性能が変わります\n底部に設置してください\n寸法: 1x1, 2x2, 3x3
+tile.railcraft.boiler.tank.pressure.high.name=高圧ボイラー用タンク
+tile.railcraft.boiler.tank.pressure.high.tips=ﾏﾙﾁﾌﾞﾛｯｸ: サイズにより性能が変化\n火室の上に設置してください\n寸法: 1x1x1, 2x2x2, 2x3x2,\n3x2x3, 3x3x3, 3x4x3\n1tickあたり20mBの蒸気を生成
+tile.railcraft.boiler.tank.pressure.low.name=低圧ボイラー用タンク
+tile.railcraft.boiler.tank.pressure.low.tips=ﾏﾙﾁﾌﾞﾛｯｸ: サイズにより性能が変化\n火室の上に設置してください\n寸法: 1x1x1, 2x2x2, 2x3x2,\n3x2x3, 3x3x3, 3x4x3\n1tickあたり10mBの蒸気を生成
+tile.railcraft.chest.metals.name=メタルチェスト
+tile.railcraft.chest.metals.tips=入れられたインゴットをブロックにします。
+tile.railcraft.chest.void.name=消滅チェスト
+tile.railcraft.chest.void.tips=アイテムを消去します。
+tile.railcraft.engine.steam.high.name=工業用蒸気エンジン
+tile.railcraft.engine.steam.high.tips=最大出力 80 RF/t\n 蒸気供給 40mB/tick
+tile.railcraft.engine.steam.hobby.name=個人用蒸気エンジン
+tile.railcraft.engine.steam.hobby.tips=最大出力 20 RF/t\n 蒸気供給 10mB/tick
+tile.railcraft.engine.steam.low.name=商業用蒸気エンジン
+tile.railcraft.engine.steam.low.tips=最大出力 40 RF/t\n 蒸気供給 20mB/tick
+tile.railcraft.tank.iron.gauge.name=鉄タンクのゲージ
+tile.railcraft.tank.iron.gauge.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 様々な大きさで構築\n :中空\n 高さ: 4, 5, 6, 7, 8\n 横幅と奥行: 3, 5, 7, 9
+tile.railcraft.tank.iron.valve.name=鉄タンクのバルブ
+tile.railcraft.tank.iron.valve.tips=ﾏﾙﾁﾌﾞﾛｯｸ:\n液体を排出させるためには、\n下から2ブロック目の高さに\n設置してください。
+tile.railcraft.tank.iron.wall.name=鉄タンクの壁材
+tile.railcraft.tank.iron.wall.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 様々な大きさで構築\n :中空\n 高さ: 4, 5, 6, 7, 8\n 横幅と奥行: 3, 5, 7, 9
+tile.railcraft.tank.steel.gauge.name=鋼鉄タンクのゲージ
+tile.railcraft.tank.steel.gauge.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 様々な大きさで構築\n :中空\n 高さ: 4, 5, 6, 7, 8\n 横幅と奥行: 3, 5, 7, 9
+tile.railcraft.tank.steel.valve.name=鋼鉄タンクのバルブ
+tile.railcraft.tank.steel.valve.tips=ﾏﾙﾁﾌﾞﾛｯｸ:\n液体を排出させるためには、\n下から2ブロック目の高さに\n設置してください。
+tile.railcraft.tank.steel.wall.name=鋼鉄タンクの壁材
+tile.railcraft.tank.steel.wall.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 様々な大きさで構築\n :中空\n 高さ: 4, 5, 6, 7, 8\n 横幅と奥行: 3, 5, 7, 9
+
+tile.railcraft.admin.steam.producer.name=管理者用蒸気生成機
+tile.railcraft.admin.steam.producer.tips=蒸気を無限に生成します。
+tile.railcraft.engraving.bench.name=彫刻作業台
+tile.railcraft.flux.transformer.name=フラックストランスフォーマー
+tile.railcraft.flux.transformer.tips=ﾏﾙﾁﾌﾞﾛｯｸ: 2x2x2\n RF(Redstone Flux)を\nRC(Railcraft_Charge)に変換します。\n- 変換効率80％
+tile.railcraft.force.track.emitter.name=フォーストラック投射装置
+tile.railcraft.force.track.emitter.tips=膨大なエネルギーによる\n レーザーレールを投影します。
+
+tile.railcraft.equipment.feed.station.name=自動交配機
+tile.railcraft.equipment.feed.station.desc=近くにいる動物へ自動的に餌を与えることができます。 レッドストーン信号で停止させることができます。 過密化を避けるため、動物が増えすぎると給餌を止めます。
+tile.railcraft.equipment.feed.station.tips=動物へ給餌を行います。\n§o§c- 赤石信号により停止 -
+tile.railcraft.equipment.rolling.manual.name=手動式圧延機
+tile.railcraft.equipment.rolling.manual.desc=金属を様々な形状へと圧延加工するための機械です。 完成品が出来上がる前にGUIを閉じると、加工作業が中断されます。 クラフトグリッド内の材料が完成品1つ分しかない場合、完成品を取り出すスロットをクリックして、加工作業を行ってください。
+tile.railcraft.equipment.rolling.manual.tips=様々な金属加工品のための\n工作ブロックです。
+tile.railcraft.equipment.rolling.powered.name=電気式圧延機
+tile.railcraft.equipment.rolling.powered.desc=金属を様々な形状へと圧延加工するための機械です。 RC(Railcraft_Charge)を使用して、アイテムの生産を自動化することができます。 クラフトグリッド内の材料が完成品1つ分しかない場合、完成品を取り出すスロットをクリックして、加工作業を行ってください。
+tile.railcraft.equipment.rolling.powered.tips=様々な金属加工品のための\n工作ブロックです。
+tile.railcraft.equipment.smoker.name=排煙ブロック
+tile.railcraft.equipment.smoker.tips=煙を放出します。\n§o§c- 赤石信号により停止 -
+tile.railcraft.equipment.smoker.desc=煙を放出します。 レッドストーン信号により停止させることができます。
+
+
+tile.railcraft.manipulator.dispenser.cart.name=カート ディスペンサー
+tile.railcraft.manipulator.dispenser.cart.tips=レール上にカートを排出します。\n§o§9- 操車レールと組み合わせられます -\n§o§9- バールを使用して方向を変更 -\n§o§c- 赤石信号を受けると、カートを排出します -
+tile.railcraft.manipulator.dispenser.train.name=列車 ディスペンサー
+tile.railcraft.manipulator.dispenser.train.tips=レール上に連結されたカートを排出します。\n§o§9- 操車レールと組み合わせられます -\n§o§9- バールを使用して方向を変更 -\n§o§c- 赤石信号を受けると、列車を排出します -
+tile.railcraft.manipulator.loader.ic2.name=Ic2 EU ローダー
+tile.railcraft.manipulator.loader.ic2.tips=IC2のエネルギーを充填できるカートに、\nEUを送り込みます。\n§o§9- バールを使用して方向を変更 -\n§o§c- IC2のエネルギーだけを受け入れます -
+tile.railcraft.manipulator.loader.rf.name=Redstone Flux ローダー
+tile.railcraft.manipulator.loader.rf.tips=RFカートにRFエネルギーを送り込みます。\n§o§9- バールを使用して方向を変更 -\n§o§c- RFエネルギーだけを受け入れます -
+tile.railcraft.manipulator.loader.item.advanced.name=発展型アイテム ローダー
+tile.railcraft.manipulator.loader.item.advanced.tips=カートにアイテムを積み込みます。\n§o§9- バールを使用して方向を変更 -
+tile.railcraft.manipulator.loader.item.name=アイテム ローダー
+tile.railcraft.manipulator.loader.item.tips=カートにアイテムを積み込みます。\n§o§c- レールの上に配置してください -
+tile.railcraft.manipulator.loader.fluid.name=液体 ローダー
+tile.railcraft.manipulator.loader.fluid.tips=カートに液体を積み込みます。\n§o§c- レールの1～2ブロック上に配置してください -
+tile.railcraft.manipulator.unloader.ic2.name=Ic2 EU アンローダー
+tile.railcraft.manipulator.unloader.ic2.tips=IC2のエネルギーを積み込んだカートから\nEUを取り出します。\n§o§9- バールを使用して方向を変更 -\n§o§c- IC2のエネルギーだけを取り出します -
+tile.railcraft.manipulator.unloader.rf.name=Redstone Flux アンローダー
+tile.railcraft.manipulator.unloader.rf.tips=RFカートから、RFエネルギーを取り出します。\n§o§9- バールを使用して方向を変更 -\n§o§c- RFエネルギーだけを取り出します -
+tile.railcraft.manipulator.unloader.item.advanced.name=発展型アイテム アンローダー
+tile.railcraft.manipulator.unloader.item.advanced.tips=カートからアイテムを取り出します。\n§o§9- バールを使用して方向を変更 -
+tile.railcraft.manipulator.unloader.item.name=アイテム アンローダー
+tile.railcraft.manipulator.unloader.item.tips=カートからアイテムを取り出します。\n§o§c- レールの下に配置してください -
+tile.railcraft.manipulator.unloader.fluid.name=液体 アンローダー
+tile.railcraft.manipulator.unloader.fluid.tips=カートから液体を取り出します。\n§o§c- レールの下に配置してください -
+
+tile.railcraft.ore.dark.diamond.name=ダークダイアモンド鉱石
+tile.railcraft.ore.dark.emerald.name=ダークエメラルド鉱石
+tile.railcraft.ore.dark.lapis.name=ダークラピスラズリ鉱石
+tile.railcraft.ore.saltpeter.name=硝酸カリウム鉱石
+tile.railcraft.ore.sulfur.name=硫黄鉱石
+
+tile.railcraft.ore.magic.firestone.name=ファイアストーン鉱石
+tile.railcraft.ore.magic.firestone.tips.name=肉以外のすべてを燃やし、\nこれを持つあなたは周囲の\n空気の変化に気づくでしょう。
+
+tile.railcraft.ore.metal.copper.name=銅鉱石
+tile.railcraft.ore.metal.lead.name=鉛鉱石
+tile.railcraft.ore.metal.nickel.name=ニッケル鉱石
+tile.railcraft.ore.metal.silver.name=銀鉱石
+tile.railcraft.ore.metal.tin.name=錫鉱石
+tile.railcraft.ore.metal.zinc.name=亜鉛鉱石
+
+tile.railcraft.ore.metal.poor.copper.name=微小な銅鉱石
+tile.railcraft.ore.metal.poor.gold.name=微小な金鉱石
+tile.railcraft.ore.metal.poor.iron.name=微小な鉄鉱石
+tile.railcraft.ore.metal.poor.lead.name=微小な鉛鉱石
+tile.railcraft.ore.metal.poor.nickel.name=微小なニッケル鉱石
+tile.railcraft.ore.metal.poor.silver.name=微小な銀鉱石
+tile.railcraft.ore.metal.poor.tin.name=微小な錫鉱石
+tile.railcraft.ore.metal.poor.zinc.name=微小な亜鉛鉱石
+
+tile.railcraft.post.emblem.name=エンブレムポスト
+tile.railcraft.post.metal.black.name=黒色の金属ポスト
+tile.railcraft.post.metal.blue.name=青色の金属ポスト
+tile.railcraft.post.metal.brown.name=茶色の金属ポスト
+tile.railcraft.post.metal.cyan.name=青緑色の金属ポスト
+tile.railcraft.post.metal.gray.name=灰色の金属ポスト
+tile.railcraft.post.metal.green.name=緑色の金属ポスト
+tile.railcraft.post.metal.light.blue.name=空色の金属ポスト
+tile.railcraft.post.metal.light.gray.name=薄灰色の金属ポスト
+tile.railcraft.post.metal.lime.name=黄緑色の金属ポスト
+tile.railcraft.post.metal.magenta.name=赤紫色の金属ポスト
+tile.railcraft.post.metal.unpainted.name=金属のポスト
+tile.railcraft.post.metal.orange.name=橙色の金属ポスト
+tile.railcraft.post.metal.pink.name=桃色の金属ポスト
+tile.railcraft.post.metal.platform.black.name=黒色の金属プラットフォーム
+tile.railcraft.post.metal.platform.blue.name=青色の金属プラットフォーム
+tile.railcraft.post.metal.platform.brown.name=茶色の金属プラットフォーム
+tile.railcraft.post.metal.platform.cyan.name=青緑色の金属プラットフォーム
+tile.railcraft.post.metal.platform.gray.name=灰色の金属プラットフォーム
+tile.railcraft.post.metal.platform.green.name=緑色の金属プラットフォーム
+tile.railcraft.post.metal.platform.light.blue.name=空色の金属プラットフォーム
+tile.railcraft.post.metal.platform.light.gray.name=薄灰色の金属プラットフォーム
+tile.railcraft.post.metal.platform.lime.name=黄緑色の金属プラットフォーム
+tile.railcraft.post.metal.platform.magenta.name=赤紫色の金属プラットフォーム
+tile.railcraft.post.metal.platform.unpainted.name=金属のプラットフォーム
+tile.railcraft.post.metal.platform.orange.name=橙色の金属プラットフォーム
+tile.railcraft.post.metal.platform.pink.name=桃色の金属プラットフォーム
+tile.railcraft.post.metal.platform.purple.name=紫色の金属プラットフォーム
+tile.railcraft.post.metal.platform.red.name=赤色の金属プラットフォーム
+tile.railcraft.post.metal.platform.white.name=白色の金属プラットフォーム
+tile.railcraft.post.metal.platform.yellow.name=黄色の金属プラットフォーム
+tile.railcraft.post.metal.purple.name=紫色の金属ポスト
+tile.railcraft.post.metal.red.name=赤色の金属ポスト
+tile.railcraft.post.metal.white.name=白色の金属ポスト
+tile.railcraft.post.metal.yellow.name=黄色の金属ポスト
+tile.railcraft.post.stone.name=石のポスト
+tile.railcraft.post.stone.platform.name=石のプラットフォーム
+tile.railcraft.post.wood.name=木製のポスト
+tile.railcraft.post.wood.platform.name=木製のプラットフォーム
+
+tile.railcraft.signal.block.name=区画型信号機
+tile.railcraft.signal.block.tips=送信側の装置です。区画型信号機の\n間にあるカートを検出します。\n§o§9空中線リンク:\n§o§9- 受信側へ標識を送信 x1\n§o§9信号リンク: \n§o§9- 区画型信号機とリンク x1\n§o§9- 信号ボックス:リレーとリンク\n§o§c関連するツール:\n§o§c- 標識送受信チューナー\n§o§c- 信号リンクサーベイヤー
+tile.railcraft.signal.block.desc=これはカートの検出に使用される、基本的な信号機です。\n例として、直線状のレールの両端に二つの区間型信号機を設置し、それらをサーベイヤーでリンクさせます。そうすると、信号機で定義されたレールの区間を走るカートを検出するようになります。\n\n標識送受信チューナーで離れた受信ボックスと空中線リンクを行うことで、カートが定義されている区間を走っている間レッドストーン信号を出力させる、という使い方ができます。
+tile.railcraft.signal.distant.name=遠隔型信号機
+tile.railcraft.signal.distant.tips=受信側の装置です。リンクされた\n送信側装置の標識を表示します。\n§o§9空中線リンク:\n§o§9- 送信側から標識を受信 x1\n§o§c関連するツール:\n§o§c- 標識送受信チューナー
+tile.railcraft.signal.distant.desc=このタイプの信号は、主に景観、確認の目的で使用されます。\nカートの動作には関係せず、リンクした送信側の装置から送られてくる標識の色を、ただ表示します。
+tile.railcraft.signal.token.name=通票型信号機
+tile.railcraft.signal.token.tips=レールの隣に設置し、通票型信号機の前を\n通るカートを検出し、その出入り監視します。\n§o§9空中線リンク: 受信側へ標識を送信 x1\n§o§9信号リンク: 通票型信号機とリンク x1\n§o§c関連するツール:\n§o§c- 標識送受信チューナー\n§o§c- 信号リンクサーベイヤー
+tile.railcraft.signal.token.desc=リンクされている二つの信号機(A,B)の前を、カートが出入りするのを監視しています。通票型は曲がっているレールを挟んでいてもリンクさせることができます。\n通票信号機(A)の前を通過したカートを検出して信号機(A,B)の標識を赤色に変更します。\n\n同じカートが、もう一度同じ信号機(A)の前を通過する、またはリンクされている信号機(B)の前を通過すると、信号機(A,B)の標識が緑色に戻ります。(もしくはカートがアイテム化、インベントリに回収される)\n最初のカートの後に別のカートが通っても、その別のカートを検出することはありません。\n
+
+tile.railcraft.signal.dual.block.name=二灯式区画型信号機
+tile.railcraft.signal.dual.block.tips=送信、受信のできる装置です。\n区画型信号機の間にあるカートを検出します。\n遠隔型信号機としての機能も備えています。\n§o§9空中線リンク:\n§o§9- 受信側へ標識を送信 x1\n§o§9- 送信側から標識を受信 x1\n§o§9信号リンク:\n§o§9- 区画型信号機とリンク x1\n§o§9- 信号ボックス:リレーとリンク x1\n§o§c関連するツール:\n§o§c- 標識送受信チューナー\n§o§c- 信号リンクサーベイヤー
+tile.railcraft.signal.dual.block.desc=この信号機には、上部ランプに区間型信号機の機能、下部ランプには遠隔型信号機が含まれています。\n送信と受信側の両方の機能を持っています。
+tile.railcraft.signal.dual.distant.name=二灯式遠隔型信号機
+tile.railcraft.signal.dual.distant.tips=受信側の装置です。\nリンクされた送信側装置の\n標識を表示します。\n§o§9空中線リンク:\n§o§9- 送信側から標識を受信 x2\n§o§c関連するツール:\n§o§c- 標識送受信チューナー
+tile.railcraft.signal.dual.distant.desc=この信号機には2つの遠隔型信号機が含まれています。それらは、別々の送信側と空中線リンクを行うことができます。
+tile.railcraft.signal.dual.token.name=二灯式通票型信号機
+tile.railcraft.signal.dual.token.tips=送信、受信のできる装置です。\n通票型信号機の前を通るカートを\n検出し、その出入り監視します。\n遠隔型信号機としての機能も備えています。\n§o§9空中線リンク:\n§o§9- 受信側へ標識を送信 x1\n§o§9- 送信側から標識を受信 x1\n§o§9信号リンク: 通票型信号機 x1\n§o§c関連するツール:\n§o§c- 標識送受信チューナー\n§o§c- 信号リンクサーベイヤー
+tile.railcraft.signal.dual.token.desc=この信号機には、上部ランプに通票型信号機の機能、下部のランプに遠隔型信号機が含まれています。\n送信と受信側の両方の機能を持っています。
+
+
+tile.railcraft.signal.box.analog.name=信号ボックス：アナログ送信
+tile.railcraft.signal.box.analog.tips=送信側の装置です。受け取った赤石信号の\n強度に応じて、送信する標識の色を変化させる\n設定が行えます。\n§o§9空中線リンク: 受信側へ標識を送信 x1\n§o§9赤石制御: 受信,強度を識別します\n§o§9信号ボックス隣接リンク:\n§o§9- 赤石信号を受け取りません\n§o§c関連するツール: 標識送受信チューナー
+tile.railcraft.signal.box.relay.name=信号ボックス：区間リレー
+tile.railcraft.signal.box.relay.tips=送信側の装置です。信号の区間の\n中間地点のような働きをします。\n§o§9信号リンク:\n§o§9- 区間型信号機,信号ボックス:リレー x2\n§o§9設定された標識と一致している場合、\n§o§9赤石信号を出力します。\n§o§9信号ボックス隣接接続:\n§o§9- 隣接した信号ボックスへ、赤石信号や\n§o§9標識信号を発信/出力します。\n§o§c関連するツール: 信号リンクサーベイヤー
+tile.railcraft.signal.box.capacitor.name=信号ボックス：コンデンサ
+tile.railcraft.signal.box.capacitor.tips=標識の送受信は行いません。\n設定された秒数の間、赤石信号を発します。\n§o§9空中線リンク: なし\n§o§9赤石制御: 赤石信号の送受信を行います。\n§o§9- リピーター、または強度が\n§o§9最大の赤石信号を受け取ります。\n§o§9隣接したブロックや信号ボックスへ、\n§o§9赤石信号の送受信を行います。\n§o§c関連するツール: なし
+tile.railcraft.signal.box.controller.name=信号送信ボックス
+tile.railcraft.signal.box.controller.tips=送信側の装置です\n赤石信号で切り替え可能な、\n設定された標識信号を送信します。\n§o§9空中線リンク: 受信側へ標識を送信 x1\n§o§9赤石制御: \n§o§9- 赤石信号、または隣接した\n§o§9信号ボックスからも赤石信号を\n§o§9受け取ります。\n§o§c関連するツール: 標識送受信チューナー
+tile.railcraft.signal.box.interlock.name=信号ボックス：インタロック
+tile.railcraft.signal.box.interlock.tips=送信、受信のできる装置です。\n隣接させている他のインタロックの\n送信を、制限することができます。\n§o§9空中線リンク:\n§o§9- 受信側へ標識を送信 x1\n§o§9- 送信側から標識を受信 x1\n§o§9インタロックの信号ボックス同士で\n§o§9隣接させて使います。\n§o§c関連するツール: 標識送受信チューナー
+tile.railcraft.signal.box.receiver.name=信号受信ボックス
+tile.railcraft.signal.box.receiver.tips=受信側の装置です。\n送信機からの信号を受け取ります。\n§o§9空中線リンク:\n§o§9- 送信側から標識を受信 x1\n§o§9赤石制御: 隣接したブロックや\n§o§9信号ボックスへ、赤石信号を出力します。\n§o§c関連するツール: 標識送受信チューナー
+tile.railcraft.signal.box.sequencer.name=信号ボックス：シーケンサー
+tile.railcraft.signal.box.sequencer.tips=標識の送受信は行いません。隣接するブロックへ、\n赤石信号の出力を切り替えて行きます。(時計回り)\n空中線リンク: なし\n§o§9赤石制御: 赤石信号の入出力を行います。\n§o§9- リピーターなどからの赤石信号を受け取ります。\n§o§9その赤石信号のON/OFFサイクルが行われると、\n§o§9出力する赤石信号の方向を切り替えてゆきます。\n§o§9信号ボックス隣接接続:\n§o§9- 受信ボックスから赤石信号の入力を受け付けます。\n§o§9- シーケンサーと隣接すると、赤石信号を\n§o§9切り替える面が増えます。(時計回り)\n§o§9赤石信号の入出力を行います。
+
+tile.railcraft.slab.abyssal.block.name=深層のハーフブロック
+tile.railcraft.slab.abyssal.brick.name=深層レンガのハーフブロック
+tile.railcraft.slab.abyssal.cobble.name=深層丸石のハーフブロック
+tile.railcraft.slab.abyssal.fitted.name=深層石レンガのハーフブロック
+tile.railcraft.slab.bleachedbone.block.name=白骨のハーフブロック
+tile.railcraft.slab.bleachedbone.brick.name=白骨レンガのハーフブロック
+tile.railcraft.slab.bleachedbone.cobble.name=白骨丸石のハーフブロック
+tile.railcraft.slab.bleachedbone.fitted.name=白骨石レンガのハーフブロック
+tile.railcraft.slab.bloodstained.block.name=血染めのハーフブロック
+tile.railcraft.slab.bloodstained.brick.name=血染めレンガのハーフブロック
+tile.railcraft.slab.bloodstained.cobble.name=血染め丸石のハーフブロック
+tile.railcraft.slab.bloodstained.fitted.name=血染め石レンガのハーフブロック
+tile.railcraft.slab.concrete.name=コンクリートのハーフブロック
+tile.railcraft.slab.copper.name=銅のハーフブロック
+tile.railcraft.slab.creosote.name=防腐木材のハーフブロック
+tile.railcraft.slab.diamond.name=ダイヤのハーフブロック
+tile.railcraft.slab.frostbound.block.name=氷層のハーフブロック
+tile.railcraft.slab.frostbound.brick.name=氷層レンガのハーフブロック
+tile.railcraft.slab.frostbound.cobble.name=氷層丸石のハーフブロック
+tile.railcraft.slab.frostbound.fitted.name=氷層石レンガのハーフブロック
+tile.railcraft.slab.gold.name=金のハーフブロック
+tile.railcraft.slab.ice.name=氷のハーフブロック
+tile.railcraft.slab.infernal.block.name=煉獄のハーフブロック
+tile.railcraft.slab.infernal.brick.name=煉獄レンガのハーフブロック
+tile.railcraft.slab.infernal.cobble.name=煉獄丸石のハーフブロック
+tile.railcraft.slab.infernal.fitted.name=煉獄石レンガのハーフブロック
+tile.railcraft.slab.iron.name=鉄のハーフブロック
+tile.railcraft.slab.lead.name=鉛のハーフブロック
+tile.railcraft.slab.nether.block.name=焼きネザーのハーフブロック
+tile.railcraft.slab.nether.cobble.name=ネザー丸石のハーフブロック
+tile.railcraft.slab.nether.fitted.name=ネザー石レンガのハーフブロック
+tile.railcraft.slab.obsidian.name=黒曜石のハーフブロック
+tile.railcraft.slab.packed.ice.name=氷塊のハーフブロック
+tile.railcraft.slab.quarried.block.name=白層のハーフブロック
+tile.railcraft.slab.quarried.brick.name=白層レンガのハーフブロック
+tile.railcraft.slab.quarried.cobble.name=白層丸石のハーフブロック
+tile.railcraft.slab.quarried.fitted.name=白層石レンガのハーフブロック
+tile.railcraft.slab.sandy.block.name=砂層のハーフブロック
+tile.railcraft.slab.sandy.brick.name=砂層レンガのハーフブロック
+tile.railcraft.slab.sandy.cobble.name=砂層丸石のハーフブロック
+tile.railcraft.slab.sandy.fitted.name=砂層石レンガのハーフブロック
+tile.railcraft.slab.snow.name=雪のハーフブロック
+tile.railcraft.slab.steel.name=鋼鉄のハーフブロック
+tile.railcraft.slab.tin.name=錫のハーフブロック
+
+tile.railcraft.stair.abyssal.block.name=深層ブロックの階段
+tile.railcraft.stair.abyssal.brick.name=深層レンガの階段
+tile.railcraft.stair.abyssal.cobble.name=深層丸石の階段
+tile.railcraft.stair.abyssal.fitted.name=深層石レンガの階段
+tile.railcraft.stair.bleachedbone.block.name=白骨ブロックの階段
+tile.railcraft.stair.bleachedbone.brick.name=白骨レンガの階段
+tile.railcraft.stair.bleachedbone.cobble.name=白骨丸石の階段
+tile.railcraft.stair.bleachedbone.fitted.name=白骨石レンガの階段
+tile.railcraft.stair.bloodstained.block.name=血染めブロックの階段
+tile.railcraft.stair.bloodstained.brick.name=血染めレンガの階段
+tile.railcraft.stair.bloodstained.cobble.name=血染め丸石の階段
+tile.railcraft.stair.bloodstained.fitted.name=血染め石レンガの階段
+tile.railcraft.stair.concrete.name=コンクリートの階段
+tile.railcraft.stair.copper.name=銅の階段
+tile.railcraft.stair.creosote.name=防腐木材の階段
+tile.railcraft.stair.diamond.name=ダイヤの階段
+tile.railcraft.stair.frostbound.block.name=氷層ブロックの階段
+tile.railcraft.stair.frostbound.brick.name=氷層レンガの階段
+tile.railcraft.stair.frostbound.cobble.name=氷層丸石の階段
+tile.railcraft.stair.frostbound.fitted.name=氷層石レンガの階段
+tile.railcraft.stair.gold.name=金の階段
+tile.railcraft.stair.ice.name=氷の階段
+tile.railcraft.stair.infernal.block.name=煉獄ブロックの階段
+tile.railcraft.stair.infernal.brick.name=煉獄レンガの階段
+tile.railcraft.stair.infernal.cobble.name=煉獄丸石の階段
+tile.railcraft.stair.infernal.fitted.name=煉獄石レンガの階段
+tile.railcraft.stair.iron.name=鉄の階段
+tile.railcraft.stair.lead.name=鉛の階段
+tile.railcraft.stair.nether.block.name=焼きネザーブロックの階段
+tile.railcraft.stair.nether.cobble.name=ネザー丸石の階段
+tile.railcraft.stair.nether.fitted.name=ネザー石レンガの階段
+tile.railcraft.stair.obsidian.name=黒曜石の階段
+tile.railcraft.stair.packed.ice.name=氷塊の階段
+tile.railcraft.stair.quarried.block.name=白層ブロックの階段
+tile.railcraft.stair.quarried.brick.name=白層レンガの階段
+tile.railcraft.stair.quarried.cobble.name=白層丸石の階段
+tile.railcraft.stair.quarried.fitted.name=白層石レンガの階段
+tile.railcraft.stair.sandy.block.name=砂層ブロックの階段
+tile.railcraft.stair.sandy.brick.name=砂層レンガの階段
+tile.railcraft.stair.sandy.cobble.name=砂層丸石の階段
+tile.railcraft.stair.sandy.fitted.name=砂層石レンガの階段
+tile.railcraft.stair.snow.name=雪の階段
+tile.railcraft.stair.steel.name=鋼鉄の階段
+tile.railcraft.stair.tin.name=錫の階段
+
+tile.railcraft.wire.name=Charge:分流ワイヤー
+tile.railcraft.wire.tips=損失が高く、短距離の配電適します。\nレール下のワイヤーフレームに\n使用します。
+
+#Old Tracks (to be deleted)
+tile.railcraft.track.buffer.stop.name=Buffer Stop Track
+tile.railcraft.track.buffer.stop.tips=End of the Line\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.control.name=Control Track
+tile.railcraft.track.control.tips=Applies a small omni-directional boost\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to change direction -
+tile.railcraft.track.coupler.name=Coupler Track
+tile.railcraft.track.coupler.tips=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.detector.direction.name=Directional Detector Track
+tile.railcraft.track.detector.direction.tips=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.disembarking.name=Disembarking Track
+tile.railcraft.track.disembarking.tips=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.disposal.name=Disposal Track
+tile.railcraft.track.disposal.tips=Suspended track\n Dismounts riding Entities
+tile.railcraft.track.electric.junction.name=Electric Junction Track
+tile.railcraft.track.electric.junction.tips=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
+tile.railcraft.track.electric.switch.name=Electric Switch Track
+tile.railcraft.track.electric.switch.tips=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.electric.wye.name=Electric Wye Track
+tile.railcraft.track.electric.wye.tips=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.elevator.name=エレベーターレール
+tile.railcraft.track.elevator.tips=マインカートを上下方向に移動させます。\n§o§c- 上へ向かわせるためには赤石信号が必要です。 -
+tile.railcraft.track.embarking.name=Embarking Track
+tile.railcraft.track.embarking.tips=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.force.name=Force Track
+tile.railcraft.track.gated.name=Gated Track
+tile.railcraft.track.gated.oneway.name=Gated One-Way Track
+tile.railcraft.track.gated.oneway.tips=Its a one-way gate\n§o§c- Apply Redstone to open -
+tile.railcraft.track.gated.tips=Its a gate\n§o§c- Apply Redstone to open -
+tile.railcraft.track.holding.name=Holding Track
+tile.railcraft.track.holding.tips=Replaced by Locking Track
+tile.railcraft.track.holding.train.name=Train Holding Track
+tile.railcraft.track.holding.train.tips=Replaced by Locking Track
+tile.railcraft.track.junction.name=Junction Track
+tile.railcraft.track.launcher.name=Launcher Track
+tile.railcraft.track.launcher.tips=Makes carts fly\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.throttle.name=Throttle Track
+tile.railcraft.track.throttle.tips=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.locking.name=Locking Track
+tile.railcraft.track.locking.tips=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.locomotive.name=Locomotive Track
+tile.railcraft.track.locomotive.tips=Starts/Stops Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.oneway.name=One-Way Track
+tile.railcraft.track.oneway.tips=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.priming.name=Priming Track
+tile.railcraft.track.priming.tips=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.reinforced.boost.name=Reinforced Booster Track
+tile.railcraft.track.reinforced.boost.tips=125% of the speed of normal track\n Explosion resistant\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.reinforced.junction.name=Reinforced Junction Track
+tile.railcraft.track.reinforced.junction.tips=125% of the speed of normal track\n Explosion resistant
+tile.railcraft.track.reinforced.switch.name=Reinforced Switch Track
+tile.railcraft.track.reinforced.switch.tips=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.reinforced.wye.name=Reinforced Wye Track
+tile.railcraft.track.reinforced.wye.tips=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.routing.name=Routing Track
+tile.railcraft.track.routing.tips=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
+tile.railcraft.track.slow.boost.name=Wooden Booster Track
+tile.railcraft.track.slow.junction.name=Wooden Junction Track
+tile.railcraft.track.slow.junction.tips=30% of the speed of normal track
+tile.railcraft.track.slow.switch.name=Wooden Switch Track
+tile.railcraft.track.slow.switch.tips=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.slow.wye.name=Wooden Wye Track
+tile.railcraft.track.slow.wye.tips=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.speed.boost.name=H.S. Booster Track
+tile.railcraft.track.speed.boost.tips=§9Dangerous\n §rMore than twice as fast as normal track\n Maintains High Speed\n§o§c- Apply Redstone to boost -
+tile.railcraft.track.speed.switch.name=H.S. Switch Track
+tile.railcraft.track.speed.switch.tips=§9Dangerous\n Do not attempt to diverge at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.speed.transition.name=H.S. Transition Track
+tile.railcraft.track.speed.transition.tips=§9Dangerous\n §rMore than twice as fast as normal track\n Transitions to/from High Speed\n§o§c- Apply Redstone to boost -
+tile.railcraft.track.speed.wye.name=H.S. Wye Track
+tile.railcraft.track.speed.wye.tips=§9Dangerous\n Do not attempt to traverse at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.suspended.name=Suspended Track
+tile.railcraft.track.suspended.tips=Does not require support below\n Can cross gaps
+tile.railcraft.track.switch.name=Switch Track
+tile.railcraft.track.switch.tips=§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.whistle.name=Whistle Track
+tile.railcraft.track.whistle.tips=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.wye.name=Wye Track
+tile.railcraft.track.wye.tips=§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
+tile.railcraft.track.autolococoupler.tips=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
+#end old tracks
+
+tile.railcraft.wall.abyssal.brick.name=深層レンガの壁
+tile.railcraft.wall.bleachedbone.brick.name=白骨レンガの壁
+tile.railcraft.wall.bloodstained.brick.name=血染めレンガの壁
+tile.railcraft.wall.brick.name=レンガの壁
+tile.railcraft.wall.concrete.name=コンクリートの壁
+tile.railcraft.wall.diamond.name=ダイヤの壁
+tile.railcraft.wall.frost.bound.brick.name=氷層レンガの壁
+tile.railcraft.wall.gold.name=金の壁
+tile.railcraft.wall.ice.name=氷の壁
+tile.railcraft.wall.infernal.brick.name=煉獄の壁
+tile.railcraft.wall.iron.name=鉄の壁
+tile.railcraft.wall.nether.brick.name=焼きネザーレンガの壁
+tile.railcraft.wall.obsidian.name=黒曜石の壁
+tile.railcraft.wall.quarried.brick.name=白層レンガの壁
+tile.railcraft.wall.quartz.chiseled.name=模様入りネザークオーツの壁
+tile.railcraft.wall.quartz.name=ネザークオーツの壁
+tile.railcraft.wall.sandstone.chiseled.name=模様入り砂岩の壁
+tile.railcraft.wall.sandstone.name=砂岩の壁
+tile.railcraft.wall.sandstone.smooth.name=滑らかな砂岩の壁
+tile.railcraft.wall.sandy.brick.name=砂層レンガの壁
+tile.railcraft.wall.snow.name=雪の壁
+tile.railcraft.wall.stone.brick.chiseled.name=模様入り石レンガの壁
+tile.railcraft.wall.stone.brick.cracked.name=ヒビの入った石レンガの壁
+tile.railcraft.wall.stone.brick.mossy.name=コケ付き石レンガの壁
+tile.railcraft.wall.stone.brick.name=石レンガの壁
+
+tile.railcraft.worldlogic.name=硝石のスポナー
+
+tile.railcraft.worldspike.admin.desc=ワールドの読み込み時に、チャンク3x3チャンクの範囲を読み込み続けます。クラフトで作成はできず、燃料を必要としません。
+tile.railcraft.worldspike.admin.name=管理者用ワールドスパイク
+tile.railcraft.worldspike.admin.tips=チャンクローダー\n§o§c- 赤石信号を受けると停止します -
+tile.railcraft.worldspike.passive.desc=3x3のチャンク範囲を読み込み続けますが、ワールドの読み込み時にはロードをしません。コンフィグの設定によって、燃料が必要な場合があります。
+tile.railcraft.worldspike.passive.name=受動型ワールドスパイク
+tile.railcraft.worldspike.passive.tips=チャンクローダー\n§o§c- 赤石信号を受けると停止します -
+tile.railcraft.worldspike.personal.desc=3x3のチャンク範囲を読み込み続けますが、ワールドの読み込み時にはロードをしません。 所有者がログオフした際、これらは読み込み、ロードを停止します。 しかし、これ以外ものは動作を続けます。
+tile.railcraft.worldspike.personal.name=個人用ワールドスパイク
+tile.railcraft.worldspike.personal.tips=チャンクローダー\n§o§c- 赤石信号を受けると停止します -
+tile.railcraft.worldspike.standard.desc=ワールドの読み込み時に、チャンク3x3チャンクの範囲を読み込み続けます。コンフィグの設定によって、燃料が必要な場合があります。
+tile.railcraft.worldspike.standard.name=標準型ワールドスパイク
+tile.railcraft.worldspike.standard.tips=チャンクローダー\n§o§c- 赤石信号を受けると停止します -
+tile.railcraft.worldspike.point.desc=ワールドスパイク・ポイントと、ワールドスパイクを結びつけることで、大きな距離の1列のチャンクを読み込むことができます。
+tile.railcraft.worldspike.point.name=ワールドスパイク・ポイント
+tile.railcraft.worldspike.point.tips=ワールドスパイクのチャンクロード範囲を、\n直線状に拡張します。\n§o§9- バールを使用して、ワールドスパイクと\n§o§9結びつけます -
+
+tooltip.wawla.tooltype.crowbar=バール
+
+
+######################################################################################
+#   Flex Tracks
+######################################################################################
+
+tile.railcraft.track.flex.abandoned.name=朽ちたレール
+tile.railcraft.track.flex.abandoned.tips=§9危険:脱線する可能性があります。\n浮いた状態に設置できます。
+
+tile.railcraft.track.flex.electric.name=電装レール
+tile.railcraft.track.flex.electric.tips=§9危険: 高電圧\n§r給電を行います。\n電気機関車と併用してください。\nCharge:分流ワイヤー、ワイヤーフレームを\n使用して給電装置に接続してください。
+
+tile.railcraft.track.flex.high.speed.name=ハイスピードレール
+tile.railcraft.track.flex.high.speed.tips=§9危険:脱線すると爆発します。\n§r高速走行が可能です。\nﾌﾞｰｽﾀｰ、または弾丸ﾚｰﾙｷｯﾄを使用してください。\n高速状態で曲がることはできません。
+
+tile.railcraft.track.flex.hs.electric.name=電装ハイスピードレール
+tile.railcraft.track.flex.hs.electric.tips=§9危険: 高電圧/脱線時に爆発\n §r高速走行が可能です。　給電を行います。\n 電気機関車と併用してください。\nﾌﾞｰｽﾀｰ、または弾丸ﾚｰﾙｷｯﾄを使用してください。\n高速状態で曲
+
+tile.railcraft.track.flex.reinforced.name=耐爆レール
+tile.railcraft.track.flex.reinforced.tips=通常レール速度の125%\n爆発耐性を有します
+
+tile.railcraft.track.flex.strap.iron.name=鉄打ちレール
+tile.railcraft.track.flex.strap.iron.tips=通常レール速度の30%
+
+
+######################################################################################
+#   Track Kits & Outfitted Tracks
+# --------------------------------------------
+#
+# If you wish finer control of the translation, you can use override tags as seen below.
+#
+# Override Tags:
+# item.railcraft.track_kit.railcraft_activator.name=Activator Track Kit
+# tile.railcraft.track_outfitted.railcraft_strap_iron.railcraft_activator.name=Strap Iron Activator Track
+#
+######################################################################################
+
+item.railcraft.track_kit.name={track_kit}レールキット
+tile.railcraft.track_outfitted.name={track_type}:{track_kit}レール
+
+track_kit.railcraft.railcraft_activator.name=アクティベータ
+track_kit.railcraft.railcraft_activator.tips=通過する特定のカートを作動させます。\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_booster.name=ブースター
+track_kit.railcraft.railcraft_booster.tips=カートを加速させます。\n作動中でない場合は減速させます。\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_buffer.name=車止め
+track_kit.railcraft.railcraft_buffer.tips=レールの終端。車両を止めます。\n§o§9- バールを使用して方向を変更 -
+
+track_kit.railcraft.railcraft_control.name=操車
+track_kit.railcraft.railcraft_control.tips=微弱な加速効果を発し続けます。\n§o§9- バールを使用して方向を変更 -\n§o§c- 赤石信号により方向変更 -
+
+track_kit.railcraft.railcraft_coupler.name=連結操作
+track_kit.railcraft.railcraft_coupler.tips=通過するカートの連結/分離を制御します。\n自動連結モードでは、通過したカートが\n次に接触したカートと連結します。\n§o§9- バールを使用してモードを変更 -\n§o§c- 赤石信号により作動
+
+track_kit.railcraft.railcraft_delayed.name=遅延ロック
+track_kit.railcraft.railcraft_delayed.tips=拘束状態から、数Tickの遅延の後に列車を解放します。\n§o§9- バールを使用して遅延時間を変更 -\n§o§c- 赤石信号により作動
+
+track_kit.railcraft.railcraft_detector.name=ディテクター
+track_kit.railcraft.railcraft_detector.tips=指定した方向にカートが通過すると\n赤石信号を発します。\n§o§9- バールを使用して検出方向を変更 -\n§o§c- カートからコンパレータ出力を取得 -
+
+track_kit.railcraft.railcraft_disembarking.name=自動降車
+track_kit.railcraft.railcraft_disembarking.tips=矢印の方向へ乗客を降ろします。\n§o§9- バールを使用して方向を変更 -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_dumping.name=投棄
+track_kit.railcraft.railcraft_dumping.tips=空中に設置が可能です。\n乗車しているMOBなどを\n下へ落とします。\n§o§c- 赤石信号により無効化 -
+
+track_kit.railcraft.railcraft_embarking.name=自動乗車
+track_kit.railcraft.railcraft_embarking.tips=MOBなどをカートへ載せます\n§o§9- バールを使用して範囲を変更 -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_gated.name=ゲート付き
+track_kit.railcraft.railcraft_gated.tips=ﾌｪﾝｽｹﾞｰﾄが搭載されています。\n§o§9- バールを使用してモードを変更 -\n§o§c- 赤石信号により開放 -
+
+track_kit.railcraft.railcraft_junction.name=交差
+
+track_kit.railcraft.railcraft_launcher.name=射出
+track_kit.railcraft.railcraft_launcher.tips=カートを射出します!\n§o§9- バールを使用して射出の威力を変更 -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_throttle.name=スロットル
+track_kit.railcraft.railcraft_throttle.tips=通過する機関車の速度を調整します。\nバックも行えます。\n§o§9- バールを使用してモードを変更 -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_locking.name=汎用停発車
+track_kit.railcraft.railcraft_locking.tips=カートを停車、発車させます。\n§o§9- バールを使用してモードを変更 -\n§o§c- 赤石信号によりカートを解放 -
+
+track_kit.railcraft.railcraft_locomotive.name=機関車
+track_kit.railcraft.railcraft_locomotive.tips=機関車の制御行います。\n赤:停車 黄色:暖機 緑:発車\n§o§9- バールを使用してモードを変更 -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_missing.name=無効
+track_kit.railcraft.railcraft_missing.tips=代用
+
+track_kit.railcraft.railcraft_messenger.name=メッセージ
+track_kit.railcraft.railcraft_messenger.tips=通過するカートの乗客に\nメッセージを送ります。\n§o§9- チャットコマンドから参照 -\n§o§9- "/rc track msg help" -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_one_way.name=一方通行
+track_kit.railcraft.railcraft_one_way.tips=カートは矢印の方向にのみ\n通過することができます。\n§o§9- バールを使用して方向変更 -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_priming.name=点火
+track_kit.railcraft.railcraft_priming.tips=TNTカートに点火します。\n起爆時間を調整できます。\n§o§9- バールを使用して起爆時間を変更 -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_routing.name=経路
+track_kit.railcraft.railcraft_routing.tips=通過する機関車のチケットを設定します。\n§o§9- バールを使用してチケットを変更 -\n§o§c- 赤石信号により作動 -
+
+track_kit.railcraft.railcraft_transition.name=弾丸
+track_kit.railcraft.railcraft_transition.tips=カートを高速化させます。\n§o§c- 赤石信号で作動 -
+
+track_kit.railcraft.railcraft_turnout.name=分岐
+
+track_kit.railcraft.railcraft_whistle.name=警笛
+track_kit.railcraft.railcraft_whistle.tips=通過した機関車は\n警笛を鳴らします。\n§o§c- 赤石信号で作動 -
+
+track_kit.railcraft.railcraft_wye.name=Y字線
+
+track_type.railcraft.railcraft_iron.name=標準
+track_type.railcraft.railcraft_strap_iron.name=鉄打ち
+track_type.railcraft.railcraft_abandoned.name=朽ちた
+track_type.railcraft.railcraft_reinforced.name=耐爆
+track_type.railcraft.railcraft_high_speed.name=H. S.
+track_type.railcraft.railcraft_high_speed_electric.name=H. S. E.
+track_type.railcraft.railcraft_electric.name=電装
+
+# remove these at some future point
+forestry.allele.true=Yes
+forestry.allele.false=No

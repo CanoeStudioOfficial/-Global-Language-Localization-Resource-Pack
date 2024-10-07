@@ -1,0 +1,25 @@
+{
+  "name": "傳輸裝置",
+  "icon": "pneumaticcraft:transfer_gadget",
+  "category": "semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)傳輸裝置/$是基礎的物品/流體傳輸裝置。其可以被放置在兩個（相鄰的）容器或儲罐$(italic)之間/$以進行其間的傳輸。要放置該物品，最好的辦法是先放置第一個容器，然後使用$(item)傳輸裝置/$右擊其一面，然後放置第二個容器。"
+    },
+    {
+      "type": "text",
+      "text": "傳輸裝置用兩種顏色進行標記：$(li)$(9)藍色/$代表輸入面$(li)$(6)橙色/$代表輸出面$(p)$(item)傳輸裝置/$從$(9)藍色的輸入側/$向$(6)橙色的輸出面/$進行傳輸，速率為每 2 秒 1 個物品或 100mB 流體。"
+    },
+    {
+      "type": "text",
+      "text": "使用$(l:tools/logistics_configurator)物流調整器/$$(thing)右擊/$$(item)傳輸裝置/$以互換其輸入輸出。$(thing)潛行右擊/$以移除$(item)傳輸裝置/$。$(p)介於其較慢的速度與低廉的成本，這對於早期空間受限的物品/流體運輸極為有用。"
+    },
+    {
+      "type": "crafting",
+      "text": "傳輸裝置的合成表",
+      "recipe": "pneumaticcraft:transfer_gadget"
+    }
+  ]
+}
